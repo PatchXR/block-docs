@@ -2,7 +2,7 @@
 title: Releases
 description: 
 published: true
-date: 2025-12-28T08:15:49.239Z
+date: 2026-01-02T04:56:29.107Z
 tags: 
 editor: markdown
 dateCreated: 2025-12-03T13:08:04.491Z
@@ -11,10 +11,12 @@ dateCreated: 2025-12-03T13:08:04.491Z
 | Channel | Version | Build | Updated |
 |---------|---------|-------|---------|
 | 🟢 live| 77.0.2 | 877 | Dec 28, 2025
-| 🟡 Beta | stand by  | .. | ...
+| 🟡 Beta | 77.0.3  | 879 | Jan 2, 2026
 
 
 Whats new ?
+[77.0.3 (879)](/whatsnew/879) Released to Beta : Jan 2, 2026
+
 [77.0.1 (877)](/whatsnew/877) Released to live : Dec 28, 2025
 
 [77.0.1 (876)](/whatsnew/876) Released to live : Dec 26, 2025
