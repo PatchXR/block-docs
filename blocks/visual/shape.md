@@ -1,4 +1,4 @@
-# shape
+# Shape
 
 **Category**: 🎨 Visual
 
@@ -10,4 +10,4 @@ Set of different shapes. You can change them using the inspector.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

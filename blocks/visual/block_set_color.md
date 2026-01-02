@@ -1,4 +1,4 @@
-# block_set_color
+# Block Set Color
 
 **Category**: 🎨 Visual
 
@@ -20,4 +20,4 @@ Can change the color of the connected block. Inputs values are expected to be be
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

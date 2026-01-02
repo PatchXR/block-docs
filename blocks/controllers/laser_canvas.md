@@ -1,4 +1,4 @@
-# laser_canvas
+# Laser Canvas
 
 **Category**: 🎮 Controllers
 
@@ -28,4 +28,4 @@ When you point your controller at the canvas it will activate the laser pointer 
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

@@ -1,4 +1,4 @@
-# clamp
+# Clamp
 
 **Category**: 🔊 Audio
 
@@ -18,10 +18,10 @@ Clamps a value inside a specified range - meaning, input is truncated within the
 
 ## Related Blocks
 
-- [map](/blocks/map)
-- [rtou](/blocks/rtou)
-- [utor](/blocks/utor)
+- [map](/blocks/audio/map)
+- rtou (link not available)
+- utor (link not available)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

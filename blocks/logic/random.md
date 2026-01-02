@@ -1,4 +1,4 @@
-# random
+# Random
 
 **Category**: 🧠 Logic
 
@@ -20,10 +20,10 @@ Outputs a random decimal number between 0 and <b>Max</b>.
 
 ## Related Blocks
 
-- [noise](/blocks/noise)
-- [pink_noise](/blocks/pink_noise)
-- [bernoulli](/blocks/bernoulli)
+- [noise](/blocks/audio/noise)
+- pink_noise (link not available)
+- [bernoulli](/blocks/logic/bernoulli)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

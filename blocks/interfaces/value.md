@@ -1,4 +1,4 @@
-# value
+# Value
 
 **Category**: 🎚️ Interfaces
 
@@ -30,11 +30,11 @@ Click & pull to generate a new Jolt wire.
 
 ## Related Blocks
 
-- [button](/blocks/button)
-- [get](/blocks/get)
-- [slider](/blocks/slider)
-- [knob](/blocks/knob)
+- [button](/blocks/interfaces/button)
+- [get](/blocks/logic/get)
+- [slider](/blocks/interfaces/slider)
+- knob (link not available)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

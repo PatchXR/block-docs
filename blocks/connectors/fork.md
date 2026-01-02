@@ -1,4 +1,4 @@
-# fork
+# Stream Fork
 
 **Category**: 🔗 Connectors
 
@@ -17,9 +17,9 @@ Click & drag from base to create new cabels
 
 ## Related Blocks
 
-- [split](/blocks/split)
-- [extension](/blocks/extension)
+- split (link not available)
+- extension (link not available)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

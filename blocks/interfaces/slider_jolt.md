@@ -1,4 +1,4 @@
-# slider_jolt
+# Slider Jolt
 
 **Category**: 🎚️ Interfaces
 
@@ -22,4 +22,4 @@ A resizable linear slider that by default sends out values between zero and one.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

@@ -1,4 +1,4 @@
-# preset_manager
+# Preset Manager
 
 **Category**: ⚙️ System
 
@@ -35,4 +35,4 @@ Will save the state of every connected blocks. It can be triggered to switch bet
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

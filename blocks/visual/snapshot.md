@@ -1,4 +1,4 @@
-# snapshot
+# Snapshot
 
 **Category**: 🎨 Visual
 
@@ -26,4 +26,4 @@ Connected to image blocks, it can render live video or image for visual or use a
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

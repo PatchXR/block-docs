@@ -1,4 +1,4 @@
-# noise
+# Noise
 
 **Category**: 🔊 Audio
 
@@ -16,8 +16,8 @@ Generates white noise - a signal with uniform energy across the frequency spectr
 
 ## Related Blocks
 
-- [pink_noise](/blocks/pink_noise)
+- pink_noise (link not available)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

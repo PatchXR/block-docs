@@ -1,4 +1,4 @@
-# passthrough
+# Passthrough
 
 **Category**: 🎨 Visual
 
@@ -10,4 +10,4 @@ Enables passthrough, it displays headset's camera capture all around you for a m
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

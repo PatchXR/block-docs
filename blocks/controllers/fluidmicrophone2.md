@@ -1,4 +1,4 @@
-# fluidmicrophone2
+# Bubble Maker
 
 **Category**: 🎮 Controllers
 
@@ -16,4 +16,4 @@
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

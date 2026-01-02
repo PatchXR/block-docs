@@ -1,4 +1,4 @@
-# scene_watcher
+# Scene Watcher
 
 **Category**: ⚙️ System
 
@@ -40,4 +40,4 @@ Ouputs marble's hits on the mixed reality walls, ceiling or floor. You can also 
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

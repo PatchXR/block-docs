@@ -1,4 +1,4 @@
-# set_hittable
+# Make Hittable
 
 **Category**: 🚀 Motion
 
@@ -30,4 +30,4 @@ Can also make some blocks to collide with a physical player (Ground/walls).
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

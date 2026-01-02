@@ -1,4 +1,4 @@
-# bubble
+# Bubble
 
 **Category**: 🔊 Audio
 
@@ -40,9 +40,9 @@ Bubble can be used to play an audio sample.
 
 ## Related Blocks
 
-- [bubble_player](/blocks/bubble_player)
-- [bubble_recorder](/blocks/bubble_recorder)
+- [bubble_player](/blocks/audio/bubble_player)
+- [bubble_recorder](/blocks/audio/bubble_recorder)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

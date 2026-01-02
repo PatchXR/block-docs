@@ -1,4 +1,4 @@
-# block_relative_position
+# Get Position
 
 **Category**: 🚀 Motion
 
@@ -22,4 +22,4 @@ Get X,Y,Z position of the connected block ("target" input). Can also get positio
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

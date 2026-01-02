@@ -1,4 +1,4 @@
-# controllerposition
+# Controller Position
 
 **Category**: 👨‍👩‍👧‍👦 Players
 
@@ -20,11 +20,11 @@ Useful block for creating interactions that responds to user proximity
 
 ## Related Blocks
 
-- [controloutput](/blocks/controloutput)
-- [controllerrotation](/blocks/controllerrotation)
-- [moveanalysis](/blocks/moveanalysis)
-- [hapticcontrol](/blocks/hapticcontrol)
+- [controloutput](/blocks/controllers/controloutput)
+- [controllerrotation](/blocks/players/controllerrotation)
+- [moveanalysis](/blocks/controllers/moveanalysis)
+- [hapticcontrol](/blocks/players/hapticcontrol)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

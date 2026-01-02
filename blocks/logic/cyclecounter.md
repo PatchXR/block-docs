@@ -1,4 +1,4 @@
-# cyclecounter
+# Counter
 
 **Category**: 🧠 Logic
 
@@ -22,8 +22,8 @@ Counts the number of received jolts in a looping manner.
 
 ## Related Blocks
 
-- [counter](/blocks/counter)
+- counter (link not available)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

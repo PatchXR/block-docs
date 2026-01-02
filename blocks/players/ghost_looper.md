@@ -1,4 +1,4 @@
-# ghost_looper
+# Ghost Looper
 
 **Category**: 👨‍👩‍👧‍👦 Players
 
@@ -47,4 +47,4 @@ When a ghost is recorded, hit this button to play/pause the recording.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

@@ -1,4 +1,4 @@
-# set_animation
+# Set Animation
 
 **Category**: 🎨 Visual
 
@@ -28,4 +28,4 @@ In Inspector you can change it use progress time in seconds to instead, to ensur
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

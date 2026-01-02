@@ -1,4 +1,4 @@
-# set_dsp_enabled
+# Set Dsp Enabled
 
 **Category**: ⚙️ System
 
@@ -16,4 +16,4 @@ Enable or disable audio processing for selected blocks.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

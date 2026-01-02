@@ -1,4 +1,4 @@
-# interaction_cylinder
+# Interaction Cylinder
 
 **Category**: 🎮 Controllers
 
@@ -52,4 +52,4 @@ Like the interaction_box, but cylinder shaped.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

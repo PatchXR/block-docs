@@ -1,4 +1,4 @@
-# like_world_button
+# Like World Button
 
 **Category**: 👨‍👩‍👧‍👦 Players
 
@@ -17,4 +17,4 @@ Click this button to like the world your are in. (You can only like other people
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

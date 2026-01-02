@@ -1,4 +1,4 @@
-# help_button
+# Button Help
 
 **Category**: 🎚️ Interfaces
 
@@ -20,4 +20,4 @@ Useful for activating help texts, or ghost recording tutorials.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

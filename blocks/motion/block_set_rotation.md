@@ -1,4 +1,4 @@
-# block_set_rotation
+# Set Rotation
 
 **Category**: 🚀 Motion
 
@@ -6,4 +6,4 @@
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

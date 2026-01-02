@@ -1,4 +1,4 @@
-# custom_slider
+# Fader
 
 **Category**: 🎚️ Interfaces
 
@@ -20,4 +20,4 @@ Sends out a jolt with a value between 0 and 1 that indicates the position of the
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

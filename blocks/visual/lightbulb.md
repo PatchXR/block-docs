@@ -1,4 +1,4 @@
-# lightbulb
+# Lightbulb
 
 **Category**: 🎨 Visual
 
@@ -24,4 +24,4 @@ Adds an HSV-colored light source to a scene.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

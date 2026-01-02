@@ -1,4 +1,4 @@
-# reverb
+# Reverb
 
 **Category**: 🔊 Audio
 
@@ -26,9 +26,9 @@ Adds spaciousness and depth to your sound with two distinct reverb types: a clea
 
 ## Related Blocks
 
-- [reverb_tank](/blocks/reverb_tank)
-- [delay](/blocks/delay)
+- reverb_tank (link not available)
+- [delay](/blocks/audio/delay)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

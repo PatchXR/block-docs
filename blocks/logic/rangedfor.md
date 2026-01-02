@@ -1,4 +1,4 @@
-# rangedfor
+# Rangedfor
 
 **Category**: 🧠 Logic
 
@@ -20,8 +20,8 @@ Instantly sends N events, from zero to N-1, when triggered.
 
 ## Related Blocks
 
-- [nth](/blocks/nth)
+- nth (link not available)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

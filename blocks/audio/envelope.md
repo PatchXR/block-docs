@@ -1,4 +1,4 @@
-# envelope
+# Envelope
 
 **Category**: 🔊 Audio
 
@@ -28,4 +28,4 @@ Generates attack/decay envelopes of various shapes
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

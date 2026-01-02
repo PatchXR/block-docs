@@ -1,4 +1,4 @@
-# route_reverse
+# Funnel Jolt
 
 **Category**: 🧠 Logic
 
@@ -10,4 +10,4 @@ Combines N inputs into 1 output. An index can be given to filter which value wil
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

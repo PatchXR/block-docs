@@ -1,4 +1,4 @@
-# toggle_jolt
+# Toggle Jolt
 
 **Category**: 🎚️ Interfaces
 
@@ -20,4 +20,4 @@ A switch that can be toggled on and off.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

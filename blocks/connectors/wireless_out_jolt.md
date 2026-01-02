@@ -1,4 +1,4 @@
-# wireless_out_jolt
+# Send Jolt
 
 **Category**: 🔗 Connectors
 
@@ -18,4 +18,4 @@ Sends jolt from one place in your patch to the corresponding 'wireless_in_jolt' 
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

@@ -1,4 +1,4 @@
-# wireless_out
+# Receive Stream
 
 **Category**: 🔗 Connectors
 
@@ -16,8 +16,8 @@ Receives stream sent from the corresponding 'wireless_in' blocks. Each 'wireless
 
 ## Related Blocks
 
-- [wireless_in](/blocks/wireless_in)
+- [wireless_in](/blocks/connectors/wireless_in)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

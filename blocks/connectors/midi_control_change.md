@@ -1,4 +1,4 @@
-# midi_control_change
+# Midi CC
 
 **Category**: 🔗 Connectors
 
@@ -18,4 +18,4 @@ Midi layer between PatchWorld and DAWs.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

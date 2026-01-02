@@ -1,4 +1,4 @@
-# back_button
+# Button Back
 
 **Category**: 🎚️ Interfaces
 
@@ -20,12 +20,12 @@ Useful for musical playback control UI.
 
 ## Related Blocks
 
-- [help_button](/blocks/help_button)
-- [next_button](/blocks/next_button)
-- [play_button](/blocks/play_button)
-- [reset_button](/blocks/reset_button)
-- [skip_button](/blocks/skip_button)
+- [help_button](/blocks/interfaces/help_button)
+- next_button (link not available)
+- [play_button](/blocks/interfaces/play_button)
+- [reset_button](/blocks/interfaces/reset_button)
+- [skip_button](/blocks/interfaces/skip_button)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

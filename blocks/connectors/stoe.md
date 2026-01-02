@@ -1,4 +1,4 @@
-# stoe
+# Stoe
 
 **Category**: 🔗 Connectors
 
@@ -16,4 +16,4 @@ Send a jolt value each time the input stream changes. (max 90Hz by default)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

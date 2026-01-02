@@ -1,4 +1,4 @@
-# make_physical
+# Make Physical
 
 **Category**: 🚀 Motion
 
@@ -30,4 +30,4 @@ Make blocks able to collide, be thrown or subject to gravity.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

@@ -1,4 +1,4 @@
-# block_spawn
+# Block Spawn
 
 **Category**: ⚙️ System
 
@@ -27,4 +27,4 @@ This block also output all spawned blocks.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

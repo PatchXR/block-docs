@@ -1,4 +1,4 @@
-# get_name
+# Get Name Text
 
 **Category**: ⚙️ System
 
@@ -14,4 +14,4 @@ Get the name of the given blocks. (can also give player's or device's name) If m
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

@@ -1,4 +1,4 @@
-# device_box
+# Device Box
 
 **Category**: 🎨 Visual
 
@@ -14,4 +14,4 @@ A resizable and stylizable box to make interfaces for your devices.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

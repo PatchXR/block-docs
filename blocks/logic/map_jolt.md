@@ -1,4 +1,4 @@
-# map_jolt
+# Map Jolt
 
 **Category**: 🧠 Logic
 
@@ -26,4 +26,4 @@ For example can be used to scale slider 0-1 range to 1-1000 range.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

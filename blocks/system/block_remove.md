@@ -1,4 +1,4 @@
-# block_remove
+# Block Remove
 
 **Category**: ⚙️ System
 
@@ -18,4 +18,4 @@ Remove the given block. A delay can be set.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

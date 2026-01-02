@@ -1,4 +1,4 @@
-# controloutput
+# Controller Output
 
 **Category**: 🎮 Controllers
 
@@ -37,11 +37,11 @@ Outputs various data from the controllers (grip/trigger/buttons/joystick...)
 
 ## Related Blocks
 
-- [controllerrotation](/blocks/controllerrotation)
-- [controllerposition](/blocks/controllerposition)
-- [moveanalysis](/blocks/moveanalysis)
-- [hapticcontrol](/blocks/hapticcontrol)
+- [controllerrotation](/blocks/players/controllerrotation)
+- [controllerposition](/blocks/players/controllerposition)
+- [moveanalysis](/blocks/controllers/moveanalysis)
+- [hapticcontrol](/blocks/players/hapticcontrol)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

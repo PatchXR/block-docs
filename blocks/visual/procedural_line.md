@@ -1,4 +1,4 @@
-# procedural_line
+# Procedural Line
 
 **Category**: 🎨 Visual
 
@@ -10,4 +10,4 @@ Let you draw custom a line's curvature/thickness/color given the line 0-1 progre
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

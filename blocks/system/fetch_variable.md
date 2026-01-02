@@ -1,4 +1,4 @@
-# fetch_variable
+# Fetch Var
 
 **Category**: ⚙️ System
 
@@ -24,4 +24,4 @@ Tip: you can add prefix to restrict to a player, getting the player's name or ID
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

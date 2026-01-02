@@ -1,4 +1,4 @@
-# hapticcontrol
+# Haptic Control
 
 **Category**: 👨‍👩‍👧‍👦 Players
 
@@ -20,11 +20,11 @@ Sending values between 0-1 to the stream input will set the intensity of the con
 
 ## Related Blocks
 
-- [controllerrotation](/blocks/controllerrotation)
-- [controllerposition](/blocks/controllerposition)
-- [moveanalysis](/blocks/moveanalysis)
-- [controllerrotation](/blocks/controllerrotation)
+- [controllerrotation](/blocks/players/controllerrotation)
+- [controllerposition](/blocks/players/controllerposition)
+- [moveanalysis](/blocks/controllers/moveanalysis)
+- [controllerrotation](/blocks/players/controllerrotation)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

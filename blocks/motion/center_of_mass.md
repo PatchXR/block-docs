@@ -1,4 +1,4 @@
-# center_of_mass
+# Center Of Mass
 
 **Category**: 🚀 Motion
 
@@ -10,4 +10,4 @@ Set the physical center of mass of a group. (to be used in combination with Make
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

@@ -1,4 +1,4 @@
-# skip_button
+# Button Skip
 
 **Category**: 🎚️ Interfaces
 
@@ -20,4 +20,4 @@ Useful for musical playback control UI.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

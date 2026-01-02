@@ -1,4 +1,4 @@
-# bernoulli
+# Bernoulli
 
 **Category**: 🧠 Logic
 
@@ -20,9 +20,9 @@ Routes an incoming jolt to either of two outputs based on probability. With prob
 
 ## Related Blocks
 
-- [random](/blocks/random)
-- [sequence_random](/blocks/sequence_random)
+- [random](/blocks/logic/random)
+- sequence_random (link not available)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

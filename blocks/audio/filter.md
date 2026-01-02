@@ -1,4 +1,4 @@
-# filter
+# Filter
 
 **Category**: 🔊 Audio
 
@@ -38,4 +38,4 @@ This filter lets you remove parts of a sound to change its character. The live g
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

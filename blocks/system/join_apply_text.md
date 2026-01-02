@@ -1,4 +1,4 @@
-# join_apply_text
+# Join & Apply Text
 
 **Category**: ⚙️ System
 
@@ -20,4 +20,4 @@ Given multiple blocks with text, it combine the different text into one and appl
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

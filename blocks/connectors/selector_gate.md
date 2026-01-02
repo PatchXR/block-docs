@@ -1,4 +1,4 @@
-# selector_gate
+# Tag Gate
 
 **Category**: 🔗 Connectors
 
@@ -20,4 +20,4 @@ Allow you to toggle a tag connection.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

@@ -1,4 +1,4 @@
-# trigger_box
+# Trigger Box
 
 **Category**: 👨‍👩‍👧‍👦 Players
 
@@ -16,4 +16,4 @@ A resizable trigger box which can detect if a player is inside. Can also be used
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

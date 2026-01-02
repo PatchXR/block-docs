@@ -1,4 +1,4 @@
-# pad
+# Pad
 
 **Category**: 🎚️ Interfaces
 
@@ -24,4 +24,4 @@ A pad you can hit; sends a trigger and the hit position on the pad.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

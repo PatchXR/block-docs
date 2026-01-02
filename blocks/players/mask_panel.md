@@ -1,4 +1,4 @@
-# mask_panel
+# Mask Panel
 
 **Category**: 👨‍👩‍👧‍👦 Players
 
@@ -6,4 +6,4 @@
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

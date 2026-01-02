@@ -1,4 +1,4 @@
-# landmark
+# Device Landmark
 
 **Category**: ⚙️ System
 
@@ -11,4 +11,4 @@ It helps to get the device well placed when spawned from library, also acts as p
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

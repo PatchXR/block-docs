@@ -1,4 +1,4 @@
-# if_else
+# If Else
 
 **Category**: 🧠 Logic
 
@@ -24,8 +24,8 @@ Compares a jolt value with a stream value and outputs a jolt value through one o
 
 ## Related Blocks
 
-- [compare](/blocks/compare)
+- [compare](/blocks/logic/compare)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

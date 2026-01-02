@@ -1,4 +1,4 @@
-# block_compare
+# Block Compare
 
 **Category**: ⚙️ System
 
@@ -30,4 +30,4 @@ If not connected: block trigger automatically when Input or Value changes.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

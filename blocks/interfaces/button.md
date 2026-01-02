@@ -1,4 +1,4 @@
-# button
+# Button
 
 **Category**: 🎚️ Interfaces
 
@@ -23,10 +23,10 @@ Click & pull to generate a new Jolt wire.
 
 ## Related Blocks
 
-- [value](/blocks/value)
-- [slider](/blocks/slider)
-- [knob](/blocks/knob)
+- [value](/blocks/interfaces/value)
+- [slider](/blocks/interfaces/slider)
+- knob (link not available)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

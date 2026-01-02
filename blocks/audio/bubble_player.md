@@ -1,4 +1,4 @@
-# bubble_player
+# Bubble Player
 
 **Category**: 🔊 Audio
 
@@ -44,9 +44,9 @@ Interface for connecting an audio sample bubble with the rest of your patch.
 
 ## Related Blocks
 
-- [bubble](/blocks/bubble)
-- [bubble_recorder](/blocks/bubble_recorder)
+- [bubble](/blocks/audio/bubble)
+- [bubble_recorder](/blocks/audio/bubble_recorder)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

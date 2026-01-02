@@ -1,4 +1,4 @@
-# pass
+# Jolt Pass
 
 **Category**: 🔗 Connectors
 
@@ -16,4 +16,4 @@ Passes a Jolt event from a jolt input to jolt output without any modifications.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

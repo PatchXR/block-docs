@@ -1,4 +1,4 @@
-# ready_player_me
+# RPM Avatar Builder
 
 **Category**: 👨‍👩‍👧‍👦 Players
 
@@ -14,4 +14,4 @@ Panel to load a Ready Player Me avatar as your character.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

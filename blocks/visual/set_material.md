@@ -1,4 +1,4 @@
-# set_material
+# Set Material
 
 **Category**: 🎨 Visual
 
@@ -29,4 +29,4 @@ You can also select which mesh inside the block is affected, change colors, use 
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

@@ -1,4 +1,4 @@
-# block_foreach
+# Block Foreach
 
 **Category**: ⚙️ System
 
@@ -24,4 +24,4 @@ For each blocks set via the input, it will output the block then its index. Can 
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

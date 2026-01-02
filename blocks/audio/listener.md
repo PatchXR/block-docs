@@ -1,4 +1,4 @@
-# listener
+# Listener
 
 **Category**: 🔊 Audio
 
@@ -10,4 +10,4 @@ Listen to all output blocks, mix them all into a single audio signal and output 
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

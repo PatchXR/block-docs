@@ -1,4 +1,4 @@
-# statevariable
+# State Filter
 
 **Category**: 🔊 Audio
 
@@ -20,12 +20,12 @@ A state variable filter, with center frequency, resonance and filter type settin
 
 ## Related Blocks
 
-- [lowpass](/blocks/lowpass)
-- [highpass](/blocks/highpass)
-- [onepole](/blocks/onepole)
-- [ladder](/blocks/ladder)
-- [allpass2](/blocks/allpass2)
+- lowpass (link not available)
+- highpass (link not available)
+- onepole (link not available)
+- ladder (link not available)
+- [allpass2](/blocks/audio/allpass2)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

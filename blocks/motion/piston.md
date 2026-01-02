@@ -1,4 +1,4 @@
-# piston
+# Piston
 
 **Category**: 🚀 Motion
 
@@ -20,4 +20,4 @@ Activate the different features from the Inspector.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

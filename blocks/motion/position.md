@@ -1,4 +1,4 @@
-# position
+# Meter
 
 **Category**: 🚀 Motion
 
@@ -20,4 +20,4 @@ Outputs the position of itself (or group it's inside). Works either relative to 
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

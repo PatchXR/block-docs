@@ -1,4 +1,4 @@
-# thruster
+# Thruster
 
 **Category**: 🚀 Motion
 
@@ -14,4 +14,4 @@ Will propel the device it's attached to. Activated using a jolt input.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

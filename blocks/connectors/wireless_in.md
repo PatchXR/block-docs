@@ -1,4 +1,4 @@
-# wireless_in
+# Send Stream
 
 **Category**: 🔗 Connectors
 
@@ -18,8 +18,8 @@ Sends stream from one place in your patch to the corresponding 'wireless_out' bl
 
 ## Related Blocks
 
-- [wireless_out](/blocks/wireless_out)
+- [wireless_out](/blocks/connectors/wireless_out)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

@@ -1,4 +1,4 @@
-# repeat_block
+# Repeat Block
 
 **Category**: 🎨 Visual
 
@@ -40,4 +40,4 @@ Accumulates a given rotation/offset/resizing to each copies using "From" and "To
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

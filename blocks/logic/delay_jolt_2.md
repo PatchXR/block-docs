@@ -1,4 +1,4 @@
-# delay_jolt_2
+# Delay Jolt
 
 **Category**: 🧠 Logic
 
@@ -6,4 +6,4 @@
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

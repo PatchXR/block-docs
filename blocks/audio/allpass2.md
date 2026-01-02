@@ -1,4 +1,4 @@
-# allpass2
+# Allpass2
 
 **Category**: 🔊 Audio
 
@@ -18,12 +18,12 @@ Second order allpass filter for implementing phasors and such.
 
 ## Related Blocks
 
-- [lowpass](/blocks/lowpass)
-- [highpass](/blocks/highpass)
-- [onepole](/blocks/onepole)
-- [ladder](/blocks/ladder)
-- [statevariable](/blocks/statevariable)
+- lowpass (link not available)
+- highpass (link not available)
+- onepole (link not available)
+- ladder (link not available)
+- [statevariable](/blocks/audio/statevariable)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

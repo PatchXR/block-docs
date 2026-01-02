@@ -1,4 +1,4 @@
-# execute
+# Execute
 
 **Category**: ⚙️ System
 
@@ -22,4 +22,4 @@ Execute command when triggered. You can reference stream input current values in
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

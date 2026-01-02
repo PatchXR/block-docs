@@ -1,4 +1,4 @@
-# launch_counter
+# Load Counter
 
 **Category**: ⚙️ System
 
@@ -16,4 +16,4 @@ Count how many times you loaded this world. (specific to individual users). Firs
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

@@ -1,4 +1,4 @@
-# pass_in
+# Jolt In
 
 **Category**: 🔗 Connectors
 
@@ -16,4 +16,4 @@ Passes a Jolt signal with no processing. Useful as UI to visually signify inputs
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

@@ -1,4 +1,4 @@
-# interaction_box
+# Interaction Box
 
 **Category**: 🎮 Controllers
 
@@ -52,4 +52,4 @@ A box-shaped area that can be divided into segments along each axis. Provides a 
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

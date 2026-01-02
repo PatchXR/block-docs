@@ -1,4 +1,4 @@
-# vr_window
+# Vr Window
 
 **Category**: 🎨 Visual
 
@@ -16,4 +16,4 @@ Resizable plane which reveals the game view when Passthrough or Mixed reality bl
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

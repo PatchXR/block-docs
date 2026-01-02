@@ -1,4 +1,4 @@
-# map
+# Map Stream
 
 **Category**: 🔊 Audio
 
@@ -24,8 +24,8 @@ For example can be used to scale slider 0-1 range to 1-1000 range.
 
 ## Related Blocks
 
-- [clamp](/blocks/clamp)
+- [clamp](/blocks/audio/clamp)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

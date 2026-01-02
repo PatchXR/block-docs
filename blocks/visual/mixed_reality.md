@@ -1,4 +1,4 @@
-# mixed_reality
+# Mixed Reality
 
 **Category**: 🎨 Visual
 
@@ -14,4 +14,4 @@ Enables Mixed Reality, you can see the real world around you with your room set 
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

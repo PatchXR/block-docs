@@ -1,4 +1,4 @@
-# numpad
+# Numpad
 
 **Category**: 🎚️ Interfaces
 
@@ -16,4 +16,4 @@ An traditional way to input numbers into blocks.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

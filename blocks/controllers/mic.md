@@ -1,4 +1,4 @@
-# mic
+# Midi Mic
 
 **Category**: 🎮 Controllers
 
@@ -24,8 +24,8 @@ Outputs microphone pitch (MIDI note number) and amplitude (0-1).
 
 ## Related Blocks
 
-- [microphone](/blocks/microphone)
+- [microphone](/blocks/audio/microphone)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

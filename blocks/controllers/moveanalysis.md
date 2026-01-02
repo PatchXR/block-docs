@@ -1,4 +1,4 @@
-# moveanalysis
+# Move Analysis
 
 **Category**: 🎮 Controllers
 
@@ -26,11 +26,11 @@ Efforts calculations are based on the movement of the controllers and HMD. Featu
 
 ## Related Blocks
 
-- [controloutput](/blocks/controloutput)
-- [controllerposition](/blocks/controllerposition)
-- [controllerrotation](/blocks/controllerrotation)
-- [hapticcontrol](/blocks/hapticcontrol)
+- [controloutput](/blocks/controllers/controloutput)
+- [controllerposition](/blocks/players/controllerposition)
+- [controllerrotation](/blocks/players/controllerrotation)
+- [hapticcontrol](/blocks/players/hapticcontrol)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

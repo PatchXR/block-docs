@@ -1,4 +1,4 @@
-# custom_toggle
+# Progress Toggle
 
 **Category**: 🎚️ Interfaces
 
@@ -24,4 +24,4 @@ To drive the progress indicator
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

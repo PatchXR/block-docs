@@ -1,4 +1,4 @@
-# block_follow
+# Follow
 
 **Category**: 🚀 Motion
 
@@ -20,4 +20,4 @@ Attach blocks or the player to a moving block.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

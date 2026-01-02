@@ -1,4 +1,4 @@
-# gate
+# Gate
 
 **Category**: 🧠 Logic
 
@@ -18,8 +18,8 @@ Allows or disallows jolts to pass based on the set stream value.
 
 ## Related Blocks
 
-- [sequence](/blocks/sequence)
+- sequence (link not available)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

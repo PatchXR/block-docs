@@ -1,4 +1,4 @@
-# block_set_position
+# Set Position
 
 **Category**: 🚀 Motion
 
@@ -22,4 +22,4 @@ Change position of the "target" block. You can give an optional "origin" block, 
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

@@ -1,4 +1,4 @@
-# microphone
+# Microphone
 
 **Category**: 🔊 Audio
 
@@ -14,8 +14,8 @@ Outputs microphone audio signal as a stream.
 
 ## Related Blocks
 
-- [mic](/blocks/mic)
+- [mic](/blocks/controllers/mic)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

@@ -1,4 +1,4 @@
-# block_watcher
+# Block Watcher
 
 **Category**: ⚙️ System
 
@@ -22,4 +22,4 @@ Attaches to other blocks and emits jolts when stuff happens.
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

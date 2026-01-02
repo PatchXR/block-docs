@@ -1,4 +1,4 @@
-# bubble_recorder
+# Bubble Recorder
 
 **Category**: 🔊 Audio
 
@@ -34,9 +34,9 @@ Tool for recording new audio into a sample bubble.
 
 ## Related Blocks
 
-- [bubble](/blocks/bubble)
-- [bubble_player](/blocks/bubble_player)
+- [bubble](/blocks/audio/bubble)
+- [bubble_player](/blocks/audio/bubble_player)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

@@ -1,4 +1,4 @@
-# pencil
+# Pencil
 
 **Category**: 🎨 Visual
 
@@ -18,4 +18,4 @@ Allow you to draw in space, using a color, width of the line and lifetime. Use j
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

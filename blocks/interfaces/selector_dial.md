@@ -1,4 +1,4 @@
-# selector_dial
+# Selector Dial
 
 **Category**: 🎚️ Interfaces
 
@@ -22,4 +22,4 @@ To connect another block here, click & pull on any Jolt output to create a wire 
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

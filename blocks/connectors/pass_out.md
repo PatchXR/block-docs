@@ -1,4 +1,4 @@
-# pass_out
+# Jolt Out
 
 **Category**: 🔗 Connectors
 
@@ -18,4 +18,4 @@ Passes a Jolt signal with no processing. Useful as UI to visually signify output
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

@@ -1,4 +1,4 @@
-# keyboard
+# Scaler
 
 **Category**: 🧠 Logic
 
@@ -26,4 +26,4 @@ A keyboard interface that can be used to play notes by pressing the keys or to p
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

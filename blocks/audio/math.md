@@ -1,4 +1,4 @@
-# math
+# Math Stream
 
 **Category**: 🔊 Audio
 
@@ -16,4 +16,4 @@ Do a math operation on 2 inputs: sum/add, subtract, multiple, divide, power (exp
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*

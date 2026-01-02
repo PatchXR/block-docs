@@ -1,4 +1,4 @@
-# watcher
+# Watcher
 
 **Category**: 🧠 Logic
 
@@ -22,8 +22,8 @@ Compares two stream values. Every time the condition is met, signal output will 
 
 ## Related Blocks
 
-- [compare](/blocks/compare)
+- [compare](/blocks/logic/compare)
 
 ---
 
-*Last updated: 2026-01-02 06:02*
+*Last updated: 2026-01-02 06:20*
