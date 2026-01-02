@@ -20,4 +20,4 @@ A leaky integrator with separate constants for the rise and fall time. This bloc
 
 ---
 
-*Last updated: 2026-01-02 06:20*
+*Last updated: 2026-01-02 06:27*
