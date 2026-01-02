@@ -15,5 +15,3 @@ Let you use math functions: sin, cos, tanh, floor, round, ceil, absolute, 1-x, s
 **Input**: Input value
 
 ---
-
-*Last updated: 2026-01-02 06:44*

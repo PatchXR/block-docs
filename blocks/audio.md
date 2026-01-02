@@ -2,10 +2,10 @@
 title: Audio
 description: Audio blocks documentation
 published: true
-date: 2026-01-02T06:55:52.000Z
+date: 2026-01-02T06:58:22.000Z
 tags: blocks, category
 editor: markdown
-dateCreated: 2026-01-02T06:55:52.000Z
+dateCreated: 2026-01-02T06:58:22.000Z
 ---
 
 # 🔊 Audio Blocks
@@ -45,4 +45,3 @@ This category contains **29** blocks.
 - **[Wavefolder](./audio/wavefolder)** - A wave shaper that looks for values out of the [-1 and 1] range and mirrors the excess back into ...
 
 ---
-*Last updated: 2026-01-02 06:55*

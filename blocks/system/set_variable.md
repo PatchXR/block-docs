@@ -20,5 +20,3 @@ Given a "VariableName" and a value, it can assign a variable to a block. Helps y
 If not connected: block trigger automatically when Input or Value changes.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

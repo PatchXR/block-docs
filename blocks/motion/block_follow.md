@@ -19,5 +19,3 @@ Attach blocks or the player to a moving block.
 **Factor**: How much should it follow the target (0: not at all, 1: 100%)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

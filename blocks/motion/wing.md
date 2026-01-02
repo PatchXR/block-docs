@@ -13,5 +13,3 @@ Gives basic aerodynamics to your physical group. The more the wing is tilted com
 **Lift**: Lift/Drag multiplier
 
 ---
-
-*Last updated: 2026-01-02 06:44*

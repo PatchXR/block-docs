@@ -15,5 +15,3 @@ A resizable trigger box which can detect if a player is inside. Can also be used
 **Resize handle** *(interactive)*: Grab and move to resize the trigger area.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

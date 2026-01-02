@@ -11,5 +11,3 @@
 **Target blocks**: Blocks to switch visible/invisible (click & drag to select)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

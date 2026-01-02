@@ -15,5 +15,3 @@ A wave shaper that looks for values out of the [-1 and 1] range and mirrors the 
 **body**: 
 
 ---
-
-*Last updated: 2026-01-02 06:44*

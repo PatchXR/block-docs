@@ -27,5 +27,3 @@ A three-dimensional slider with x, y, and z outputs.
 **output_z** *(stream output)*: Outputs the z position of the ball.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

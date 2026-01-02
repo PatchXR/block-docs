@@ -21,5 +21,3 @@ Click & drag from base to create new cabels
 - extension (link not available)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

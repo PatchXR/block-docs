@@ -15,5 +15,3 @@ Do a math operation on 2 inputs: sum/add, subtract, multiple, divide, power (exp
 **Input B**: 
 
 ---
-
-*Last updated: 2026-01-02 06:44*

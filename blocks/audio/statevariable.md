@@ -27,5 +27,3 @@ A state variable filter, with center frequency, resonance and filter type settin
 - [allpass2](/blocks/audio/allpass2)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

@@ -23,5 +23,3 @@ For each blocks set via the input, it will output the block then its index. Can 
 **Interrupt**: Connect the Index output to it, with some logic in between to interrupt the loop, and leave current block in the output. (to select by ID, or with some logic)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

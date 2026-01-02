@@ -25,5 +25,3 @@ A keyboard interface that can be used to play notes by pressing the keys or to p
 **Play/Scale Toggle**:  Switch between Play/Scale edit mode.
 
 ---
-
-*Last updated: 2026-01-02 06:55*

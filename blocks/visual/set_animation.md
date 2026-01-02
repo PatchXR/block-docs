@@ -27,5 +27,3 @@ In Inspector you can change it use progress time in seconds to instead, to ensur
 **Select 3D Model**: Select a 3D Model with animations, or a group containing multiple 3D Models.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

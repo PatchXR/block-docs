@@ -15,5 +15,3 @@ Send a jolt value each time the input stream changes. (max 90Hz by default)
 **output** *(event output)*: Emits the value of the incoming stream as a jolt.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

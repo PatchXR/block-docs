@@ -13,5 +13,3 @@ A resizable and stylizable box to make interfaces for your devices.
 **Resize** *(interactive)*: Grab and move to resize the box.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

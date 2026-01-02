@@ -46,5 +46,3 @@ When a ghost is recorded, hit this button to play/pause the recording.
 **Rewind**: Rewind recording to the beginning.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

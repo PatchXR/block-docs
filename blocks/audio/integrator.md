@@ -19,5 +19,3 @@ A leaky integrator with separate constants for the rise and fall time. This bloc
 **Set value** *(jolt input)*: Immediately set the internal value of the integrator. Usually you will want to set the value of the signal (stream) input as well.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

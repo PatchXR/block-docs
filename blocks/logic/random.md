@@ -25,5 +25,3 @@ Outputs a random decimal number between 0 and <b>Max</b>.
 - [bernoulli](/blocks/logic/bernoulli)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

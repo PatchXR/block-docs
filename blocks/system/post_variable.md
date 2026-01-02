@@ -23,5 +23,3 @@ Tip: you can add prefix to restrict to a player, getting the player's name or ID
 **On Done**: There can be a delay before the value is posted. Once done, this output will fire a 1.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

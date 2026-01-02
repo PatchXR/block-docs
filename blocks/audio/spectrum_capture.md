@@ -17,5 +17,3 @@ Does fft (spectrum) analysis of the incoming signal and let's you read it out vi
 **Read cursor** *(stream input)*: Expects a clock going from zero to one, used for reading out the spectrum.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

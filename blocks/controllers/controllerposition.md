@@ -26,5 +26,3 @@ Useful block for creating interactions that responds to user proximity
 - [hapticcontrol](/blocks/players/hapticcontrol)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

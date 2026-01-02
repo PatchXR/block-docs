@@ -21,5 +21,3 @@ A resizable linear slider that by default sends out values between zero and one.
 **output** *(Jolt output)*: Sends out the value of the slider.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

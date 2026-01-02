@@ -13,5 +13,3 @@ Spot light which reveals passthrough.
 **magic_spotlight**: 
 
 ---
-
-*Last updated: 2026-01-02 06:44*

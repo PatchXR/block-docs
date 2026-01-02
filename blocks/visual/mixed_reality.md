@@ -13,5 +13,3 @@ Enables Mixed Reality, you can see the real world around you with your room set 
 **Grab**: 
 
 ---
-
-*Last updated: 2026-01-02 06:44*

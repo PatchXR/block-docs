@@ -29,5 +29,3 @@ Detects blocks in front. Can also measure the distance. It has a second movable 
 **Hits Count**: Fired before other output, will output how many blocks the ray hit.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

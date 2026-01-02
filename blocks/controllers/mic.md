@@ -27,5 +27,3 @@ Outputs microphone pitch (MIDI note number) and amplitude (0-1).
 - [microphone](/blocks/audio/microphone)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

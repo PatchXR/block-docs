@@ -25,5 +25,3 @@ Compares two stream values. Every time the condition is met, signal output will 
 - [compare](/blocks/logic/compare)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

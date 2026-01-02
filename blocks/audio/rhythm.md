@@ -25,5 +25,3 @@ Outputs events at musical intervals. The master "Beat Time" is used as the defau
 **Global Tempo**: Changes the global tempo.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

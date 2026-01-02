@@ -21,5 +21,3 @@ Change position of the "target" block. You can give an optional "origin" block, 
 **Z**: Move Back/Forward.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

@@ -21,5 +21,3 @@ Let you do all arithmetic operations: sum/add, subtract, multiple, divide, power
 **Arithmetic Operation**: Jolt input to change math operation at runtime.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

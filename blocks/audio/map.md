@@ -27,5 +27,3 @@ For example can be used to scale slider 0-1 range to 1-1000 range.
 - [clamp](/blocks/audio/clamp)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

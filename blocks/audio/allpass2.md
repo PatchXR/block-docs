@@ -25,5 +25,3 @@ Second order allpass filter for implementing phasors and such.
 - [statevariable](/blocks/audio/statevariable)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

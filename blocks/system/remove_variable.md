@@ -18,5 +18,3 @@ If not connected: block will trigger automatically.
 **Restrict (Optional)**: Restricts to a group: necessary if "set variable" uses it.
 
 ---
-
-*Last updated: 2026-01-02 06:55*

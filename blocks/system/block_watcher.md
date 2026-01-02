@@ -21,5 +21,3 @@ Attaches to other blocks and emits jolts when stuff happens.
 **Marble** *(jolt output)*: Emits the velocity of the marble when an attached block gets hit by a marble (if it supports marble hits).
 
 ---
-
-*Last updated: 2026-01-02 06:44*

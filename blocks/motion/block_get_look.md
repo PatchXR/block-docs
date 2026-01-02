@@ -21,5 +21,3 @@ Output angle between front/right or up direction of the origin, and the target p
 **Angle X**: Is the up direction of the origin facing the target ?
 
 ---
-
-*Last updated: 2026-01-02 06:44*

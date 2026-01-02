@@ -37,5 +37,3 @@ This filter lets you remove parts of a sound to change its character. The live g
 **Resonance**: This adds a sharp, whistle-like boost at the cutoff frequency, making the effect more intense and aggressive
 
 ---
-
-*Last updated: 2026-01-02 06:55*

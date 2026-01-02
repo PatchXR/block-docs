@@ -28,5 +28,3 @@ You can also select which mesh inside the block is affected, change colors, use 
 **Spawn Brush**: Spawn a brush to apply your material to objects.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

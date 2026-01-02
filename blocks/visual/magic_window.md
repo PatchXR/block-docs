@@ -27,5 +27,3 @@ Used with Mixed Reality block, Magic windows will snap to the walls when the pat
 **hit**: Emits speed when a marble or controller hits the window.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

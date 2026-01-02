@@ -19,5 +19,3 @@ Allow you to toggle a tag connection.
 **Toggle**: Toggle the connection On or Off depending on if the value is 0 or 1.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

@@ -15,5 +15,3 @@ Lets you attach object together. Click and drag from octopus to the object.
 **Attach**: Attach blocks to the octopus. (click and drag)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

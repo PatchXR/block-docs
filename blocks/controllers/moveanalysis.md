@@ -32,5 +32,3 @@ Efforts calculations are based on the movement of the controllers and HMD. Featu
 - [hapticcontrol](/blocks/players/hapticcontrol)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

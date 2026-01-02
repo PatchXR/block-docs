@@ -25,5 +25,3 @@ Animate 3D models with blendshapes.
 **Click and drag to a 3D model**: 
 
 ---
-
-*Last updated: 2026-01-02 06:44*

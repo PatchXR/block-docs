@@ -9,5 +9,3 @@
 Set the physical center of mass of a group. (to be used in combination with Make Physical)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

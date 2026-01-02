@@ -26,5 +26,3 @@ This block also output all spawned blocks.
 **Spawn position**: 
 
 ---
-
-*Last updated: 2026-01-02 06:44*

@@ -13,5 +13,3 @@ Set of different FX like plasma, flare, beam. You can change it with the inspect
 **vfx**: 
 
 ---
-
-*Last updated: 2026-01-02 06:44*

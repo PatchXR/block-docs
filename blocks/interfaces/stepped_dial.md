@@ -17,5 +17,3 @@ Useful to create interfaces that can trigger several different numbers or option
 **Step Out** *(jolt output)*: Emits the newly selected step when it changes.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

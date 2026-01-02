@@ -51,5 +51,3 @@ Like the interaction_box, but cylinder shaped.
 **Num. angular segments** *(knob)*: Controls the number of segments going around the cylinder (like a clock).
 
 ---
-
-*Last updated: 2026-01-02 06:44*

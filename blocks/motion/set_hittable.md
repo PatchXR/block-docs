@@ -29,5 +29,3 @@ Can also make some blocks to collide with a physical player (Ground/walls).
 **Collider A**: Collider A is one of the given input blocks.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

@@ -19,5 +19,3 @@ A simple speaker, sends sound signal from Patch to the currently active audio ou
 **Drop Off**: Range in meter of the audio.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

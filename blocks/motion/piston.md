@@ -19,5 +19,3 @@ Activate the different features from the Inspector.
 **Piston Size**: Only affects visuals.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

@@ -19,5 +19,3 @@ For example, given a "player" as input, it can output one of the body part like 
 **Part Index**: Once a block is connected, you should see the name of the different parts showing on the block to help you set the right id.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

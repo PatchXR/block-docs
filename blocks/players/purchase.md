@@ -19,5 +19,3 @@ Allows to other users to send coins for you as tips or as pay for the content.
 **Make purchase** *(jolt input)*: Starts the transaction.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

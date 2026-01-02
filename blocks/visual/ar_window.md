@@ -15,5 +15,3 @@ Resizable plane which displays passthrough.
 **MuX_ImgCorner_Msh**: 
 
 ---
-
-*Last updated: 2026-01-02 06:44*

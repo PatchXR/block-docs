@@ -15,5 +15,3 @@ Receive an OSC message.
 **text_IN**: 
 
 ---
-
-*Last updated: 2026-01-02 06:44*

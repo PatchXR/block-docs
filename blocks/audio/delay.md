@@ -15,5 +15,3 @@ Creates an audio-rate delay line with streams.
 **delay**: Delay time in seconds
 
 ---
-
-*Last updated: 2026-01-02 06:44*

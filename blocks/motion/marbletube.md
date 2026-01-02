@@ -15,5 +15,3 @@ A tube with a funnel that will catch and guide marbles.
 **Handle**: 
 
 ---
-
-*Last updated: 2026-01-02 06:44*

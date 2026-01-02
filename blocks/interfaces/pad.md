@@ -23,5 +23,3 @@ A pad you can hit; sends a trigger and the hit position on the pad.
 **Hit_Resize**: Hit resize
 
 ---
-
-*Last updated: 2026-01-02 06:44*

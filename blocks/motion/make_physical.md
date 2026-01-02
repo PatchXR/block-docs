@@ -29,5 +29,3 @@ Make blocks able to collide, be thrown or subject to gravity.
 **Gravity**: 0 : no gravity, 1 : gravity is applied to the object.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

@@ -57,5 +57,3 @@
 **loop progress** *(jolt output)*: Emits a value between 0 and 1 indicating how far along this blob is in its loop.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

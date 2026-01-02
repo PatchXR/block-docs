@@ -23,5 +23,3 @@ Captures and downsamples streams so they can be used with e.g. the procedural_li
 **Freeze** *(jolt input)*: Send a 1 to disable capture and freeze the buffer, 0 to continue capturing.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

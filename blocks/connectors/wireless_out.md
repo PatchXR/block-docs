@@ -19,5 +19,3 @@ Receives stream sent from the corresponding 'wireless_in' blocks. Each 'wireless
 - [wireless_in](/blocks/connectors/wireless_in)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

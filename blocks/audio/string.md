@@ -25,5 +25,3 @@ A simulation or e.g. a guitar string with a natural sound. Can interact with oth
 **Output** *(stream output)*: Sends out the sound of the string. Will mute the string when plugged in.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

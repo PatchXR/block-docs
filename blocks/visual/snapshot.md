@@ -25,5 +25,3 @@ Connected to image blocks, it can render live video or image for visual or use a
 **Projection mode**: 0: Classic, 1: 360, 2:Orthographic
 
 ---
-
-*Last updated: 2026-01-02 06:44*

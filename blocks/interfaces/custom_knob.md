@@ -23,5 +23,3 @@ Can be used to map 0-1 to other value ranges.
 To connect another block here, click & pull on any Jolt output to create a wire and drag it here.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

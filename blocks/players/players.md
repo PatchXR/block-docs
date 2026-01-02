@@ -23,5 +23,3 @@ Outputs all players. (also nearest player / local player / ghosts)
 **Nearest Player**: Nearest Player to this block.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

@@ -48,5 +48,3 @@ Interface for connecting an audio sample bubble with the rest of your patch.
 - [bubble_recorder](/blocks/audio/bubble_recorder)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

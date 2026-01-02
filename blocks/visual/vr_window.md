@@ -15,5 +15,3 @@ Resizable plane which reveals the game view when Passthrough or Mixed reality bl
 **MuX_ImgCorner_Msh**: 
 
 ---
-
-*Last updated: 2026-01-02 06:44*

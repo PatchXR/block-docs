@@ -28,5 +28,3 @@ To connect another block here, click & pull on any Jolt output to create a wire 
 Click & pull to generate a new Jolt wire.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

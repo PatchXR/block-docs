@@ -19,5 +19,3 @@ Outputs the position of itself (or group it's inside). Works either relative to 
 **reset**: 
 
 ---
-
-*Last updated: 2026-01-02 06:44*

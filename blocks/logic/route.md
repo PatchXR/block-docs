@@ -17,5 +17,3 @@ Let you route a signal with different behaviors: based on given index, loop (one
 **Index**: Will select which output will be triggered.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

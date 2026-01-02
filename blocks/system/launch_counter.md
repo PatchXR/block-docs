@@ -15,5 +15,3 @@ Count how many times you loaded this world. (specific to individual users). Firs
 **Out**: Trigger when world is loaded.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

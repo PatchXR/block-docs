@@ -30,5 +30,3 @@ Adds spaciousness and depth to your sound with two distinct reverb types: a clea
 - [delay](/blocks/audio/delay)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

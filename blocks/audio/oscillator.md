@@ -23,5 +23,3 @@ An oscillator with four waveform modes: sinusoid, triangle, sawtooth & square. F
 **Phase offset** *(stream input)*: Sets the phase offset of the oscillator.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

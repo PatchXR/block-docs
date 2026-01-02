@@ -25,5 +25,3 @@ If not connected: block trigger automatically when Input is changed
 **Fail**: Send zero when connected block don't have the variable attached.
 
 ---
-
-*Last updated: 2026-01-02 06:55*

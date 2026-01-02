@@ -9,5 +9,3 @@
 An underwater creature you can use to pop bubbles to remove them. Grab and move bubbles close to the spikes to make them pop.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

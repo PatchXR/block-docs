@@ -19,5 +19,3 @@
 **Beat repeat** *(jolt output)*: Emits a jolt whener a beat repeat happens. The value of the jolt is the duration of the beat repeat.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

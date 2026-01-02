@@ -27,5 +27,3 @@ Generates attack/decay envelopes of various shapes
 **Decay Done** *(jolt output)*: Sounds out a jolt when the decay phase finishes.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

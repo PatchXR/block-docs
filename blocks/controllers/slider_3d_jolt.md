@@ -29,5 +29,3 @@ Has three resizable axes. Sends out a jolt per axis and has jolt inputs to set t
 **Input Z** *(Jolt input)*: Send a jolt between zero and one to set the value along the Z axis.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

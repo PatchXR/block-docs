@@ -38,5 +38,3 @@ Tool for recording new audio into a sample bubble.
 - [bubble_player](/blocks/audio/bubble_player)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

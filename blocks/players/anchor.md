@@ -17,5 +17,3 @@ Your key to teleportation! Simply trigger this block to instantly transport your
 **Restrict Player (optional)**: You can restrict who will be teleported. example: connecting the "Nearest Player" output of the "Players" block.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

@@ -15,5 +15,3 @@ An traditional way to input numbers into blocks.
 **Number Out**: Emitts the entered number when Enter is pressed.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

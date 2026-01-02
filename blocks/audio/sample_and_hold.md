@@ -17,5 +17,3 @@ Stores the value of a signal when a clock or event is received.
 **sample**: Sample
 
 ---
-
-*Last updated: 2026-01-02 06:44*

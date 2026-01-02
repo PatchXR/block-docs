@@ -25,5 +25,3 @@ Add Force or Gravity to all blocks inside.
 **Is Global**: Will affets all physical blocks in the world.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

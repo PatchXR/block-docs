@@ -28,5 +28,3 @@ Click & pull to generate a new Jolt wire.
 - knob (link not available)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

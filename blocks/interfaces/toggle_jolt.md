@@ -19,5 +19,3 @@ A switch that can be toggled on and off.
 **Toggle switch** *(interactive)*: Press the trigger button on your controller to toggle the on/off state.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

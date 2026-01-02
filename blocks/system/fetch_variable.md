@@ -23,5 +23,3 @@ Tip: you can add prefix to restrict to a player, getting the player's name or ID
 **On Fail**: If the value does not exist, this will be trigger with a value of 0.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

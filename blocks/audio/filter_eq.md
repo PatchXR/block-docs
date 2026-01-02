@@ -23,5 +23,3 @@ A filter EQ for boosting or cutting bass, treble, and mid-range frequencies
 **Output**: 
 
 ---
-
-*Last updated: 2026-01-02 06:44*

@@ -21,5 +21,3 @@ Emits jolt event when triggered. Value is determined by the stream input.
 - [stoe](/blocks/connectors/stoe)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

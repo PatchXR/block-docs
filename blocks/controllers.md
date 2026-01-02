@@ -2,10 +2,10 @@
 title: Controllers
 description: Controllers blocks documentation
 published: true
-date: 2026-01-02T06:55:52.000Z
+date: 2026-01-02T06:58:22.000Z
 tags: blocks, category
 editor: markdown
-dateCreated: 2026-01-02T06:55:52.000Z
+dateCreated: 2026-01-02T06:58:22.000Z
 ---
 
 # 🎮 Controllers Blocks
@@ -39,4 +39,3 @@ This category contains **23** blocks.
 - **[Vooper](./controllers/vooper)** - 
 
 ---
-*Last updated: 2026-01-02 06:55*

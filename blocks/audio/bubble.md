@@ -44,5 +44,3 @@ Bubble can be used to play an audio sample.
 - [bubble_recorder](/blocks/audio/bubble_recorder)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

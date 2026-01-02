@@ -21,5 +21,3 @@ The data_array block can be used to store values to be recalled later. Sending a
 **value** *(jolt output)*: Emit the stored value when a jolt is received through the 'Read index' jolt input.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

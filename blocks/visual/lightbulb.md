@@ -23,5 +23,3 @@ Adds an HSV-colored light source to a scene.
 **value**: 
 
 ---
-
-*Last updated: 2026-01-02 06:55*

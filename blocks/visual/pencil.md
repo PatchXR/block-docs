@@ -17,5 +17,3 @@ Allow you to draw in space, using a color, width of the line and lifetime. Use j
 **Thickness**: Thickness of the line.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

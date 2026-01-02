@@ -31,5 +31,3 @@ When you grab a group or device with a device_handle inside your controller will
 +1 is up
 
 ---
-
-*Last updated: 2026-01-02 06:44*

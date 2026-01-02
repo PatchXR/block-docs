@@ -16,5 +16,3 @@ Used for building interfaces, debugging and learning.
 **Input** *(stream input)*: Send a stream or jolt to display it's value.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

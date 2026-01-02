@@ -17,5 +17,3 @@ Outputs microphone audio signal as a stream.
 - [mic](/blocks/controllers/mic)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

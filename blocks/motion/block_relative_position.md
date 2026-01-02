@@ -21,5 +21,3 @@ Get X,Y,Z position of the connected block ("target" input). Can also get positio
 **Target**: Block to Get Position.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

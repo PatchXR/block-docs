@@ -18,5 +18,3 @@ Commonly used as on/off switch for gates multipliers and
 **State Out (0/1) **: Sends a constant stream of either 0 or 1 depending on the state of the switch.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

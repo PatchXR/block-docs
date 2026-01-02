@@ -43,5 +43,3 @@ Outputs various data from the controllers (grip/trigger/buttons/joystick...)
 - [hapticcontrol](/blocks/players/hapticcontrol)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

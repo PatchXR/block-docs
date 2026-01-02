@@ -15,5 +15,3 @@
 **Is recording** *(jolt output)*: Outputs a 1 when the fluidmic. starts recording and 0 when it stops.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

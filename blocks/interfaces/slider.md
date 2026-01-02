@@ -18,5 +18,3 @@ Click and drag the puck to change the state of the Stream output from 0 to 1.
 **Stream Out**: Continuesly send the position of the slider from 0 to 1.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

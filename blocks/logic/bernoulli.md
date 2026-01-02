@@ -24,5 +24,3 @@ Routes an incoming jolt to either of two outputs based on probability. With prob
 - sequence_random (link not available)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

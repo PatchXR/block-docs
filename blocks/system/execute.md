@@ -21,5 +21,3 @@ Execute command when triggered. You can reference stream input current values in
 **Trigger**: Jolt value can be used in console command as :0.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

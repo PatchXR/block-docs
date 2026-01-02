@@ -15,5 +15,3 @@ A slide that will guide marbles with realistic physics.
 **Handle**: 
 
 ---
-
-*Last updated: 2026-01-02 06:44*

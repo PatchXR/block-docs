@@ -19,5 +19,3 @@ Generates white noise - a signal with uniform energy across the frequency spectr
 - pink_noise (link not available)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

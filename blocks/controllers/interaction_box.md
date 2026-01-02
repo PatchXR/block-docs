@@ -51,5 +51,3 @@ A box-shaped area that can be divided into segments along each axis. Provides a 
 **Haptics right** *(stream input)*: Controls the vibration strength of the right controller:
 
 ---
-
-*Last updated: 2026-01-02 06:44*

@@ -29,5 +29,3 @@ If not connected: block trigger automatically when Input or Value changes.
 **Clear**: Clear the Output.
 
 ---
-
-*Last updated: 2026-01-02 06:55*

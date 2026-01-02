@@ -9,5 +9,3 @@
 Let you draw custom a line's curvature/thickness/color given the line 0-1 progress. If used to display audio signal, use Stream Capture block to position inputs.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

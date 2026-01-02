@@ -39,5 +39,3 @@ Accumulates a given rotation/offset/resizing to each copies using "From" and "To
 **From gizmo**: 
 
 ---
-
-*Last updated: 2026-01-02 06:44*

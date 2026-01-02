@@ -13,5 +13,3 @@ Panel to load a Ready Player Me avatar as your character.
 **Ready Player Me panel**: 
 
 ---
-
-*Last updated: 2026-01-02 06:44*

@@ -15,5 +15,3 @@ Enable or disable audio processing for selected blocks.
 **DSP Enable** *(jolt input)*: Send a 1 to enable DSP processing, 0 to disable.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

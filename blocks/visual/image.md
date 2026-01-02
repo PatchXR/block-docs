@@ -15,5 +15,3 @@ Loads .png/.jpg/.gif file with transparency. It has a spritesheet feature (Inspe
 **Frame ID (spritesheet)**: When using spritesheet feature, this input controls which frame to display.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

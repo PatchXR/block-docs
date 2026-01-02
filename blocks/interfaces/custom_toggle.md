@@ -23,5 +23,3 @@ To drive the progress indicator
 **Progress**: Fills up a circular progress indicator from 0 to 1. When 0 is received the indicator is empty, when 1 the indicator is full.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

@@ -27,5 +27,3 @@ Primarily used to pass audio signals. Can receive both Stream cables and Jolt wi
 To connect a Stream block here, bring the output of the other block close to this input to snap them together.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

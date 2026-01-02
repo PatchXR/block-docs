@@ -13,5 +13,3 @@ Let you place floating text.
 **Text input**: Click to edit.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

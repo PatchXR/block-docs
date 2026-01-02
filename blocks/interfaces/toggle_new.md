@@ -23,5 +23,3 @@ By default, any number will flip current state. Check this block's Inspector to 
 To connect another block here, click & pull on any Jolt output to create a wire and drag it here.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

@@ -25,5 +25,3 @@ Compares a jolt value with a stream value and outputs result of the comparison i
 - [if_else](/blocks/logic/if_else)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

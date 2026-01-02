@@ -17,5 +17,3 @@ Midi layer between PatchWorld and DAWs.
 **text_IN**: 
 
 ---
-
-*Last updated: 2026-01-02 06:44*

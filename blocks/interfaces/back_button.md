@@ -27,5 +27,3 @@ Useful for musical playback control UI.
 - [skip_button](/blocks/interfaces/skip_button)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

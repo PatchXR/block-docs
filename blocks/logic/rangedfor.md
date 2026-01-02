@@ -23,5 +23,3 @@ Instantly sends N events, from zero to N-1, when triggered.
 - nth (link not available)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

@@ -9,5 +9,3 @@
 Displays online users. Let you invite them to your multiplayer session.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

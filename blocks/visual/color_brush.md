@@ -13,5 +13,3 @@ Let you easily change color of blocks.
 **Color**: 
 
 ---
-
-*Last updated: 2026-01-02 06:44*

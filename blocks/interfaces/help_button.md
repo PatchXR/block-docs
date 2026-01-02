@@ -19,5 +19,3 @@ Useful for activating help texts, or ghost recording tutorials.
 **Highlight**: Controls the brightness of the button graphics from -1 (black) to 4 (white).
 
 ---
-
-*Last updated: 2026-01-02 06:44*

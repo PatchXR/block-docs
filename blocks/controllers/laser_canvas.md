@@ -27,5 +27,3 @@ When you point your controller at the canvas it will activate the laser pointer 
 **trigger**: Emits a 1 when you press the trigger while pointing at the canvas, and 0 when you stop or exit the canvas.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

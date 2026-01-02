@@ -13,5 +13,3 @@ Used to build devices that interact with physics-enabled blocks, e.g. mallets an
 **Collision** *(jolt output)*: Sends out the velocity whenever a collision happens.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

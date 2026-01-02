@@ -25,5 +25,3 @@ If not connected: block will trigger automatically.
 **Output**: A list with all the blocks with the variable.
 
 ---
-
-*Last updated: 2026-01-02 06:55*

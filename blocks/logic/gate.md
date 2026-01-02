@@ -21,5 +21,3 @@ Allows or disallows jolts to pass based on the set stream value.
 - sequence (link not available)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

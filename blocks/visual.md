@@ -2,10 +2,10 @@
 title: Visual
 description: Visual blocks documentation
 published: true
-date: 2026-01-02T06:55:52.000Z
+date: 2026-01-02T06:58:22.000Z
 tags: blocks, category
 editor: markdown
-dateCreated: 2026-01-02T06:55:52.000Z
+dateCreated: 2026-01-02T06:58:22.000Z
 ---
 
 # 🎨 Visual Blocks
@@ -46,4 +46,3 @@ Drag and drop from the ball to another b...
 - **[Vr Window](./visual/vr_window)** - Resizable plane which reveals the game view when Passthrough or Mixed reality block is active.
 
 ---
-*Last updated: 2026-01-02 06:55*

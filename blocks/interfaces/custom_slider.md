@@ -19,5 +19,3 @@ Sends out a jolt with a value between 0 and 1 that indicates the position of the
 **Input** *(jolt input)*: Sets the value of the slider.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

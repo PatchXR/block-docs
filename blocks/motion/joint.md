@@ -19,5 +19,3 @@ Activate different features and degree of freedom from the Inspector.
 **Resize the shaft**: Only affect visuals.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

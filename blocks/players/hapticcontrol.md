@@ -26,5 +26,3 @@ Sending values between 0-1 to the stream input will set the intensity of the con
 - [controllerrotation](/blocks/players/controllerrotation)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

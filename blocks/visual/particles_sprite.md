@@ -37,5 +37,3 @@ Generates particles, you can give an image as input to change the sprite.
 **Size/Color affect current particles**: Should Size/Color changes affect all current particles (ON) or only future generated particles. (OFF)
 
 ---
-
-*Last updated: 2026-01-02 06:44*

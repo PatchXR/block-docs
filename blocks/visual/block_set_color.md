@@ -19,5 +19,3 @@ Can change the color of the connected block. Inputs values are expected to be be
 **Brightness**: 
 
 ---
-
-*Last updated: 2026-01-02 06:44*

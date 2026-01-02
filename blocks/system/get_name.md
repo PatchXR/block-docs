@@ -13,5 +13,3 @@ Get the name of the given blocks. (can also give player's or device's name) If m
 **Source Block**: Blocks from which we retrieve the name.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

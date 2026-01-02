@@ -15,5 +15,3 @@ Similar to set visible.
 **Target blocks**: Click & drag to select
 
 ---
-
-*Last updated: 2026-01-02 06:44*

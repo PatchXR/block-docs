@@ -27,5 +27,3 @@ Outputs the speed and acceleration. Use inside groups to make e.g. shakers, and 
 **Acceleration Z axis**: 
 
 ---
-
-*Last updated: 2026-01-02 06:44*

@@ -19,5 +19,3 @@ Given multiple blocks with text, it combine the different text into one and appl
 **Clear**: Clear the text.
 
 ---
-
-*Last updated: 2026-01-02 06:44*

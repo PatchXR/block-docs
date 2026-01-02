@@ -23,5 +23,3 @@ bp: beat period (sec. pr. beat).
 **Trigger** *(jolt input)*: Triggers the output to emit the selected constant.
 
 ---
-
-*Last updated: 2026-01-02 06:44*
