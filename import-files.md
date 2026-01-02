@@ -2,7 +2,7 @@
 title: Import files 
 description: how to import assets into the app 
 published: true
-date: 2025-08-12T21:29:26.231Z
+date: 2026-01-02T23:26:47.127Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-12T21:29:11.231Z
@@ -17,5 +17,7 @@ Uploading files is done via the portal.
 2. Login 
 3. In the nav bar click Upload 
 4. Drag and drop files or click to browse and select
+
+These will then show in the in-app [library](/patching/library). 
 
 
