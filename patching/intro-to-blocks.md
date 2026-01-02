@@ -2,7 +2,7 @@
 title: What are Blocks?
 description: Blocks are the basic building part in PatchWorld 
 published: true
-date: 2026-01-02T04:42:31.570Z
+date: 2026-01-02T04:43:07.988Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-13T16:20:53.022Z
@@ -28,12 +28,3 @@ The same documentation is available here in the wiki: [Blocks Documentation ](/b
 💡 **Note:** These are the very basic building blocks. You will find many more things to spawn in the library, like assets and devices made by the community. The following is focusing only on the very basic building blocks.
 
 
----
-
-## 🚀 Getting Started
-
-- **New to PatchWorld?** Start with [Interfaces](/blocks/interfaces) for controls and [Audio](/blocks/audio) for sound
-- **Building worlds?** Check out [Props](/blocks/props) and [Stages](/blocks/stages)
-- **Advanced patching?** Explore [Logic](/blocks/logic) and [Connectors](/blocks/connectors)
-
----
