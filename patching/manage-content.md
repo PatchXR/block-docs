@@ -2,7 +2,7 @@
 title: Manage your content
 description: 
 published: true
-date: 2025-08-16T11:06:44.172Z
+date: 2026-01-02T23:09:51.125Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-15T18:48:02.663Z
@@ -40,9 +40,7 @@ The ([**Patch Portal**](/patching/patch-web-portal)) is the central hub for uplo
 [import-files](/import-files)
 
 **Syncing Your Library:**
-After uploading assets to the Portal, they won't appear in-app immediately. You need to sync your library.
-*   In the main Hub menu, click the **circular refresh icon** in the bottom left.
-*   Alternatively, simply loading an existing world will often trigger a library sync.
+After uploading assets to the Portal, refresh "Assets > All My assets" in the library. 
 
 ---
 
