@@ -2,10 +2,10 @@
 title: Blocks
 description: Comprehensive guide to all fundamental building blocks in PatchWorld
 published: true
-date: 2026-01-02T06:48:17.000Z
+date: 2026-01-02T06:55:52.000Z
 tags: blocks, index, documentation
 editor: markdown
-dateCreated: 2026-01-02T06:48:17.000Z
+dateCreated: 2026-01-02T06:55:52.000Z
 ---
 
 These are the fundamental building blocks available in PatchWorld. You can use these blocks to create patches, instruments, and interactive experiences.
@@ -34,4 +34,4 @@ These are the fundamental building blocks available in PatchWorld. You can use t
 | **[System](/blocks/system)** ⚙️ | 28 | System-level controls and utilities |
 
 ---
-*Last updated: 2026-01-02 06:48*
+*Last updated: 2026-01-02 06:55*

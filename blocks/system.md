@@ -2,10 +2,10 @@
 title: System
 description: System blocks documentation
 published: true
-date: 2026-01-02T06:48:17.000Z
+date: 2026-01-02T06:55:52.000Z
 tags: blocks, category
 editor: markdown
-dateCreated: 2026-01-02T06:48:17.000Z
+dateCreated: 2026-01-02T06:55:52.000Z
 ---
 
 # ⚙️ System Blocks
@@ -47,4 +47,4 @@ will output the value on the bi...
 - **[Web Browser](./system/webview_browser)** - 
 
 ---
-*Last updated: 2026-01-02 06:48*
+*Last updated: 2026-01-02 06:55*

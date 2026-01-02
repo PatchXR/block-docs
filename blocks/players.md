@@ -2,10 +2,10 @@
 title: Players
 description: Players blocks documentation
 published: true
-date: 2026-01-02T06:48:17.000Z
+date: 2026-01-02T06:55:52.000Z
 tags: blocks, category
 editor: markdown
-dateCreated: 2026-01-02T06:48:17.000Z
+dateCreated: 2026-01-02T06:55:52.000Z
 ---
 
 # 👨‍👩‍👧‍👦 Players Blocks
@@ -30,4 +30,4 @@ This category contains **14** blocks.
 - **[Trigger Box](./players/trigger_box)** - A resizable trigger box which can detect if a player is inside. Can also be used to attached play...
 
 ---
-*Last updated: 2026-01-02 06:48*
+*Last updated: 2026-01-02 06:55*
