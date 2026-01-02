@@ -16,4 +16,4 @@ Resizable plane which reveals the game view when Passthrough or Mixed reality bl
 
 ---
 
-*Last updated: 2026-01-02 06:43*
+*Last updated: 2026-01-02 06:44*
