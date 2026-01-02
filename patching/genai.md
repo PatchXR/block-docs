@@ -2,7 +2,7 @@
 title: Genrative AI in PatchWorld
 description: Create assets using AI 
 published: true
-date: 2026-01-02T23:31:05.534Z
+date: 2026-01-02T23:31:33.258Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-13T19:17:58.788Z
@@ -10,7 +10,7 @@ dateCreated: 2025-08-13T19:17:58.788Z
 
 # Genie device
 1. Open create tab 
-2. Look for the Genie device
+2. Look for the Genie device (search for "Gen AI")
 3. Spawn and follow the instruction on the device
 
 # Portal
@@ -20,7 +20,7 @@ Alternatively you can use the "Gen AI" section in portal.patchxr.io
 # Commands
 
 The Genie device made by Dj Patchy utilizes the execute block with commands for gen ai. 
-Search for Gen AI in the library and you will find it. 
+
 
 Internally it uses these commnads
 
