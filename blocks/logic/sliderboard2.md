@@ -1,0 +1,29 @@
+# sliderboard2
+
+**Category**: 🧠 Logic
+
+![sliderboard2 thumbnail](https://portal.patchxr.io/block-thumbnails/sliderboard2.png)
+
+## Description
+
+Editable, resizable array of sliders.
+
+## Inputs, Outputs and Parts
+
+**Row ID**: Set the selected row.
+
+**Column ID**: Set the selected column.
+
+**resize**: Resize
+
+**Output value**: Outputs the value of the current position.
+
+**Write**: Write a value on the current position.
+
+**Trigger**: Block will output the currently selected value.
+
+**Trigger**: Block will output the currently selected value.
+
+---
+
+*Last updated: 2026-01-02 05:47*
