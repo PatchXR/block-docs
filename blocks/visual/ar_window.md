@@ -6,12 +6,19 @@
 
 ## Description
 
-Resizable plane which displays passthrough.
+Creates a resizable window that shows real-world passthrough view in VR/AR environments.
+
+Augmented reality window that displays the real world through the headset's passthrough cameras. The window can be resized and positioned anywhere in the virtual space, allowing users to see their physical surroundings while remaining in VR. Features corner handles for easy resizing and positioning.
 
 ## Inputs, Outputs and Parts
 
-**plane**: 
+**Display Plane**: The main passthrough display surface
 
-**MuX_ImgCorner_Msh**: 
+**Resize Handle**: Corner handle for resizing the window
+
+## Related Blocks
+
+- webcam (link not available)
+- [image](/blocks/visual/image)
 
 ---

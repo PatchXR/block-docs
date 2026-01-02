@@ -2,10 +2,10 @@
 title: Audio
 description: Audio blocks documentation
 published: true
-date: 2026-01-02T07:00:23.000Z
+date: 2026-01-02T08:52:38.000Z
 tags: blocks, category
 editor: markdown
-dateCreated: 2026-01-02T07:00:23.000Z
+dateCreated: 2026-01-02T08:52:38.000Z
 ---
 
 # 🔊 Audio Blocks
@@ -25,11 +25,11 @@ This category contains **29** blocks.
 - **[Eq Band](./audio/filter_eq)** - A filter EQ for boosting or cutting bass, treble, and mid-range frequencies
 - **[Filter](./audio/filter)** - Shapes your sound by cutting frequencies. Select a type (Low-Pass, High-Pass, or Band-Pass) to co...
 - **[Function Stream](./audio/function_stream)** - Let you use math functions: sin, cos, tanh, floor, round, ceil, absolute, 1-x, sign, midi to freq...
-- **[Funnle Stream](./audio/reverse_route_stream)** - 
+- **[Funnle Stream](./audio/reverse_route_stream)** - Combines multiple stream inputs into a single output, selecting which input to route based on an ...
 - **[Integrator](./audio/integrator)** - A leaky integrator with separate constants for the rise and fall time. This block can be used to ...
 - **[Listener](./audio/listener)** - Listen to all output blocks, mix them all into a single audio signal and output it.
 - **[Map Stream](./audio/map)** - Scales values from one range to another.
-- **[Math Stream](./audio/math)** - Do a math operation on 2 inputs: sum/add, subtract, multiple, divide, power (exponent), logarithm...
+- **[Math Stream](./audio/math)** - Performs mathematical operations on two stream inputs. Operations: add, subtract, multiply, divid...
 - **[Microphone](./audio/microphone)** - Outputs microphone audio signal as a stream.
 - **[Noise](./audio/noise)** - Generates white noise - a signal with uniform energy across the frequency spectrum.
 - **[Oscillator](./audio/oscillator)** - An oscillator with four waveform modes: sinusoid, triangle, sawtooth & square. Frequency is set i...

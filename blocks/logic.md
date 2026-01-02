@@ -2,10 +2,10 @@
 title: Logic
 description: Logic blocks documentation
 published: true
-date: 2026-01-02T07:00:23.000Z
+date: 2026-01-02T08:52:38.000Z
 tags: blocks, category
 editor: markdown
-dateCreated: 2026-01-02T07:00:23.000Z
+dateCreated: 2026-01-02T08:52:38.000Z
 ---
 
 # 🧠 Logic Blocks
@@ -22,7 +22,7 @@ sr: sample rate
 sp: sample ...
 - **[Counter](./logic/cyclecounter)** - Counts the number of received jolts in a looping manner.
 - **[Data Array](./logic/data_array)** - Store and retrieve values from an array using indices to build presets, sequencers, etc..
-- **[Delay Jolt](./logic/delay_jolt_2)** - 
+- **[Delay Jolt](./logic/delay_jolt_2)** - Delays incoming jolts by a specified time period with configurable behavior for overlapping jolts.
 - **[Function Jolt](./logic/function)** - Let you use math functions: sin, cos, tanh, floor, round, ceil, absolute, 1-x, sign, midi to freq...
 - **[Funnel Jolt](./logic/route_reverse)** - Combines N inputs into 1 output. An index can be given to filter which value will be passed to th...
 - **[Gate](./logic/gate)** - Allows or disallows jolts to pass based on the set stream value.

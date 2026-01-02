@@ -6,10 +6,9 @@
 
 ## Description
 
-Let you change the texture and materials to other block.
-Drag and drop from the ball to another block to change its look.
+Apply materials and textures to other blocks. Drag the selector ball to target blocks to change their appearance.
 
-You can also select which mesh inside the block is affected, change colors, use snapshot block to make new textures...
+Material editor with library browsing, mesh selection, and shader parameter controls. Choose materials from the built-in library, select specific meshes within target blocks, and spawn material brushes for batch application. Supports custom textures from snapshot blocks and real-time color adjustments.
 
 ## Inputs, Outputs and Parts
 
@@ -26,5 +25,10 @@ You can also select which mesh inside the block is affected, change colors, use 
 **Close**: Material we still remain hidden, can be displayed again using the Material Brush.
 
 **Spawn Brush**: Spawn a brush to apply your material to objects.
+
+## Related Blocks
+
+- [material_brush](/blocks/visual/material_brush)
+- [snapshot](/blocks/visual/snapshot)
 
 ---

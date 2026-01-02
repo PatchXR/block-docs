@@ -2,10 +2,10 @@
 title: System
 description: System blocks documentation
 published: true
-date: 2026-01-02T07:00:23.000Z
+date: 2026-01-02T08:52:38.000Z
 tags: blocks, category
 editor: markdown
-dateCreated: 2026-01-02T07:00:23.000Z
+dateCreated: 2026-01-02T08:52:38.000Z
 ---
 
 # ⚙️ System Blocks
@@ -44,6 +44,6 @@ will output the value on the bi...
 - **[Set Variable](./system/set_variable)** - Given a "VariableName" and a value, it can assign a variable to a block. Helps you then collect a...
 - **[Set Visible](./system/set_visible)** - 
 - **[Snapshots Manager](./system/snapshotsmanager)** - Record different state of the world.
-- **[Web Browser](./system/webview_browser)** - 
+- **[Web Browser](./system/webview_browser)** - Embeds a web browser into the VR environment with interactive navigation controls.
 
 ---
