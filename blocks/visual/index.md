@@ -36,4 +36,4 @@ Drag and drop from the ball to another b...
 - **[Vr Window](./vr_window.md)** - Resizable plane which reveals the game view when Passthrough or Mixed reality block is active.
 
 ---
-*Last updated: 2026-01-02 06:41*
+*Last updated: 2026-01-02 06:43*

@@ -20,4 +20,4 @@ This category contains **14** blocks.
 - **[Trigger Box](./trigger_box.md)** - A resizable trigger box which can detect if a player is inside. Can also be used to attached play...
 
 ---
-*Last updated: 2026-01-02 06:41*
+*Last updated: 2026-01-02 06:43*

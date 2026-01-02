@@ -22,4 +22,4 @@ A resizable linear slider that by default sends out values between zero and one.
 
 ---
 
-*Last updated: 2026-01-02 06:41*
+*Last updated: 2026-01-02 06:43*
