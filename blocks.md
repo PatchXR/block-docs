@@ -2,10 +2,10 @@
 title: Blocks
 description: Comprehensive guide to all fundamental building blocks in PatchWorld
 published: true
-date: 2026-01-02T01:53:16.316Z
+date: 2026-01-02T05:30:32.000Z
 tags: blocks, index, documentation
 editor: markdown
-dateCreated: 2025-08-13T15:50:31.208Z
+dateCreated: 2026-01-02T05:30:32.000Z
 ---
 
 These are the fundamental building blocks available in PatchWorld. You can use these blocks to create patches, instruments, and interactive experiences.
@@ -15,51 +15,33 @@ These are the fundamental building blocks available in PatchWorld. You can use t
 - **Imported Assets** - Custom 3D models, sounds, and creations from the community
 - **Your Own Creations** - Save and share your patches as reusable devices
 
-**145 blocks** available across **13 categories**
+**97 blocks** available across **9** categories
 
 ---
 
-## 🎛️ Core Building Blocks1
+## 🎛️ Core Building Blocks
 
 | Category | Blocks | Description |
 |----------|--------|-------------|
-| **[Interfaces](/blocks/interfaces)** | 22 | User interaction and control elements |
-| **[Audio](/blocks/audio)** | 25 | Sound generation and processing |
-| **[Logic](/blocks/logic)** | 21 | Data flow and decision making |
-| **[Connectors](/blocks/connectors)** | 16 | Linking and routing signals |
+| **[Interfaces](/blocks/interfaces)** 🎚️ | 12 | User interaction and control elements |
+| **[Controllers](/blocks/controllers)** 🎮 | 6 | 3D controllers and input devices |
+| **[Audio](/blocks/audio)** 🔊 | 16 | Sound generation and processing |
+| **[Visual](/blocks/visual)** 🎨 | 11 | Graphics, effects, and visual elements |
+| **[Motion](/blocks/motion)** 🚀 | 9 | Physics and movement control |
+| **[Logic](/blocks/logic)** 🧠 | 14 | Data flow and decision making |
+| **[Connectors](/blocks/connectors)** 🔗 | 2 | Linking and routing signals |
+| **[Players](/blocks/players)** 👨‍👩‍👧‍👦 | 2 | Multiplayer and user management |
+| **[System](/blocks/system)** ⚙️ | 1 | System-level controls and utilities |
 
-## 🎨 Creative & Interactive
+## 🏞️ Decoration & Environment
 
-| Category | Blocks | Description |
+| Category | Items | Description |
 |----------|--------|-------------|
-| **[Visuals](/blocks/visuals)** | 11 | Visual effects and displays |
-| **[Motion](/blocks/motion)** | 10 | Movement and animation |
-| **[Player](/blocks/player)** | 7 | User presence and interaction |
-
-## 🌍 World Building
-
-| Category | Blocks | Description |
-|----------|--------|-------------|
-| **[Props](/blocks/props)** | 5 | Decorative and interactive objects |
-| **[Sky](/blocks/sky)** | 6 | Environment and atmosphere |
-| **[Stages](/blocks/stages)** | 3 | Performance spaces |
-| **[Terrains](/blocks/terrains)** | 1 | Ground and landscape |
-
-## 🔧 Advanced & Experimental
-
-| Category | Blocks |
-|----------|--------|
-| **[Experimental](/blocks/experimental)** | 22 |
-| **[System](/blocks/system)** | 6 |
+| **[Sky](/blocks/decor/sky)** 🌌 | 2 | Skyboxes and atmospheric effects |
+| **[Terrains](/blocks/decor/terrains)** 🏔️ | 5 | Ground and landscape elements |
+| **[Stages](/blocks/decor/stages)** 🎪 | 3 | Performance and presentation spaces |
+| **[Plants](/blocks/decor/plants)** 🌿 | 1 | Vegetation and organic decorations |
+| **[Props](/blocks/decor/props)** 🎁 | 13 | Objects and decorative items |
 
 ---
-
-## 🚀 Getting Started
-
-- **New to PatchWorld?** Start with [Interfaces](/blocks/interfaces) for controls and [Audio](/blocks/audio) for sound
-- **Building worlds?** Check out [Props](/blocks/props) and [Stages](/blocks/stages)
-- **Advanced patching?** Explore [Logic](/blocks/logic) and [Connectors](/blocks/connectors)
-
----
-
-*This documentation is automatically generated from the PatchWorld application.*
+*Last updated: 2026-01-02 05:30*
