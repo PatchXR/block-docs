@@ -2,7 +2,7 @@
 title: Library
 description: aka create tab
 published: true
-date: 2025-08-15T19:27:17.231Z
+date: 2026-01-02T21:42:27.339Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-15T15:54:59.182Z
@@ -65,8 +65,8 @@ There are two primary ways to bring an item from the library into your world:
 
 *   **Visuals > My Visuals:** Similar to sounds, this is where your custom 3D models (`.glb`, `.obj`), images, and videos will appear after being uploaded to the Portal.
 
-*   **Blocks (The "Beta" Tab):**
+*   **Blocks:**
     *   **What it is:** This is the heart of deep creation in Patchworld. It contains the raw building components—oscillators, envelopes, logic gates (`if else`), math operators (`multiply`, `add`), and controllers (`get`, `value`). You use these to build everything you see in the "Devices" tab.
-    *   **How to Unlock:** When you first navigate to the "Blocks" tab, it will be greyed out with a prompt to "Join Discord." **Simply clicking this button will unlock the blocks.** You don't need to complete a full sign-up process if you're already here. Once clicked, the tab will be permanently available.
+[library](/blocks/library)
 
 
