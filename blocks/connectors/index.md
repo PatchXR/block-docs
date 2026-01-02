@@ -1,6 +1,6 @@
 # 🔗 Connectors Blocks
 
-This category contains **16** blocks.
+This category contains **17** blocks.
 
 ## Available Blocks
 
@@ -15,6 +15,7 @@ Click & dra...
 - **[pass](./pass.md)** - Passes a Jolt event from a jolt input to jolt output without any modifications.
 - **[pass_in](./pass_in.md)** - Passes a Jolt signal with no processing. Useful as UI to visually signify inputs for a patch or d...
 - **[pass_out](./pass_out.md)** - Passes a Jolt signal with no processing. Useful as UI to visually signify outputs for a patch or ...
+- **[selectionpass](./selectionpass.md)** - 
 - **[selector_gate](./selector_gate.md)** - Allow you to toggle a tag connection.
 - **[stoe](./stoe.md)** - Send a jolt value each time the input stream changes. (max 90Hz by default)
 - **[wireless_in](./wireless_in.md)** - Sends stream from one place in your patch to the corresponding 'wireless_out' blocks. Each 'wirel...
@@ -23,4 +24,4 @@ Click & dra...
 - **[wireless_out_jolt](./wireless_out_jolt.md)** - Sends jolt from one place in your patch to the corresponding 'wireless_in_jolt' blocks. Each 'wir...
 
 ---
-*Last updated: 2026-01-02 05:54*
+*Last updated: 2026-01-02 06:02*
