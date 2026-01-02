@@ -2,10 +2,10 @@
 title: Controllers
 description: Controllers blocks documentation
 published: true
-date: 2026-01-02T07:00:10.000Z
+date: 2026-01-02T07:00:23.000Z
 tags: blocks, category
 editor: markdown
-dateCreated: 2026-01-02T07:00:10.000Z
+dateCreated: 2026-01-02T07:00:23.000Z
 ---
 
 # 🎮 Controllers Blocks
