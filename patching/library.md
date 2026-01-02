@@ -2,71 +2,216 @@
 title: Library
 description: aka create tab
 published: true
-date: 2026-01-02T21:42:27.339Z
+date: 2026-01-02T23:23:06.670Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-15T15:54:59.182Z
 ---
 
-The Library, often referred to as the "+Create" tab, is your central hub for spawning everything from pre-built instruments to the fundamental blocks needed to invent your own. 
+# The Library
 
-#### Accessing the Library
+The **Library** is your central hub for accessing all assets, blocks, and tools in Patchworld. Powered by a modern webview-based interface, it makes browsing, organizing, and spawning content fast and intuitive.
 
-To open the library, press the **Y button** on your left controller or the **B button** on your right controller. This will bring up the main menu, then choose the "Create" tab.
+---
 
-#### Anatomy of the Library Interface
+## Accessing the Library
 
-The library is organized into a three-panel layout to help you find what you need.
+To open the Library:
+- Press the **Y button** on your left controller  
+- Or press the **B button** on your right controller  
 
-1.  **Main Categories (Left Panel):** This is your top-level navigation. The primary categories are:
-    *   **Devices:** Pre-built, ready-to-use instruments, effects, and tools. This is where you'll find synths, drum machines, sequencers, and utilities.
-    *   **Sounds:** Contains all available audio samples, known as "bubbles."
-    *   **Visuals:** For spawning environmental assets, 3D models, skyboxes, and other aesthetic elements.
-    *   **Blocks:** The advanced, fundamental components used for building your own devices from scratch. **(Note: This is a beta feature; see below for how to unlock it).**
+This opens the main menu, where you can select the **Library** tab.
 
-2.  **Sub-categories (Middle Panel):** Selecting a main category will populate this panel with more specific folders. For example, selecting **Devices** will show sub-categories like `Make Music`, `Utilities`, and `Recorders`. Selecting `Make Music` will further break down into `Synths`, `Drums`, etc.
+---
 
-3.  **Item List (Right Panel):** This panel displays the final, spawnable items within the selected sub-category. You'll see a thumbnail and the name of each item.
+## Library Interface Overview
 
-**Other Key UI Elements:**
-*   **Search Bar:** Located at the top, this is your most powerful tool. If you know the name of what you're looking for, typing it here is much faster than browsing.
-*   **Sync/Refresh Button (🔃):** A circular arrow icon in the bottom-left. **Crucially, you must press this button to load any new assets you've uploaded via the Patch Portal.**
-*   **Play/Pause Button:** At the very bottom, this allows you to keep your world's audio playing in the background while you browse the library—essential for live jamming and editing.
+The Library uses a sidebar-based navigation system with clearly defined sections.
 
-#### Spawning Objects into Your World
+### Primary Sections
 
-There are two primary ways to bring an item from the library into your world:
+1. **Featured**  
+   Curated collections of popular and recommended community content.
 
-* **Method 1: Drag and Drop**
-    1. Point at the item's thumbnail.
-    2. Use your **grip button** to "grab" the thumbnail.
-    3. Drag it out of the menu and into your world space.
-    4. Release the grip button to place the object.
+2. **Published**  
+   Browse content from other creators, including:
+   - **Recently Published** — the latest community uploads
+   - **Pinned Creators** — creators you’ve pinned for quick access
+   - **User Libraries & Profiles** — click a user to view their assets  
+     - For worlds, select the **world icon** to view their Worlds profile
 
-* **Method 2: Spawn List (Batch Spawning)**
-    1. While in the library, point at an item's thumbnail.
-    2. Press the **A** button (on Quest) or **X** button (on the opposite controller) to add it to the spawn list.  
-       - You can tap this on multiple items to build your list.  
-       - Pressing the button again on an item will remove it from the list.
-    3. When you’re ready, either:
-        - Click the **Spawn List** button at the top of the menu, **or**
-        - Close the menu — the list will spawn automatically.
-    4. All items in the list will appear in your world together.
+3. **My Assets**  
+   Your personal workspace, containing:
+   - **All My Assets** — everything you’ve created or uploaded
+   - **My Purchases** — assets you’ve bought
+   - **My Likes** — assets you’ve liked
+   - **Spawn History** — anything you’ve spawned (infinitely scrollable)
+   - **Custom Folders** — folders you create to organize assets
 
-> **Tip:** The spawn list works on search results too. Once you know the button to press, it’s a huge time-saver for grabbing multiple blocks or devices in one go.
+4. **Blocks**  
+   Fundamental building components for creating Devices, organized by category.
 
+5. **Search Results**  
+   Displays results when using the search function.
 
+6. **News**  
+   Latest updates and announcements from Patchworld  
+   (powered by the PatchXR blog).
 
-#### Key Library Categories Explained
+7. **Wiki**  
+   Quick access to this documentation.
 
-*   **Devices > My Devices:** This is where any custom instruments or tools you create and save will appear. It's your personal, reusable toolkit.
+---
 
-*   **Sounds > My Sounds:** This folder contains all the audio samples (`.wav`, `.ogg`) you have personally uploaded via the **Patch Portal**. The other folders contain the stock sounds that come with Patchworld.
+## Navigation Flow
 
-*   **Visuals > My Visuals:** Similar to sounds, this is where your custom 3D models (`.glb`, `.obj`), images, and videos will appear after being uploaded to the Portal.
+The Library uses a folder-based hierarchy:
+- Click a section to expand it
+- Navigate through folders to find content
+- Each folder displays a grid of item thumbnails
 
-*   **Blocks:**
-    *   **What it is:** This is the heart of deep creation in Patchworld. It contains the raw building components—oscillators, envelopes, logic gates (`if else`), math operators (`multiply`, `add`), and controllers (`get`, `value`). You use these to build everything you see in the "Devices" tab.
-[library](/blocks/library)
+---
 
+## Key Features
 
+### Search Functionality
+
+- The search bar is located at the **bottom** of the interface
+- Search behavior is **context-aware**:
+  - **Library tab** — searches assets, blocks, and devices
+  - **Discover / Community tabs** — searches worlds and users
+- Results appear in a dedicated **Search Results** section
+
+---
+
+### User Profiles & Published Assets
+
+- Click a creator’s name to open their profile
+- From a user profile:
+  - In the **native profile**, select **Published Assets** to view their library
+  - In the **library profile**, click the **world count** to view their Worlds profile
+- This allows seamless exploration of both assets and worlds  
+- A unified profile experience is currently in development
+
+---
+
+### Filtering & Sorting
+
+**Filter Options**
+- All Types (default)
+- Blocks
+- Devices
+- Samples
+- Videos
+- Images
+- Meshes
+
+**Sort Options**
+- Default Order
+- Recently Updated
+- Recently Created
+- Name (A–Z)
+
+> **Note**  
+> Sorting is available in most views, including My Assets, Featured folders, and Search Results.  
+{.is-info}
+
+---
+
+### Sync / Refresh
+
+- Use the **Refresh** button (🔃) to update the Library
+- A secondary refresh option is available in:
+  - **Settings (gear icon) → Library → Refresh**
+
+---
+
+## Spawning Objects
+
+There are three ways to spawn items into your world.
+
+### Method 1: Direct Spawn
+1. Navigate to an item
+2. Trigger on its thumbnail
+3. Trigger again on **Spawn**
+4. The item appears at a default position
+
+### Method 2: Drag & Drop
+1. Point at the item’s thumbnail
+2. Hold the **Grip button**
+3. Drag it into world space
+4. Release to place it
+
+### Method 3: Multi Spawn
+1. Select multiple items using the trigger
+2. Trigger again on **Spawn**
+3. Items spawn in a grid pattern
+
+---
+
+## Organizing Your Library
+
+### Drag & Drop Organization
+
+The Library supports always-on organization.
+
+#### Moving Assets to Folders
+1. Grab an asset card using the grip button
+2. Drag it onto:
+   - A folder in the grid, or
+   - A folder in the sidebar
+3. Valid drop targets highlight
+4. Release to move the asset
+
+#### Multi-Select
+- Select multiple assets before dragging
+- Move entire groups at once
+
+#### Folder Management
+- Create and manage folders inside **My Assets**
+
+---
+
+## Content Sections Explained
+
+### My Assets
+Your unified personal content hub:
+- **All My Assets** — everything you’ve created or uploaded
+- **My Purchases** — assets you’ve bought
+- **My Likes** — assets you’ve liked
+- **Spawn History** — recently spawned items
+- **Custom Folders** — folders you create for organization
+
+Use filters to view specific content types in any subsection.
+
+---
+
+### Featured
+- Curated public content from the community
+- Ideal for discovering new sounds, devices, and inspiration
+- Content is read-only but can be spawned
+
+---
+
+### Published
+- Browse assets from other creators
+- Includes **Recently Published** content and **Pinned Creators**
+- Click any creator to explore their assets and worlds
+
+---
+
+### Blocks
+The core building components of Patchworld:
+- Organized by category
+- Used to build custom Devices from scratch
+- See the [Blocks documentation](/blocks) for more details
+
+---
+
+## Tips for an Efficient Workflow
+
+1. Use **Search** — remember it adapts to your current tab
+2. Use **Filters** — especially in My Assets
+3. **Refresh** after uploading content to the Portal
+4. Drag assets into folders to stay organized
+5. Explore creator profiles to discover both assets and worlds
