@@ -19,7 +19,7 @@ These are the fundamental building blocks available in PatchWorld. You can use t
 
 ---
 
-## 🎛️ Core Building Blocks
+## 🎛️ Core Building Blocks1
 
 | Category | Blocks | Description |
 |----------|--------|-------------|
