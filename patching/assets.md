@@ -2,7 +2,7 @@
 title: Assets
 description: What are assets ?
 published: true
-date: 2025-08-14T01:57:48.329Z
+date: 2026-01-02T23:07:27.556Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-13T18:47:17.473Z
@@ -47,15 +47,3 @@ Patchworld supports five main asset types, each with its own unique properties a
 {.is-success} 
 
 
-## Publishing Assets 
-You can publish your assets by selecting it in the create tab, then clicking the "eye" icon on the bottom right.
-This will allow other users to see this asset as published.
-To see assets from other users, navigate to their profile then click "Published Assets", this will open the create tab showing their published assets.
-
-## Featured Assets
-PatchWorld mods can set certain assets to be Featured, meaning these will show up in the public library (create tab) for all of the users.
-
-## Selling Assets
-A published/featured asset, that has a price, will be spawnable to users that purchase the asset.
-Set the price to your assets by connecting a purchase block to them and inspecting the purchase block.
-Or via the patch web portal portal.patchxr.io
