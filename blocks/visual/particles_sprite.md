@@ -38,4 +38,4 @@ Generates particles, you can give an image as input to change the sprite.
 
 ---
 
-*Last updated: 2026-01-02 06:27*
+*Last updated: 2026-01-02 06:30*
