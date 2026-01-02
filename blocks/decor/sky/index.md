@@ -1,34 +1,11 @@
 # 🌌 Sky Blocks
 
-This category contains **5** blocks.
+This category contains **2** blocks.
 
 ## Available Blocks
 
-- **[venue_lightsaber](./venue_lightsaber.md)** - Background for the environment 
-
-write in the console:
-
-spawn venue_lightsaber
-- **[venue_mountains](./venue_mountains.md)** - Background for the environment 
-
-write in the console:
-
-spawn bg_mountains
-- **[venue_ozelot](./venue_ozelot.md)** - Background for the environment 
-
-write in the console:
-
-spawn venue_ozelot
-- **[venue_spacestation](./venue_spacestation.md)** - Background for the environment 
-
-write in the console:
-
-spawn bg_spacestation
-- **[venue_underwater](./venue_underwater.md)** - Background for the environment 
-
-write in the console:
-
-spawn venue_underwater
+- **[360kaleidoscope](./360kaleidoscope.md)** - 
+- **[watersurface100](./watersurface100.md)** - 
 
 ---
-*Last updated: 2026-01-02 04:53*
+*Last updated: 2026-01-02 05:14*

@@ -1,10 +1,14 @@
 # 🏔️ Terrains Blocks
 
-This category contains **1** blocks.
+This category contains **5** blocks.
 
 ## Available Blocks
 
-- **[venue_wireframe](./venue_wireframe.md)** - 
+- **[cave1](./cave1.md)** - 
+- **[cave2](./cave2.md)** - 
+- **[columns](./columns.md)** - 
+- **[mushroom](./mushroom.md)** - 
+- **[watersurface25](./watersurface25.md)** - 
 
 ---
-*Last updated: 2026-01-02 04:53*
+*Last updated: 2026-01-02 05:14*

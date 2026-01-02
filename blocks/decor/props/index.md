@@ -1,13 +1,22 @@
 # 🎁 Props Blocks
 
-This category contains **4** blocks.
+This category contains **13** blocks.
 
 ## Available Blocks
 
-- **[prop_firstmask](./prop_firstmask.md)** - 
-- **[prop_neuron](./prop_neuron.md)** - 
-- **[prop_underwaterparticles](./prop_underwaterparticles.md)** - 
-- **[prop_wireframe](./prop_wireframe.md)** - 
+- **[bubbles](./bubbles.md)** - 
+- **[clam](./clam.md)** - 
+- **[crystals](./crystals.md)** - 
+- **[doublecone](./doublecone.md)** - 
+- **[dreamfloor](./dreamfloor.md)** - 
+- **[duck](./duck.md)** - 
+- **[nopales](./nopales.md)** - 
+- **[patchworld](./patchworld.md)** - 
+- **[patchxr](./patchxr.md)** - 
+- **[planet](./planet.md)** - 
+- **[pumpkin](./pumpkin.md)** - 
+- **[pumpkinxr](./pumpkinxr.md)** - 
+- **[staircase](./staircase.md)** - 
 
 ---
-*Last updated: 2026-01-02 04:53*
+*Last updated: 2026-01-02 05:14*

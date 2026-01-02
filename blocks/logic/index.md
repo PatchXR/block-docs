@@ -1,6 +1,6 @@
 # 🧠 Logic Blocks
 
-This category contains **18** blocks.
+This category contains **14** blocks.
 
 ## Available Blocks
 
@@ -10,21 +10,17 @@ This category contains **18** blocks.
 pi: the trigonometric constant
 sr: sample rate
 sp: sample ...
-- **[cyclecounter](./cyclecounter.md)** - Counts the number of received jolts in a looping manner.
-- **[data_array](./data_array.md)** - Store and retrieve values from an array using indices to build presets, sequencers, etc..
+- **[counter](./counter.md)** - Counts the sum of incoming jolts values.
 - **[gate](./gate.md)** - Allows or disallows jolts to pass based on the set stream value.
 - **[get](./get.md)** - Emits jolt event when triggered. Value is determined by the stream input.
-- **[if_else](./if_else.md)** - Compares a jolt value with a stream value and outputs a jolt value through one of the two outputs...
-- **[keyboard](./keyboard.md)** - A keyboard interface that can be used to play notes by pressing the keys or to play music from a ...
-- **[knobboard](./knobboard.md)** - Editable array of knobs.
 - **[metronome](./metronome.md)** - Ticks off regular events at a specified interval.
-- **[operation](./operation.md)** - Let you do all arithmetic operations: sum/add, subtract, multiple, divide, power (exponent), loga...
 - **[random](./random.md)** - Outputs a random decimal number between 0 and <b>Max</b>.
 - **[rangedfor](./rangedfor.md)** - Instantly sends N events, from zero to N-1, when triggered.
+- **[route](./route.md)** - Let you route a signal with different behaviors: based on given index, loop (one after another), ...
 - **[sliderboard](./sliderboard.md)** - Editable array of silders.
-- **[sliderboard2](./sliderboard2.md)** - Editable, resizable array of sliders.
+- **[sliderboard](./sliderboard.md)** - Editable array of silders.
 - **[toggleboard](./toggleboard.md)** - Editable, resizable array of toggles.
 - **[watcher](./watcher.md)** - Compares two stream values. Every time the condition is met, signal output will send the value of 1.
 
 ---
-*Last updated: 2026-01-02 04:53*
+*Last updated: 2026-01-02 05:14*

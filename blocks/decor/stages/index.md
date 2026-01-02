@@ -4,9 +4,9 @@ This category contains **3** blocks.
 
 ## Available Blocks
 
-- **[prop_highplatform](./prop_highplatform.md)** - 
-- **[prop_platform](./prop_platform.md)** - 
-- **[prop_swimmingpool](./prop_swimmingpool.md)** - 
+- **[bigcave](./bigcave.md)** - 
+- **[mushroom4](./mushroom4.md)** - 
+- **[mushroom5](./mushroom5.md)** - 
 
 ---
-*Last updated: 2026-01-02 04:53*
+*Last updated: 2026-01-02 05:14*
