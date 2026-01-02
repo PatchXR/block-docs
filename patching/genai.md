@@ -2,14 +2,14 @@
 title: Genrative AI in PatchWorld
 description: Create assets using AI 
 published: true
-date: 2026-01-02T23:31:33.258Z
+date: 2026-01-02T23:31:58.687Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-13T19:17:58.788Z
 ---
 
 # Genie device
-1. Open create tab 
+1. Open [library](/patching/library) tab  
 2. Look for the Genie device (search for "Gen AI")
 3. Spawn and follow the instruction on the device
 
