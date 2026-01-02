@@ -2,7 +2,7 @@
 title: Genrative AI in PatchWorld
 description: Create assets using AI 
 published: true
-date: 2026-01-02T23:30:37.908Z
+date: 2026-01-02T23:31:05.534Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-13T19:17:58.788Z
@@ -15,7 +15,7 @@ dateCreated: 2025-08-13T19:17:58.788Z
 
 # Portal
 Alternatively you can use the "Gen AI" section in portal.patchxr.io
-It has some extra parameters and image to 3d model options.
+
 
 # Commands
 
