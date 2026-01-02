@@ -1,16 +1,6 @@
----
-title: All With Variable
-description: Documentation for All With Variable block
-published: true
-date: 2026-01-02T01:53:17.087Z
-tags: blocks, system
-editor: markdown
-dateCreated: 2026-01-02T01:53:17.087Z
----
-
 # all_with_variable
 
-**Category**: System
+**Category**: ⚙️ System
 
 ![all_with_variable thumbnail](https://portal.patchxr.io/block-thumbnails/all_with_variable.png)
 
@@ -25,7 +15,7 @@ Get all the block which has a specific variable. Using the inspector, you can al
 **Search From (Optional)**: if connected: will search from these blocks
 not connected: search variable on all the blocks
 
-**Manual Trigger**: If connected: Trigger the block
+**Manual Trigger**: If connected: Trigger the block
 If not connected: block will trigger automatically.
 
 **Count**: Count the blocks which have the variable.
@@ -36,4 +26,4 @@ If not connected: block will trigger automatically.
 
 ---
 
-*Auto-generated from block documentation*
+*Last updated: 2026-01-02 04:53*

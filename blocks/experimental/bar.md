@@ -1,13 +1,3 @@
----
-title: Bar
-description: Documentation for Bar block
-published: true
-date: 2026-01-02T01:53:17.520Z
-tags: blocks, experimental
-editor: markdown
-dateCreated: 2026-01-02T01:53:17.520Z
----
-
 # bar
 
 **Category**: Experimental
@@ -30,4 +20,4 @@ a
 
 ---
 
-*Auto-generated from block documentation*
+*Last updated: 2026-01-02 04:53*

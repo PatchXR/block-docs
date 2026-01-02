@@ -1,16 +1,6 @@
----
-title: Allpass2
-description: Documentation for Allpass2 block
-published: true
-date: 2026-01-02T01:53:16.523Z
-tags: blocks, audio
-editor: markdown
-dateCreated: 2026-01-02T01:53:16.523Z
----
-
 # allpass2
 
-**Category**: Audio
+**Category**: 🔊 Audio
 
 ![allpass2 thumbnail](https://portal.patchxr.io/block-thumbnails/allpass2.png)
 
@@ -36,4 +26,4 @@ Second order allpass filter for implementing phasors and such.
 
 ---
 
-*Auto-generated from block documentation*
+*Last updated: 2026-01-02 04:53*

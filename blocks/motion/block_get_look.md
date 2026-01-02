@@ -1,16 +1,6 @@
----
-title: Block Get Look
-description: Documentation for Block Get Look block
-published: true
-date: 2026-01-02T01:53:16.582Z
-tags: blocks, motion
-editor: markdown
-dateCreated: 2026-01-02T01:53:16.582Z
----
-
 # block_get_look
 
-**Category**: Motion
+**Category**: 🚀 Motion
 
 ![block_get_look thumbnail](https://portal.patchxr.io/block-thumbnails/block_get_look.png)
 
@@ -32,4 +22,4 @@ Output angle between front/right or up direction of the origin, and the target p
 
 ---
 
-*Auto-generated from block documentation*
+*Last updated: 2026-01-02 04:53*

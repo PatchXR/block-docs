@@ -1,16 +1,6 @@
----
-title: Button Back
-description: Documentation for Button Back block
-published: true
-date: 2026-01-02T01:53:16.706Z
-tags: blocks, interfaces
-editor: markdown
-dateCreated: 2026-01-02T01:53:16.706Z
----
-
 # back_button
 
-**Category**: Interfaces
+**Category**: 🎚️ Interfaces
 
 ![back_button thumbnail](https://portal.patchxr.io/block-thumbnails/back_button.png)
 
@@ -38,4 +28,4 @@ Useful for musical playback control UI.
 
 ---
 
-*Auto-generated from block documentation*
+*Last updated: 2026-01-02 04:53*

@@ -1,16 +1,6 @@
----
-title: Player Position
-description: Documentation for Player Position block
-published: true
-date: 2026-01-02T01:53:17.446Z
-tags: blocks, players
-editor: markdown
-dateCreated: 2026-01-02T01:53:17.446Z
----
-
 # anchor
 
-**Category**: Players
+**Category**: 👨‍👩‍👧‍👦 Players
 
 ![anchor thumbnail](https://portal.patchxr.io/block-thumbnails/anchor.png)
 
@@ -28,4 +18,4 @@ Your key to teleportation! Simply trigger this block to instantly transport your
 
 ---
 
-*Auto-generated from block documentation*
+*Last updated: 2026-01-02 04:53*

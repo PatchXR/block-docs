@@ -1,16 +1,6 @@
----
-title: Bernoulli
-description: Documentation for Bernoulli block
-published: true
-date: 2026-01-02T01:53:16.760Z
-tags: blocks, logic
-editor: markdown
-dateCreated: 2026-01-02T01:53:16.760Z
----
-
 # bernoulli
 
-**Category**: Logic
+**Category**: 🧠 Logic
 
 ![bernoulli thumbnail](https://portal.patchxr.io/block-thumbnails/bernoulli.png)
 
@@ -35,4 +25,4 @@ Routes an incoming jolt to either of two outputs based on probability. With prob
 
 ---
 
-*Auto-generated from block documentation*
+*Last updated: 2026-01-02 04:53*

@@ -1,16 +1,6 @@
----
-title: Get Position
-description: Documentation for Get Position block
-published: true
-date: 2026-01-02T01:53:16.621Z
-tags: blocks, motion
-editor: markdown
-dateCreated: 2026-01-02T01:53:16.621Z
----
-
 # block_relative_position
 
-**Category**: Motion
+**Category**: 🚀 Motion
 
 ![block_relative_position thumbnail](https://portal.patchxr.io/block-thumbnails/block_relative_position.png)
 
@@ -32,4 +22,4 @@ Get X,Y,Z position of the connected block ("target" input). Can also get positio
 
 ---
 
-*Auto-generated from block documentation*
+*Last updated: 2026-01-02 04:53*
