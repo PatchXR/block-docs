@@ -35,4 +35,4 @@ This category contains **29** blocks.
 - **[Wavefolder](./wavefolder.md)** - A wave shaper that looks for values out of the [-1 and 1] range and mirrors the excess back into ...
 
 ---
-*Last updated: 2026-01-02 06:30*
+*Last updated: 2026-01-02 06:31*

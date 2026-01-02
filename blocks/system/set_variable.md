@@ -21,4 +21,4 @@ If not connected: block trigger automatically when Input or Value changes.
 
 ---
 
-*Last updated: 2026-01-02 06:30*
+*Last updated: 2026-01-02 06:31*
