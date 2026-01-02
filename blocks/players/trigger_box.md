@@ -16,4 +16,4 @@ A resizable trigger box which can detect if a player is inside. Can also be used
 
 ---
 
-*Last updated: 2026-01-02 05:47*
+*Last updated: 2026-01-02 05:54*
