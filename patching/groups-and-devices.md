@@ -2,7 +2,7 @@
 title: Groups and Devices
 description: Grouping blocks together
 published: true
-date: 2026-01-02T23:04:46.098Z
+date: 2026-01-02T23:06:13.846Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-13T18:37:04.864Z
@@ -69,6 +69,7 @@ The **Asset Info Page** is the central hub for managing Devices.
 ### How to Open
 - Press the **Trigger button** on the bottom half of any asset card in the Library  
 - Or open the **Radial Menu → Inspector → Open Info Page**
+- It will also open after saving a new device
 
 ### What You Can Do There
 - Edit metadata (name, description, thumbnail)
