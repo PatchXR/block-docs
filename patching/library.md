@@ -2,7 +2,7 @@
 title: Library
 description: aka create tab
 published: true
-date: 2026-01-02T23:23:06.670Z
+date: 2026-01-02T23:24:17.024Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-15T15:54:59.182Z
@@ -17,8 +17,8 @@ The **Library** is your central hub for accessing all assets, blocks, and tools 
 ## Accessing the Library
 
 To open the Library:
-- Press the **Y button** on your left controller  
-- Or press the **B button** on your right controller  
+- Press the **Y button** on your left controller
+- Or press the **B button** on your right controller
 
 This opens the main menu, where you can select the **Library** tab.
 
@@ -35,18 +35,18 @@ The Library uses a sidebar-based navigation system with clearly defined sections
 
 2. **Published**  
    Browse content from other creators, including:
-   - **Recently Published** — the latest community uploads
-   - **Pinned Creators** — creators you’ve pinned for quick access
-   - **User Libraries & Profiles** — click a user to view their assets  
+   - **Recently Published**, the latest community uploads
+   - **Pinned Creators**, creators you have pinned for quick access
+   - **User Libraries and Profiles**, click a user to view their assets  
      - For worlds, select the **world icon** to view their Worlds profile
 
 3. **My Assets**  
    Your personal workspace, containing:
-   - **All My Assets** — everything you’ve created or uploaded
-   - **My Purchases** — assets you’ve bought
-   - **My Likes** — assets you’ve liked
-   - **Spawn History** — anything you’ve spawned (infinitely scrollable)
-   - **Custom Folders** — folders you create to organize assets
+   - **All My Assets**, everything you have created or uploaded
+   - **My Purchases**, assets you have bought
+   - **My Likes**, assets you have liked
+   - **Spawn History**, anything you have spawned (infinitely scrollable)
+   - **Custom Folders**, folders you create to organize assets
 
 4. **Blocks**  
    Fundamental building components for creating Devices, organized by category.
@@ -77,25 +77,25 @@ The Library uses a folder-based hierarchy:
 ### Search Functionality
 
 - The search bar is located at the **bottom** of the interface
-- Search behavior is **context-aware**:
-  - **Library tab** — searches assets, blocks, and devices
-  - **Discover / Community tabs** — searches worlds and users
+- Search behavior is context-aware:
+  - When the **Library** tab is selected, it searches assets, blocks, and devices
+  - When the **Discover** or **Community** tabs are selected, it searches worlds and users
 - Results appear in a dedicated **Search Results** section
 
 ---
 
-### User Profiles & Published Assets
+### User Profiles and Published Assets
 
 - Click a creator’s name to open their profile
 - From a user profile:
-  - In the **native profile**, select **Published Assets** to view their library
-  - In the **library profile**, click the **world count** to view their Worlds profile
-- This allows seamless exploration of both assets and worlds  
+  - In the native profile, select **Published Assets** to view their library
+  - In the library profile, click the **world count** to view their Worlds profile
+- This allows seamless exploration of both assets and worlds
 - A unified profile experience is currently in development
 
 ---
 
-### Filtering & Sorting
+### Filtering and Sorting
 
 **Filter Options**
 - All Types (default)
@@ -118,11 +118,11 @@ The Library uses a folder-based hierarchy:
 
 ---
 
-### Sync / Refresh
+### Sync and Refresh
 
 - Use the **Refresh** button (🔃) to update the Library
 - A secondary refresh option is available in:
-  - **Settings (gear icon) → Library → Refresh**
+  - **Settings (gear icon) > Library > Refresh**
 
 ---
 
@@ -136,7 +136,7 @@ There are three ways to spawn items into your world.
 3. Trigger again on **Spawn**
 4. The item appears at a default position
 
-### Method 2: Drag & Drop
+### Method 2: Drag and Drop
 1. Point at the item’s thumbnail
 2. Hold the **Grip button**
 3. Drag it into world space
@@ -151,7 +151,7 @@ There are three ways to spawn items into your world.
 
 ## Organizing Your Library
 
-### Drag & Drop Organization
+### Drag and Drop Organization
 
 The Library supports always-on organization.
 
@@ -176,11 +176,11 @@ The Library supports always-on organization.
 
 ### My Assets
 Your unified personal content hub:
-- **All My Assets** — everything you’ve created or uploaded
-- **My Purchases** — assets you’ve bought
-- **My Likes** — assets you’ve liked
-- **Spawn History** — recently spawned items
-- **Custom Folders** — folders you create for organization
+- **All My Assets**, everything you have created or uploaded
+- **My Purchases**, assets you have bought
+- **My Likes**, assets you have liked
+- **Spawn History**, recently spawned items
+- **Custom Folders**, folders you create for organization
 
 Use filters to view specific content types in any subsection.
 
@@ -195,7 +195,7 @@ Use filters to view specific content types in any subsection.
 
 ### Published
 - Browse assets from other creators
-- Includes **Recently Published** content and **Pinned Creators**
+- Includes Recently Published content and Pinned Creators
 - Click any creator to explore their assets and worlds
 
 ---
@@ -210,8 +210,8 @@ The core building components of Patchworld:
 
 ## Tips for an Efficient Workflow
 
-1. Use **Search** — remember it adapts to your current tab
-2. Use **Filters** — especially in My Assets
-3. **Refresh** after uploading content to the Portal
+1. Use **Search**, it adapts to your current tab
+2. Use **Filters**, especially in My Assets
+3. Refresh after uploading content to the Portal
 4. Drag assets into folders to stay organized
 5. Explore creator profiles to discover both assets and worlds
