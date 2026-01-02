@@ -2,7 +2,7 @@
 title: What are Blocks?
 description: Blocks are the basic building part in PatchWorld 
 published: true
-date: 2026-01-02T01:53:16.316Z
+date: 2026-01-02T04:42:31.570Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-13T16:20:53.022Z
@@ -27,42 +27,6 @@ The same documentation is available here in the wiki: [Blocks Documentation ](/b
 
 💡 **Note:** These are the very basic building blocks. You will find many more things to spawn in the library, like assets and devices made by the community. The following is focusing only on the very basic building blocks.
 
-**145 blocks** available across **13 categories**
-
----
-
-## 🎛️ Core Building Blocks
-
-| Category | Blocks | Description |
-|----------|--------|-------------|
-| **[Interfaces](/blocks/interfaces)** | 22 | User interaction and control elements |
-| **[Audio](/blocks/audio)** | 25 | Sound generation and processing |
-| **[Logic](/blocks/logic)** | 21 | Data flow and decision making |
-| **[Connectors](/blocks/connectors)** | 16 | Linking and routing signals |
-
-## 🎨 Creative & Interactive
-
-| Category | Blocks | Description |
-|----------|--------|-------------|
-| **[Visuals](/blocks/visuals)** | 11 | Visual effects and displays |
-| **[Motion](/blocks/motion)** | 10 | Movement and animation |
-| **[Player](/blocks/player)** | 7 | User presence and interaction |
-
-## 🌍 World Building
-
-| Category | Blocks | Description |
-|----------|--------|-------------|
-| **[Props](/blocks/props)** | 5 | Decorative and interactive objects |
-| **[Sky](/blocks/sky)** | 6 | Environment and atmosphere |
-| **[Stages](/blocks/stages)** | 3 | Performance spaces |
-| **[Terrains](/blocks/terrains)** | 1 | Ground and landscape |
-
-## 🔧 Advanced & Experimental
-
-| Category | Blocks |
-|----------|--------|
-| **[Experimental](/blocks/experimental)** | 22 |
-| **[System](/blocks/system)** | 6 |
 
 ---
 
