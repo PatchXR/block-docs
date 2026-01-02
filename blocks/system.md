@@ -2,15 +2,49 @@
 title: System
 description: System blocks documentation
 published: true
-date: 2026-01-02T06:45:40.000Z
-tags: blocks, redirect
+date: 2026-01-02T06:48:17.000Z
+tags: blocks, category
 editor: markdown
-dateCreated: 2026-01-02T06:45:40.000Z
+dateCreated: 2026-01-02T06:48:17.000Z
 ---
 
 # ⚙️ System Blocks
 
-[View all System blocks →](./system/index)
+This category contains **28** blocks.
+
+## Available Blocks
+
+- **[All With Variable](./system/all_with_variable)** - Get all the block which has a specific variable. Using the inspector, you can also filter with va...
+- **[Block Compare](./system/block_compare)** - Compare two list of blocks and output a third one:
+==: A & B the same ?
+A-B: all from A which are...
+- **[Block Foreach](./system/block_foreach)** - For each blocks set via the input, it will output the block then its index. Can be use with block...
+- **[Block List](./system/block_list)** - UI which list of all the block, and let you remove/inspect/teleport to them.
+- **[Block Remove](./system/block_remove)** - Remove the given block. A delay can be set.
+- **[Block Spawn](./system/block_spawn)** - You can give it a block or device as reference, and spawn copies of this same block.
+- **[Block Watcher](./system/block_watcher)** - Attaches to other blocks and emits jolts when stuff happens.
+- **[Contain Text](./system/contain_text)** - Checks if the given text blocks contain a specific word or pattern in their content and outputs t...
+- **[Device Landmark](./system/landmark)** - When placed inside a device, it tells where is the center of this device, and where is its front....
+- **[Execute](./system/execute)** - Execute command when triggered. You can reference stream input current values in the command with...
+- **[Fetch Var](./system/fetch_variable)** - Fetch a value (text or number) from the server, can collect value from your other worlds. (usage:...
+- **[Get Name Text](./system/get_name)** - Get the name of the given blocks. (can also give player's or device's name) If multiple blocks ar...
+- **[Get SubPart](./system/get_sub_part)** - Given a block made of different moving parts, this block will output the choosen specific part us...
+- **[Get Variable](./system/get_variable)** - Given a block and a variable name, if the block has the variable:
+will output the value on the bi...
+- **[Join & Apply Text](./system/join_apply_text)** - Given multiple blocks with text, it combine the different text into one and apply to its target b...
+- **[Load Counter](./system/launch_counter)** - Count how many times you loaded this world. (specific to individual users). First visit is zero.
+- **[Post Var](./system/post_variable)** - Post a value (text or number) to the server, can be then collected by other worlds, or other play...
+- **[Preset Manager](./system/preset_manager)** - Will save the state of every connected blocks. It can be triggered to switch between different pr...
+- **[Remove Variable](./system/remove_variable)** - Remove a variable attached to the given block.
+- **[Scene Watcher](./system/scene_watcher)** - Ouputs marble's hits on the mixed reality walls, ceiling or floor. You can also change the bounci...
+- **[Set Active](./system/set_active)** - Similar to set visible.
+- **[Set Dsp Enabled](./system/set_dsp_enabled)** - Enable or disable audio processing for selected blocks.
+- **[Set Interactive](./system/set_interactive)** - 
+- **[Set Lock](./system/set_lock)** - 
+- **[Set Variable](./system/set_variable)** - Given a "VariableName" and a value, it can assign a variable to a block. Helps you then collect a...
+- **[Set Visible](./system/set_visible)** - 
+- **[Snapshots Manager](./system/snapshotsmanager)** - Record different state of the world.
+- **[Web Browser](./system/webview_browser)** - 
 
 ---
-*Redirects to: /blocks/system/index*
+*Last updated: 2026-01-02 06:48*
