@@ -24,4 +24,4 @@ Tip: you can add prefix to restrict to a player, getting the player's name or ID
 
 ---
 
-*Last updated: 2026-01-02 06:31*
+*Last updated: 2026-01-02 06:41*

@@ -32,4 +32,4 @@ sp: sample ...
 - **[Watcher](./watcher.md)** - Compares two stream values. Every time the condition is met, signal output will send the value of 1.
 
 ---
-*Last updated: 2026-01-02 06:31*
+*Last updated: 2026-01-02 06:41*
