@@ -2,7 +2,7 @@
 title: Privacy Policy
 description: 
 published: true
-date: 2026-01-03T20:10:55.974Z
+date: 2026-01-03T20:22:30.084Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-03T19:22:33.037Z
@@ -12,7 +12,7 @@ dateCreated: 2026-01-03T19:22:33.037Z
 
 **Last Updated: January 3, 2026**
 
-PatchXR AG (“PatchXR”, “we”, “us”, or “our”) respects your privacy. This Privacy Policy explains how we collect, use, store, and share information when you use the PatchWorld virtual reality application and related backend services (the **“Service”**) on supported VR platforms.
+PatchXR AG (“PatchXR”, “we”, “us”, or “our”) respects your privacy. This Privacy Policy explains how we collect, use, store, and share information when you use the PatchWorld virtual reality application and related backend services (the **“Service”**) on supported platforms.
 
 ---
 
