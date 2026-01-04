@@ -2,7 +2,7 @@
 title: Privacy Policy
 description: 
 published: true
-date: 2026-01-04T17:47:32.216Z
+date: 2026-01-04T18:20:50.411Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-03T19:22:33.037Z
@@ -102,10 +102,11 @@ All invites and sharing actions are user-initiated and occur only between existi
 
 When you use AI-powered features, we store:
 
-- Text prompts you submit  
-- Generated output (only if you choose to save it)  
+- Text/media prompts you submit  
+- Generated output 
 
 AI interactions are optional and occur only when you actively use these features.
+To provide AI-generated results, user-submitted content (such as text prompts or media) is transmitted to third-party AI service providers solely for the purpose of generating the requested output. We do not transmit Meta account identifiers, usernames, or other account-level personal information as part of these requests.
 
 ---
 
