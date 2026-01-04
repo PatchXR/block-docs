@@ -2,14 +2,14 @@
 title: Console Commands
 description: Updated via Unity Editor script
 published: true
-date: 2025-11-25T18:26:49.695Z
+date: 2026-01-04T20:22:24.266Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-25T16:36:10.758Z
 ---
 
 # Console Commands
-_Generated on 11/25/2025 7:26:43 PM_
+_Generated on 1/4/2026 9:22:20 PM_
 
 ## How to use Console Commands
 Console commands can be executed in PatchXR using the **Console Block**, **Execute Block**, or **Cmd Block**.
@@ -76,7 +76,7 @@ ToasterMessage "Hello, world!"
 [`DisableGhostHitInteractions`](#disableghosthitinteractions) · [`DisableGhostInteractions`](#disableghostinteractions) · [`RGR`](#rgr)
 
 ### Other
-[`AssignAccessLevel`](#assignaccesslevel) · [`CallEvent`](#callevent) · [`ChangeFogColor`](#changefogcolor) · [`ChangeFogDistance`](#changefogdistance) · [`CheckChangeRate`](#checkchangerate) · [`CurrentStateToTemp`](#currentstatetotemp) · [`EnableBeta`](#enablebeta) · [`GetCpuUsage`](#getcpuusage) · [`Go`](#go) · [`GoToTemp`](#gototemp) · [`LoadRPMAvatar`](#loadrpmavatar) · [`MakeCircle`](#makecircle) · [`OptoutAnalytics`](#optoutanalytics) · [`QuestBoostThreshold`](#questboostthreshold) · [`QuestUnBoostThreshold`](#questunboostthreshold) · [`Save`](#save) · [`SelectAll`](#selectall) · [`SendAnalyticsEvent`](#sendanalyticsevent) · [`SetGameMode`](#setgamemode) · [`SetMarbleLifeTime`](#setmarblelifetime) · [`SetMarbleMaxCount`](#setmarblemaxcount) · [`SetMarbleMaxDistance`](#setmarblemaxdistance) · [`SetPowerBlockVisible`](#setpowerblockvisible) · [`SetTime`](#settime) · [`SetTimeScale`](#settimescale) · [`SetWorldResolutionMultiplier`](#setworldresolutionmultiplier) · [`ShowBlockList`](#showblocklist) · [`SpawnAsync`](#spawnasync) · [`Test123`](#test123) · [`TestInvite`](#testinvite) · [`TestRequest`](#testrequest)
+[`AllowControllerTipHide`](#allowcontrollertiphide) · [`AssignAccessLevel`](#assignaccesslevel) · [`CallEvent`](#callevent) · [`ChangeFogColor`](#changefogcolor) · [`ChangeFogDistance`](#changefogdistance) · [`CheckChangeRate`](#checkchangerate) · [`CurrentStateToTemp`](#currentstatetotemp) · [`EnableBeta`](#enablebeta) · [`GenerateModelFromImage`](#generatemodelfromimage) · [`GetCpuUsage`](#getcpuusage) · [`Go`](#go) · [`GoToTemp`](#gototemp) · [`LoadRPMAvatar`](#loadrpmavatar) · [`MakeCircle`](#makecircle) · [`OptoutAnalytics`](#optoutanalytics) · [`PhysicsClearOverride`](#physicsclearoverride) · [`PhysicsFreeze`](#physicsfreeze) · [`PhysicsReset`](#physicsreset) · [`PhysicsSavePositions`](#physicssavepositions) · [`PhysicsUnfreeze`](#physicsunfreeze) · [`QuestBoostThreshold`](#questboostthreshold) · [`QuestUnBoostThreshold`](#questunboostthreshold) · [`Save`](#save) · [`SelectAll`](#selectall) · [`SendAnalyticsEvent`](#sendanalyticsevent) · [`SetGameMode`](#setgamemode) · [`SetMarbleLifeTime`](#setmarblelifetime) · [`SetMarbleMaxCount`](#setmarblemaxcount) · [`SetMarbleMaxDistance`](#setmarblemaxdistance) · [`SetPowerBlockVisible`](#setpowerblockvisible) · [`SetTime`](#settime) · [`SetTimeScale`](#settimescale) · [`SetWorldResolutionMultiplier`](#setworldresolutionmultiplier) · [`ShowBlockList`](#showblocklist) · [`SpawnAsync`](#spawnasync) · [`Test123`](#test123) · [`TestInvite`](#testinvite) · [`TestRequest`](#testrequest)
 
 ---
 
@@ -103,6 +103,13 @@ Console command to set the ableton link latency compensation.
 **Category:** World Loading & Navigation
 
 Command to specify which worlds are related to the current one. Related worlds will show up earlier in suggestions.
+
+---
+
+### AllowControllerTipHide
+**Parameters:** `bool left, bool right`
+**Category:** Other
+
 
 ---
 
@@ -356,6 +363,13 @@ Change how the fog varies according to the distance.
 
 ---
 
+### GenerateModelFromImage
+**Parameters:** ` sv, MuXSelection& selection, MuXConsole& console`
+**Category:** Other
+
+
+---
+
 ### GenerateSkybox
 **Parameters:** `string prompt`
 **Category:** Gen AI
@@ -500,6 +514,41 @@ Join to latest room
 **Category:** Other
 
 Disable analytics across all sessions
+
+---
+
+### PhysicsClearOverride
+**Category:** Other
+
+Clears any manual physics freeze override and returns to automatic game mode logic. In multiplayer, broadcasts to all players.
+
+---
+
+### PhysicsFreeze
+**Category:** Other
+
+Freezes physics simulation, making all physics objects kinematic. Overrides the automatic game mode logic until PhysicsUnfreeze or PhysicsClearOverride is called. In multiplayer, broadcasts to all players.
+
+---
+
+### PhysicsReset
+**Category:** Other
+
+Resets all physics objects to their edit mode positions and zeroes velocities. Useful for resetting physics simulations without toggling play/edit mode. In multiplayer, broadcasts to all players.
+
+---
+
+### PhysicsSavePositions
+**Category:** Other
+
+Saves current positions of all physics objects as their new starting positions. Useful for updating the reset point after objects have settled or been repositioned. In multiplayer, broadcasts to all players.
+
+---
+
+### PhysicsUnfreeze
+**Category:** Other
+
+Unfreezes physics simulation, allowing physics objects to move again. Overrides the automatic game mode logic until PhysicsFreeze or PhysicsClearOverride is called. In multiplayer, broadcasts to all players.
 
 ---
 
@@ -670,10 +719,10 @@ Enable or disable Swim Scaling in player preference settings.
 ---
 
 ### SetGlobalTeleport
-**Parameters:** `bool enable`
+**Parameters:** `int mode`
 **Category:** Player & Movement
 
-Enable or disable teleport in player preference settings.
+-1: do nothing 0: no joystick up movement 1: teleport 2: jetpack
 
 ---
 
@@ -898,10 +947,10 @@ Force Swim Scaling feature for current world
 ---
 
 ### SetWorldTeleport
-**Parameters:** `bool enable`
+**Parameters:** `int mode`
 **Category:** Player & Movement
 
-Force teleport feature for current world
+-1: not forcing 0: forcing no joystick up movement 1: teleport 2: jetpack
 
 ---
 
