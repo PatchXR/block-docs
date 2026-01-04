@@ -2,7 +2,7 @@
 title: Privacy Policy
 description: 
 published: true
-date: 2026-01-03T20:22:30.084Z
+date: 2026-01-04T09:27:27.969Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-03T19:22:33.037Z
@@ -54,7 +54,7 @@ We store content that you actively create or save within the Service, including:
 
 - Virtual worlds, music, instruments, and assets  
 - Project metadata associated with your account  
-- Uploaded or generated media you choose to save  
+- Uploaded or generated media you choose to save, such as: Audio recordings, virtual pictures, and avatar movement recordings  
 
 This content is stored in our cloud infrastructure and databases and remains associated with your account until deleted by you or upon account deletion.
 
