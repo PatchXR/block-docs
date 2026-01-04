@@ -2,7 +2,7 @@
 title: Privacy Policy
 description: 
 published: true
-date: 2026-01-04T21:47:40.218Z
+date: 2026-01-04T21:47:52.178Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-03T19:22:33.037Z
@@ -10,7 +10,7 @@ dateCreated: 2026-01-03T19:22:33.037Z
 
 # Privacy Policy for PatchWorld
 
-**Last Updated:** January 3, 2026
+**Last Updated:** January 4, 2026
 
 PatchXR AG (“PatchXR”, “we”, “us”, or “our”) respects your privacy. This Privacy Policy explains how we collect, use, store, and share information when you use the PatchWorld virtual reality application and related backend services (the **“Service”**) on supported platforms, including the Meta Horizon platform.
 
