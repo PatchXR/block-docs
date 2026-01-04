@@ -2,14 +2,14 @@
 title: Console Commands
 description: Updated via Unity Editor script
 published: true
-date: 2026-01-04T20:22:24.266Z
+date: 2026-01-04T21:00:03.126Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-25T16:36:10.758Z
 ---
 
 # Console Commands
-_Generated on 1/4/2026 9:22:20 PM_
+_Generated on 1/4/2026 9:59:59 PM_
 
 ## How to use Console Commands
 Console commands can be executed in PatchXR using the **Console Block**, **Execute Block**, or **Cmd Block**.
@@ -58,7 +58,7 @@ ToasterMessage "Hello, world!"
 [`AllowControlPanel`](#allowcontrolpanel) · [`AllowEditing`](#allowediting) · [`AllowForking`](#allowforking) · [`AllowJoltPatching`](#allowjoltpatching) · [`AllowOpenBubbles`](#allowopenbubbles) · [`AllowRadialMenu`](#allowradialmenu) · [`Autosaving`](#autosaving) · [`DisplayButtonText`](#displaybuttontext) · [`DisplayWirePlayMode`](#displaywireplaymode) · [`EditModeNumbers`](#editmodenumbers) · [`HideAll`](#hideall) · [`LockPatch`](#lockpatch) · [`PlayModeNumbers`](#playmodenumbers) · [`RemoveControlPanel`](#removecontrolpanel) · [`SetGridEnabled`](#setgridenabled) · [`SetRadialMenuProfile`](#setradialmenuprofile) · [`ShowAllHidden`](#showallhidden) · [`ShowHidden`](#showhidden) · [`ShowTooltips`](#showtooltips)
 
 ### Gen AI
-[`GenerateAudio`](#generateaudio) · [`GenerateImage`](#generateimage) · [`GenerateModel`](#generatemodel) · [`GenerateSkybox`](#generateskybox) · [`GetSkyboxStyles`](#getskyboxstyles)
+[`GenerateAudio`](#generateaudio) · [`GenerateImage`](#generateimage) · [`GenerateModel`](#generatemodel) · [`GenerateModelFromImage`](#generatemodelfromimage) · [`GenerateSkybox`](#generateskybox) · [`GetSkyboxStyles`](#getskyboxstyles)
 
 ### Timeline
 [`TimelineLength`](#timelinelength) · [`TimelineLoop`](#timelineloop) · [`TimelinePlay`](#timelineplay) · [`TimelineStop`](#timelinestop)
@@ -76,7 +76,7 @@ ToasterMessage "Hello, world!"
 [`DisableGhostHitInteractions`](#disableghosthitinteractions) · [`DisableGhostInteractions`](#disableghostinteractions) · [`RGR`](#rgr)
 
 ### Other
-[`AllowControllerTipHide`](#allowcontrollertiphide) · [`AssignAccessLevel`](#assignaccesslevel) · [`CallEvent`](#callevent) · [`ChangeFogColor`](#changefogcolor) · [`ChangeFogDistance`](#changefogdistance) · [`CheckChangeRate`](#checkchangerate) · [`CurrentStateToTemp`](#currentstatetotemp) · [`EnableBeta`](#enablebeta) · [`GenerateModelFromImage`](#generatemodelfromimage) · [`GetCpuUsage`](#getcpuusage) · [`Go`](#go) · [`GoToTemp`](#gototemp) · [`LoadRPMAvatar`](#loadrpmavatar) · [`MakeCircle`](#makecircle) · [`OptoutAnalytics`](#optoutanalytics) · [`PhysicsClearOverride`](#physicsclearoverride) · [`PhysicsFreeze`](#physicsfreeze) · [`PhysicsReset`](#physicsreset) · [`PhysicsSavePositions`](#physicssavepositions) · [`PhysicsUnfreeze`](#physicsunfreeze) · [`QuestBoostThreshold`](#questboostthreshold) · [`QuestUnBoostThreshold`](#questunboostthreshold) · [`Save`](#save) · [`SelectAll`](#selectall) · [`SendAnalyticsEvent`](#sendanalyticsevent) · [`SetGameMode`](#setgamemode) · [`SetMarbleLifeTime`](#setmarblelifetime) · [`SetMarbleMaxCount`](#setmarblemaxcount) · [`SetMarbleMaxDistance`](#setmarblemaxdistance) · [`SetPowerBlockVisible`](#setpowerblockvisible) · [`SetTime`](#settime) · [`SetTimeScale`](#settimescale) · [`SetWorldResolutionMultiplier`](#setworldresolutionmultiplier) · [`ShowBlockList`](#showblocklist) · [`SpawnAsync`](#spawnasync) · [`Test123`](#test123) · [`TestInvite`](#testinvite) · [`TestRequest`](#testrequest)
+[`AllowControllerTipHide`](#allowcontrollertiphide) · [`AssignAccessLevel`](#assignaccesslevel) · [`CallEvent`](#callevent) · [`ChangeFogColor`](#changefogcolor) · [`ChangeFogDistance`](#changefogdistance) · [`CheckChangeRate`](#checkchangerate) · [`CurrentStateToTemp`](#currentstatetotemp) · [`EnableBeta`](#enablebeta) · [`GetCpuUsage`](#getcpuusage) · [`Go`](#go) · [`GoToTemp`](#gototemp) · [`LoadRPMAvatar`](#loadrpmavatar) · [`MakeCircle`](#makecircle) · [`OptoutAnalytics`](#optoutanalytics) · [`PhysicsClearOverride`](#physicsclearoverride) · [`PhysicsFreeze`](#physicsfreeze) · [`PhysicsReset`](#physicsreset) · [`PhysicsSavePositions`](#physicssavepositions) · [`PhysicsUnfreeze`](#physicsunfreeze) · [`QuestBoostThreshold`](#questboostthreshold) · [`QuestUnBoostThreshold`](#questunboostthreshold) · [`Save`](#save) · [`SelectAll`](#selectall) · [`SendAnalyticsEvent`](#sendanalyticsevent) · [`SetGameMode`](#setgamemode) · [`SetMarbleLifeTime`](#setmarblelifetime) · [`SetMarbleMaxCount`](#setmarblemaxcount) · [`SetMarbleMaxDistance`](#setmarblemaxdistance) · [`SetPowerBlockVisible`](#setpowerblockvisible) · [`SetTime`](#settime) · [`SetTimeScale`](#settimescale) · [`SetWorldResolutionMultiplier`](#setworldresolutionmultiplier) · [`ShowBlockList`](#showblocklist) · [`SpawnAsync`](#spawnasync) · [`Test123`](#test123) · [`TestInvite`](#testinvite) · [`TestRequest`](#testrequest)
 
 ---
 
@@ -342,36 +342,36 @@ Change how the fog varies according to the distance.
 
 ---
 
-### GenerateAudio
+### gen_audio
 **Parameters:** `int seconds, int steps, string prompt`
 **Category:** Gen AI
 
 
 ---
 
-### GenerateImage
+### gen_image
 **Parameters:** `string prompt`
 **Category:** Gen AI
 
 
 ---
 
-### GenerateModel
+### gen_mesh
+**Parameters:** `string asset_id_or_url_or_path, [caption:"text"], [shape_only:true/false], [remove_bg:true/false], [steps:int]`
+**Category:** Gen AI
+
+
+---
+
+### gen_model
 **Parameters:** `string prompt`
 **Category:** Gen AI
 
 
 ---
 
-### GenerateModelFromImage
-**Parameters:** ` sv, MuXSelection& selection, MuXConsole& console`
-**Category:** Other
-
-
----
-
-### GenerateSkybox
-**Parameters:** `string prompt`
+### gen_skybox
+**Parameters:** `int style_id, string prompt`
 **Category:** Gen AI
 
 
@@ -379,12 +379,6 @@ Change how the fog varies according to the distance.
 
 ### GetCpuUsage
 **Category:** Other
-
-
----
-
-### GetSkyboxStyles
-**Category:** Gen AI
 
 
 ---
@@ -995,6 +989,12 @@ Open hub from the console
 **Category:** Editing & Patch Settings
 
 Show or hide tooltips in current patch.
+
+---
+
+### skybox_styles
+**Category:** Gen AI
+
 
 ---
 
