@@ -2,7 +2,7 @@
 title: Privacy Policy
 description: 
 published: true
-date: 2026-01-04T18:20:50.411Z
+date: 2026-01-04T21:47:40.218Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-03T19:22:33.037Z
@@ -36,11 +36,11 @@ VAT / UID: CHE-316.817.994
 
 We store only the data necessary to operate PatchWorld and provide its features.
 
-### A. Account & Authentication Data (USER_ID / USER_PROFILE)
+### A. Account & Authentication Data 
 
 When you first use PatchWorld, you are automatically signed in using your Meta account. We store:
 
-- Platform User ID (USER_ID), used as your internal PatchWorld account identifier  
+- Platform User ID, used as your internal PatchWorld account identifier  
 - Public Meta username, used as your default PatchWorld display name (which you may change at any time)  
 - Authentication and session tokens  
 - Purchase and entitlement verification data  
