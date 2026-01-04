@@ -2,7 +2,7 @@
 title: Privacy Policy
 description: 
 published: true
-date: 2026-01-04T09:27:27.969Z
+date: 2026-01-04T17:47:32.216Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-03T19:22:33.037Z
@@ -10,9 +10,9 @@ dateCreated: 2026-01-03T19:22:33.037Z
 
 # Privacy Policy for PatchWorld
 
-**Last Updated: January 3, 2026**
+**Last Updated:** January 3, 2026
 
-PatchXR AG (“PatchXR”, “we”, “us”, or “our”) respects your privacy. This Privacy Policy explains how we collect, use, store, and share information when you use the PatchWorld virtual reality application and related backend services (the **“Service”**) on supported platforms.
+PatchXR AG (“PatchXR”, “we”, “us”, or “our”) respects your privacy. This Privacy Policy explains how we collect, use, store, and share information when you use the PatchWorld virtual reality application and related backend services (the **“Service”**) on supported platforms, including the Meta Horizon platform.
 
 ---
 
@@ -28,23 +28,25 @@ Switzerland
 Commercial Register Number: CH-020.3.049.427-2  
 VAT / UID: CHE-316.817.994  
 
+**Contact for data protection matters:** gdpr@patchxr.com
+
 ---
 
 ## 2. Information We Store
 
 We store only the data necessary to operate PatchWorld and provide its features.
 
-### A. Account & Authentication Data
+### A. Account & Authentication Data (USER_ID / USER_PROFILE)
 
-When you log in using a supported platform account (e.g. Meta):
+When you first use PatchWorld, you are automatically signed in using your Meta account. We store:
 
-- Platform User ID (used as your internal account identifier)  
-- Public username / display name  
-- Avatar or profile representation data (where applicable)  
+- Platform User ID (USER_ID), used as your internal PatchWorld account identifier  
+- Public Meta username, used as your default PatchWorld display name (which you may change at any time)  
 - Authentication and session tokens  
-- Entitlement and purchase verification data  
+- Purchase and entitlement verification data  
 
-We do **not** store friends lists or social graphs.
+We do **not** collect or store real names, email addresses, or contact details.  
+We do **not** access or use Meta avatar representations.
 
 ---
 
@@ -54,32 +56,77 @@ We store content that you actively create or save within the Service, including:
 
 - Virtual worlds, music, instruments, and assets  
 - Project metadata associated with your account  
-- Uploaded or generated media you choose to save, such as: Audio recordings, virtual pictures, and avatar movement recordings  
+- Uploaded or generated media you choose to save, such as audio recordings, virtual pictures, and avatar or interaction movement recordings  
 
-This content is stored in our cloud infrastructure and databases and remains associated with your account until deleted by you or upon account deletion.
+This content remains private by default unless you choose to make it public or share it with other users. Content remains associated with your account until you delete it or request account deletion.
+
+#### Shared Multiplayer Content
+
+PatchWorld includes multiplayer experiences that take place in shared virtual worlds. When you voluntarily join a multiplayer session, actions you perform within that shared world — such as placing or modifying objects, interacting with instruments, contributing to the world state, or recording audio or other media — may become part of that shared environment.
+
+If another participant chooses to save the world or its state, content created during the session, including content reflecting your interactions or recordings that you intentionally create or save using in-app recording features, may be saved as part of that world even if you did not personally initiate a save action. This reflects the collaborative nature of shared world creation in PatchWorld.
+
+Content saved in this way is treated as user-generated content associated with the saved world and is subject to the privacy, visibility, and sharing settings applied by the user who saved it.
 
 ---
 
-### C. AI Feature Input Data
+### C. Friends Data (FRIENDS)
+
+PatchWorld may access Meta friends information **only when you open the world share menu**, in order to show you which of your Meta friends also own and use PatchWorld so that you can share a world privately with them.
+
+- We do **not** store your Meta friends list or any friends data on our servers  
+- Friends information is used only **on-demand** to display eligible recipients in the sharing menu  
+- This information is not made public within PatchWorld and is not shared with other users  
+
+---
+
+### D. Invites & World Sharing (INVITES)
+
+PatchWorld supports private world sharing between users who:
+
+- Already own PatchWorld, and  
+- Are currently active PatchWorld users  
+
+When you use the world sharing menu, PatchWorld may display Meta friends who also own PatchWorld at the top of the list to simplify private sharing.
+
+PatchWorld does **not**:
+
+- Invite non-users to the platform  
+- Send invitations to Meta friends who do not already own PatchWorld  
+
+All invites and sharing actions are user-initiated and occur only between existing PatchWorld users.
+
+---
+
+### E. AI Feature Input Data
 
 When you use AI-powered features, we store:
 
 - Text prompts you submit  
-- Generated output (if you choose to save it)
+- Generated output (only if you choose to save it)  
 
-AI interactions are optional and only occur when you actively use these features.
+AI interactions are optional and occur only when you actively use these features.
 
 ---
 
-### D. Transactional Data
+### F. Transactional Data (IAP)
+
+PatchWorld supports in-app purchases through platform providers.
+
+We store:
 
 - Records of virtual items, entitlements, and in-app currency balances  
 
-We do **not** store payment card details or financial account information. Payments are processed by the platform provider.
+We do **not**:
+
+- Process payments directly  
+- Receive or store payment card details or financial account information  
+
+Payment processing is handled entirely by the platform provider. We receive only purchase and entitlement confirmation necessary to unlock purchased content.
 
 ---
 
-### E. Technical & Log Data
+### G. Technical & Log Data
 
 For security, stability, and debugging, we may temporarily store:
 
@@ -87,142 +134,127 @@ For security, stability, and debugging, we may temporarily store:
 - Device and application information  
 - Error and crash logs  
 
+We do **not** access or use the device Advertising ID.
+
 ---
 
 ## 3. How We Use Your Data
 
-We process your data for the following purposes:
+We process personal data solely for the following purposes:
 
-- **Authentication & Account Management**  
-- **Service Operation** (saving content, loading worlds, multiplayer functionality)  
-- **AI Content Generation** (based on user-initiated prompts)  
-- **Purchase & Entitlement Verification**  
-- **Security, Fraud Prevention & Debugging**  
-- **Service Communication** (notifications and updates, if enabled)
+- Account authentication and management  
+- Operating core app features (saving content, loading worlds, multiplayer functionality)  
+- Enabling private world sharing between PatchWorld users  
+- AI content generation based on user-initiated prompts  
+- Purchase and entitlement verification  
+- Security, fraud prevention, and debugging  
+- Service communication (notifications and updates, if enabled)  
+
+If we use analytics to improve PatchWorld, we do so using aggregated and/or de-identified data and do not use analytics to identify individual users or devices.
+
+Multiplayer interactions and shared world persistence are core features of PatchWorld. Data generated during these interactions is processed solely to enable collaborative gameplay and content creation and is not used for monitoring, profiling, or advertising.
+
+### Legal Basis for Processing
+
+We process personal data where necessary to perform our contract with you (providing PatchWorld and its features), to comply with legal obligations, to protect our legitimate interests in operating and securing the Service, and, where applicable, based on your consent.
+
+Where processing is based on consent, you may withdraw your consent at any time without affecting prior lawful processing.
+
+When PatchWorld is used via the Meta Horizon platform, Meta-sourced user data is processed only to run, support, and maintain the Service, improve the in-app experience using aggregated or de-identified insights, and comply with legal obligations, in accordance with Meta’s Developer Data Use Policy.
 
 ---
 
 ## 4. Data Sharing & Third Parties
 
-We do **not** sell your personal data.
+We do **not** sell personal data.
 
-We share data only when necessary to operate the Service or when you actively initiate a feature that requires it.
+We share data only:
 
-### A. Infrastructure & Hosting Providers
+- When necessary to operate the Service  
+- When you actively initiate a sharing feature  
+- When required by law  
 
-We use third-party cloud infrastructure and managed database services to:
+### Infrastructure & Service Providers
 
-- Store account data and user-generated content  
-- Host application servers and databases  
-
-These providers process data only on our instructions and are contractually bound to protect it.
-
----
-
-### B. AI Processing Services
-
-When you actively use AI features:
-
-- Your **text prompts** and, where applicable, **media content** are sent to external AI processing services solely to generate the requested output  
-
-We do **not** send:
-- Platform User IDs  
-- Usernames  
-- Account identifiers  
-- Contact or profile data  
-
-AI providers receive only the content required to fulfill the request.
+We use third-party service providers (such as cloud hosting and database providers) to operate PatchWorld. These providers process data only on our instructions and under confidentiality and data-protection obligations.
 
 ---
 
-### C. Platform & Entitlement Services
+## 5. Meta Horizon Platform – Specific Data Use
 
-We exchange authentication tokens and entitlement data with platform providers to:
+### Advertising
 
-- Verify your identity  
-- Confirm ownership of purchases  
+PatchWorld does **not** show ads and does **not** access or use the device Advertising ID.
 
----
+### Microphone & Voice Chat
 
-### D. Community & Notification Services
+PatchWorld may request microphone access for real-time multiplayer voice chat and for user-initiated audio recording.
 
-We may share limited, publicly visible in-app information with external communication services for community or operational notifications.
+We do **not** store voice chat data. Audio recordings are stored only when you explicitly record and save them.
 
-This may include:
-- Your public username
-- High-level activity messages (e.g. “<username> published a world”)
+### Movement & Interaction Recording
 
-We do **not** share:
-- Platform User IDs
-- Account identifiers
-- Contact information
-- Authentication data
-- Private user content
-
-These notifications reflect actions you have taken within the Service and display only information that is already visible to other users in the app.
----
-
-## 5. International Data Transfers
-
-PatchXR is based in Switzerland. Your data may be processed in countries outside Switzerland or the EEA, depending on the location of our infrastructure and service providers.
-
-Where required, we ensure appropriate safeguards are in place, such as recognized contractual protections.
+PatchWorld allows you to record avatar movement and interactions with virtual items only when you explicitly enable recording. We do **not** store continuous movement or gesture data without your knowledge.
 
 ---
 
-## 6. Data Retention
+## 6. International Data Transfers
 
-- **Account Data & Purchases**: Stored for as long as your account remains active  
-- **User-Generated Content**: Stored until you delete it or request account deletion  
-- **AI Interaction Logs**: Automatically deleted after a limited retention period  
-- **Technical Logs**: Rotated and deleted periodically  
+PatchXR is based in Switzerland. Data may be processed outside Switzerland or the EEA depending on infrastructure location. Where required, we rely on appropriate safeguards, including recognized contractual protections such as the European Commission’s Standard Contractual Clauses.
 
 ---
 
-## 7. Your Rights & Account Deletion
+## 7. Data Retention
 
-You have the right to access, correct, or delete your personal data in accordance with applicable data protection laws.
+We retain personal data only as long as necessary:
+
+- Account & Purchase Data: While your account is active and as required by law  
+- User-Generated Content: Until you delete it or request account deletion  
+- Friends Data: We do **not** store friends data on our servers  
+- AI Interaction Logs: Deleted after a limited retention period  
+- Technical Logs: Retained for a limited period (generally no longer than 12 months)  
+
+### Shared World Content Retention
+
+Where content is saved by another user as part of a shared multiplayer world, your ability to directly delete or modify that content may be limited, as control over the saved world rests with the user who saved it. In such cases, PatchXR will assess deletion or modification requests in accordance with applicable data protection laws and, where required, delete or anonymize personal data without undue delay, while balancing those requests against the rights and interests of other users who participated in creating or saving the shared content.
+
+Data is deleted or anonymized when no longer required or upon request.
+
+---
+
+## 8. Your Rights & Account Deletion
+
+You have the right to access, correct, or delete your personal data and to object to certain processing activities in accordance with applicable data protection laws.
 
 ### How to Request Deletion
 
 To request deletion of your PatchWorld account and associated data:
 
-- Email: gdpr@patchxr.com 
-- Subject: **“Account Deletion Request – [Your Username]”**  
+- **Email:** gdpr@patchxr.com  
+- **Subject:** “Account Deletion Request – [Your Username]”  
 
-Verified requests are processed within **30 days** and include:
+This email address is our primary, clearly marked method for data correction and deletion requests.
 
-- Deletion of account identifiers  
-- Removal of stored purchases and inventory records  
-- Deletion or anonymization of user-generated content  
+Verified requests are processed within 30 days and result in permanent deletion of your account, including saved content and virtual currency.
 
-**Note:** Account deletion is permanent and results in loss of all saved content and virtual currency.
+You may also lodge a complaint with the Swiss Federal Data Protection and Information Commissioner (FDPIC).
 
 ---
 
-## 8. Children’s Privacy
+## 9. Security & Responsible Disclosure
 
-PatchWorld is not intended for children under the age of **13** (or the applicable age of digital consent). We do not knowingly collect personal data from children.
+We maintain appropriate technical and organizational security measures.
+
+If you believe you have identified a security vulnerability in PatchWorld, please report it to: **support@patchxr.com**.
 
 ---
 
-## 9. Changes to This Policy
+## 10. Children’s Privacy
+
+PatchWorld is not intended for children under the age of 13 (or the applicable age of digital consent). We do not knowingly collect personal data from children.
+
+---
+
+## 11. Changes to This Policy
 
 We may update this Privacy Policy from time to time. Material changes will be reflected by updating the “Last Updated” date.
-
----
-
-## 10. Contact Us
-
-If you have questions about this Privacy Policy or our data practices, please contact us:
-
-**PatchXR AG**  
-Chriesbaumstrasse 6  
-8604 Volketswil  
-Switzerland  
-
-**Email:** gdpr@patchxr.com
-
-
-
-
