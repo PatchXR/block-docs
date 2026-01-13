@@ -2,7 +2,7 @@
 title: 🌍 Introduction to PatchWorld
 description: 
 published: true
-date: 2025-08-13T18:04:59.811Z
+date: 2026-01-13T01:19:20.277Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-12T13:58:09.967Z
@@ -113,6 +113,10 @@ Unlike traditional DAWs or VR apps that confine users to predefined modes, Patch
 🎭 **Customizable Avatars** Animate characters with motion capture for live performances
 
 📹 **Recording & Export** Capture creations as video, audio, or mocap data to share anywhere
+
+🧠 **Gen AI** optional AI tools to generate 3D meshes, audio, images, and skyboxes
+
+🛒 **Community Marketplace** sell/buy devices
 
 ---
 
