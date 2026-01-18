@@ -2,7 +2,7 @@
 title: Releases
 description: 
 published: true
-date: 2026-01-02T15:03:27.312Z
+date: 2026-01-18T13:43:43.480Z
 tags: 
 editor: markdown
 dateCreated: 2025-12-03T13:08:04.491Z
@@ -11,7 +11,7 @@ dateCreated: 2025-12-03T13:08:04.491Z
 | Channel | Version | Build | Updated |
 |---------|---------|-------|---------|
 | 🟢 live| 77.0.3 | 879 | Jan 2, 2026
-| 🟡 Beta |-  | - | -
+| 🟡 Beta |77.0.4  | 880 | Jan 17, 2026
 
 
 Whats new ?
