@@ -2,7 +2,7 @@
 title: Releases
 description: 
 published: true
-date: 2026-01-18T13:43:43.480Z
+date: 2026-01-18T13:44:10.336Z
 tags: 
 editor: markdown
 dateCreated: 2025-12-03T13:08:04.491Z
@@ -15,6 +15,9 @@ dateCreated: 2025-12-03T13:08:04.491Z
 
 
 Whats new ?
+
+[77.0.4 (880)](/whatsnew/880) Released to live : Jan 17, 2026
+
 [77.0.3 (879)](/whatsnew/879) Released to live : Jan 2, 2026
 
 [77.0.2 (877)](/whatsnew/877) Released to live : Dec 28, 2025
