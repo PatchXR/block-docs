@@ -2,7 +2,7 @@
 title: adb
 description: 
 published: true
-date: 2025-09-18T10:09:58.925Z
+date: 2026-01-21T23:21:13.368Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T15:10:09.386Z
@@ -26,10 +26,10 @@ adb logcat -d -s Unity > unity_log.txt
 ```
 Gets recent Unity logs still in memory (usually last few minutes). Not reliable for older logs due to limited buffer.
 
-## Increase Buffer Size (Optional)
-If you want more history when dumping:
+## Increase Buffer Size 
+you want more history when dumping, so set :
 ```bash
-adb logcat -G 4M
+adb logcat -G 128M
 ```
 Sets buffer to 4MB (default is usually 256KB). May require root on some devices.
 
