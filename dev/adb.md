@@ -2,7 +2,7 @@
 title: adb
 description: 
 published: true
-date: 2026-01-21T23:21:13.368Z
+date: 2026-01-21T23:22:30.759Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T15:10:09.386Z
@@ -13,7 +13,7 @@ dateCreated: 2025-08-27T15:10:09.386Z
 
 ## Get Unity Logs
 
-### Option 1: Start Fresh (Recommended)
+### Option 1: Start Fresh 
 ```bash
 adb logcat -c
 adb logcat -s Unity > unity_log.txt
@@ -21,17 +21,19 @@ adb logcat -s Unity > unity_log.txt
 Clears old logs, then saves all Unity logs from now on. **Stop with Ctrl+C**.
 
 ### Option 2: Dump What's Available
+you want more history when dumpin.
+Set buffer to 64MB (default is usually 256KB). :
+```bash
+adb logcat -G 128M
+```
+dump:
 ```bash
 adb logcat -d -s Unity > unity_log.txt
 ```
 Gets recent Unity logs still in memory (usually last few minutes). Not reliable for older logs due to limited buffer.
 
-## Increase Buffer Size 
-you want more history when dumping, so set :
-```bash
-adb logcat -G 128M
-```
-Sets buffer to 4MB (default is usually 256KB). May require root on some devices.
+
+
 
 ---
 **For bug reports:** Use Option 1, reproduce the bug, then stop logging.
