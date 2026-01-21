@@ -2,7 +2,7 @@
 title: adb
 description: 
 published: true
-date: 2026-01-21T23:22:30.759Z
+date: 2026-01-21T23:22:51.345Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-27T15:10:09.386Z
@@ -22,7 +22,7 @@ Clears old logs, then saves all Unity logs from now on. **Stop with Ctrl+C**.
 
 ### Option 2: Dump What's Available
 you want more history when dumpin.
-Set buffer to 64MB (default is usually 256KB). :
+Set buffer to 128MB (default is usually 256KB). :
 ```bash
 adb logcat -G 128M
 ```
