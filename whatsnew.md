@@ -2,16 +2,20 @@
 title: Releases
 description: 
 published: true
-date: 2026-02-17T22:15:19.586Z
+date: 2026-02-17T22:17:07.754Z
 tags: 
 editor: markdown
 dateCreated: 2025-12-03T13:08:04.491Z
 ---
 
-| Channel | Version | Build | Updated |
-|---------|---------|-------|---------|
-| 🟢 live| 77.0.3 | 879 | Jan 2, 2026
-| 🟡 Beta |77.0.7  | 884 | Feb 17, 2026
+
+
+| Channel            | Version | Build | Updated      | Status                       |
+| ------------------ | ------- | ----- | ------------ | ---------------------------- |
+| 🟢 Live            | 77.0.3  | 879   | Jan 2, 2026  | Released                     |
+| 🟡 Beta            | 77.0.8  | 884   | Feb 17, 2026 | Active testing               |
+| 🔵 Steam (Standby) | 77.0.8  |  884  | Feb 17, 2026 | Preparing for release review |
+
 
 
 Whats new ?
