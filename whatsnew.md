@@ -2,7 +2,7 @@
 title: Releases
 description: 
 published: true
-date: 2026-02-20T15:56:20.373Z
+date: 2026-02-20T15:56:48.991Z
 tags: 
 editor: markdown
 dateCreated: 2025-12-03T13:08:04.491Z
@@ -19,7 +19,7 @@ dateCreated: 2025-12-03T13:08:04.491Z
 
 Whats new ?
 
-[77.0.8 (884)](/whatsnew/893) Released to beta : Feb 20, 2026
+[77.1.4 (893)](/whatsnew/893) Released to beta : Feb 20, 2026
 
 [77.0.8 (884)](/whatsnew/884) Released to beta : Feb 17, 2026
 
