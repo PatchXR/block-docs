@@ -2,7 +2,7 @@
 title: Releases
 description: Updated via script
 published: true
-date: 2026-03-10T14:35:51.392Z
+date: 2026-03-16T16:12:29.311Z
 tags: 
 editor: markdown
 dateCreated: 2025-12-03T13:08:04.491Z
@@ -11,12 +11,14 @@ dateCreated: 2025-12-03T13:08:04.491Z
 
 | Channel            | Version | Build | Updated      | Status                       |
 | ------------------ | ------- | ----- | ------------ | ---------------------------- |
-| 🟢 Meta Quest Live            | 77.1.6  | 895   | feb 23, 2026  | Released                     |
-| 🟡 Meta Quest Beta            | 77.1.6  | 895   | Feb 23, 2026 | Active testing               |
+| 🟢 Meta Quest Live            | 77.1.7  | 896   | Mar 16, 2026  | Released                     |
+| 🟡 Meta Quest Beta            | 77.1.7  | 896   | Mar 16, 2026 | Active testing               |
 | 🔵 Steam (Standby) | 77.1.6  |  895  | Feb 23, 2026 | waiting for review |
 
 
 Whats new ?
+
+[77.1.7 (896)](/whatsnew/896) Released to live : Mar 16, 2026
 
 [77.1.6 (895)](/whatsnew/895) Released to live : Feb 23, 2026
 
