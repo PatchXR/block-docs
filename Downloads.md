@@ -2,7 +2,7 @@
 title: Downloads
 description: Where you can get all the PatchWorld app and related software
 published: true
-date: 2025-10-15T19:50:18.106Z
+date: 2026-03-24T20:29:21.329Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-13T10:53:37.363Z
@@ -11,11 +11,12 @@ dateCreated: 2025-08-13T10:53:37.363Z
 ## PatchWorld VR (Main App)
 The primary virtual reality experience. Choose your platform below.
 
-| Platform | Store Link |
+| Platform | Store Link | Devices
 |---|:---:|
-| <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Meta_Quest_logo.svg" height="25" style="vertical-align: middle;"> &nbsp;| [**View on Meta Quest Store**](https://www.meta.com/en-gb/experiences/patchworld-connect-play/3715150718552632/?require_login=true){.btn .btn-primary} |
-| <img src="https://lf1-cdn-tos.huoshanstatic.com/obj/vcloud/4c4a2053cdcc2732d2a689432fc27f8b-.svg" height="22" style="vertical-align: middle;"> &nbsp; | [**View on Pico Store**](https://store-global.picoxr.com/global/detail/1/7195596911028568070){.btn .btn-primary}<br>*Please contact us on Discord for Pico support* |
-| <img src="https://ml.globenewswire.com/Resource/Download/e4bd51c6-04d6-4c98-be0a-211ed945b534" height="25" style="vertical-align: middle;"> &nbsp; **HTC Vive** | [**View on HTC Vive Store**](https://www.viveport.com/apps/e26fdc87-5b12-424e-b880-2bc3051ad98c?hl=en-US){.btn .btn-primary}<br>*Please contact us on Discord for HTC Vive support* |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Meta_Quest_logo.svg" height="25" style="vertical-align: middle;"> &nbsp;| [**View on Meta Quest Store**](https://www.meta.com/en-gb/experiences/patchworld-connect-play/3715150718552632/?require_login=true){.btn .btn-primary} | Quest Standalone
+| <img src="https://community.fastly.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" height="40" style="vertical-align: middle;"> &nbsp; | [**View on Steam**](https://store.steampowered.com/app/2235310/PatchWorld/){.btn .btn-primary} | PCVR
+| <img src="https://lf1-cdn-tos.huoshanstatic.com/obj/vcloud/4c4a2053cdcc2732d2a689432fc27f8b-.svg" height="22" style="vertical-align: middle;"> &nbsp; | [**View on Pico Store**](https://store-global.picoxr.com/global/detail/1/7195596911028568070){.btn .btn-primary}<br> <span style="color:red">(Discontinued)</span>.  *Please contact us on Discord for Pico support* |Pico Standalone
+| <img src="https://ml.globenewswire.com/Resource/Download/e4bd51c6-04d6-4c98-be0a-211ed945b534" height="30" style="vertical-align: middle;"> &nbsp; **HTC Vive** | [**View on HTC Vive Store**](https://www.viveport.com/apps/e26fdc87-5b12-424e-b880-2bc3051ad98c?hl=en-US){.btn .btn-primary}<br> <span style="color:red">(Discontinued)</span> *Please contact us on Discord for HTC Vive support* | PCVR + Standalone
 ---
 
 ## PatchWorld Desktop (Beta)
