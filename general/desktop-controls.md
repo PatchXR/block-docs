@@ -2,7 +2,7 @@
 title: Desktop Controls 
 description: 
 published: true
-date: 2026-03-25T22:06:33.840Z
+date: 2026-03-25T22:07:57.426Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-14T19:24:15.322Z
@@ -40,6 +40,6 @@ dateCreated: 2025-08-14T19:24:15.322Z
 - **LMB**: Trigger
 - **RMB**: Grip
 
-## Mouse
+## Others
 - **Alt + M** hide UI.
 - **End**: Hide cursor
