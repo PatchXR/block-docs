@@ -2,7 +2,7 @@
 title: Desktop Controls 
 description: 
 published: true
-date: 2025-12-30T01:36:20.717Z
+date: 2026-03-25T22:06:33.840Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-14T19:24:15.322Z
@@ -18,12 +18,14 @@ dateCreated: 2025-08-14T19:24:15.322Z
 - **Page Up/Down**: Zoom
 
 ## Changing Point Of View
-- **F2-F10**: Switch from camera blocks, or spawn new ones
-- **[ & ]**: Switch to which player the camera block looks at
+- **F1-F10**: Switch from differents players POV
+- **J** : once on a player's POV, allow to move the camera to make a 3rd person view angle
+- **0..9** : see from POV of a camera block. (use UI on top "+" to make new cameras blocks)
+- **[ & ]**: Switch to which player the camera block looks at (only works when attach to a camera block)
+- **CTRL + Mouse wheel** Zoom in/out
 
 ## Interactions
 - **Escape**: Toggle hub
-- **End**: Hide cursor
 - **Space**: Throw marble
 - **Shift + Space**: Open console
 - **G** : toggle grab
@@ -38,7 +40,6 @@ dateCreated: 2025-08-14T19:24:15.322Z
 - **LMB**: Trigger
 - **RMB**: Grip
 
-## First Person View
-- **F1**: Switch to FPV cam (0 will be the local player, it won't work, camera is actually the player)
-- **Alpha numeric keys**: Select player/ghost
-- *Note: Camera rotation is slightly softened when in FPV*
+## Mouse
+- **Alt + M** hide UI.
+- **End**: Hide cursor
