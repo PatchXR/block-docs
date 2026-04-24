@@ -2,13 +2,17 @@
 title: BETA programs
 description: What is BETA mode VS BETA builds?
 published: true
-date: 2025-12-07T06:54:10.665Z
+date: 2026-04-24T21:15:28.314Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-13T21:57:01.392Z
 ---
 
-## Joining the BETA
+Get new versions of PatchWorld before they release offically to to the public.
+Provide feedback and be a part of shaping new features. 
+
+
+# Joining the BETA
 - [Apply here](https://docs.google.com/forms/d/e/1FAIpQLScZzue73IN18j7xfdyX7d8qzMpwtioomcRm7ztdds88Gsbn4g/viewform?usp=dialog) 
 You might also want to join our [discord server](/discord) and say hello. 
 
@@ -30,8 +34,4 @@ There are 2 release channels . Public and Draft.
 Contact the team to get the links to the draft installer. 
 Public installers carry same version of the app as the quest live version, and available on the download page.
 
-## BETA mode
-Beta mode is a special mode in the app, and should not be confused with the beta builds.
-When opening the main menu > create tab > blocks , you will be prompted with the beta mode dialog, confirm it to continue. 
-In this mode you have access to the blocks in the library. (needed also for full search functionality).
-As well as abitliy to group and make devices. 
+
