@@ -2,16 +2,14 @@
 title: 🌍✨Welcome to the PatchWorld Wiki
 description: 
 published: true
-date: 2026-04-26T18:27:57.554Z
+date: 2026-04-26T18:28:36.067Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-29T20:58:14.444Z
 ---
 
-<div align="center">
 
 
-# 🌌 PatchWorld Documentation
 
 **Create, view, and remix immersive VR experiences**
 
