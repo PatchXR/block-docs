@@ -2,7 +2,7 @@
 title: 🌍✨Welcome to the PatchWorld Wiki
 description: 
 published: true
-date: 2026-04-26T18:20:10.458Z
+date: 2026-04-26T18:21:20.190Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-29T20:58:14.444Z
@@ -54,13 +54,9 @@ PatchWorld is a virtual reality platform that allows users to create, view, and 
 
 ## 🚀 Quick Links
 
--   [Download PatchWorld](/Downloads)
--   [Discord Server](https://discord.gg/gwMVhKWxbr)
--   [YouTube Tutorials](https://youtube.com/@patchxr)
--   [PatchXR website](https://www.patchxr.com)
-
----
-
-[![Visit PatchXR.com](https://img.shields.io/badge/Visit-PatchXR.com-blue?style=for-the-badge)](https://www.patchxr.com)
+[![Download PatchWorld](https://img.shields.io/badge/Download-PatchWorld-success?style=for-the-badge&logo=download)](/Downloads)
+[![Discord Server](https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/gwMVhKWxbr)
+[![YouTube Tutorials](https://img.shields.io/badge/YouTube-Tutorials-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@patchxr)
+[![Visit PatchXR.com](https://img.shields.io/badge/Visit-PatchXR.com-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.patchxr.com)
 
 *Need help? Check our* [*FAQ*](/faq) *or join our* [*Discord community*](https://discord.gg/gwMVhKWxbr)
