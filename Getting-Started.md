@@ -2,47 +2,115 @@
 title: Getting Started
 description: 
 published: true
-date: 2025-12-10T00:04:18.096Z
+date: 2026-04-26T18:29:44.675Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-11T17:27:23.651Z
 ---
 
-# Getting the app
+<div align="center">
 
-The app is available for VR headsets and desktops.
-Get the apps: [Downloads](/Downloads)
-The web companion of the app is the [patch-web-portal](/patching/patch-web-portal)
+# 🚀 Getting Started with PatchWorld
 
-# VR first steps
-1. Install the PatchWorld app by searching "PatchWorld" in the meta quest store or follow the link avobe.
-2. Open the PatchWorld app 
-3. On app open please accept the license agreement, mic and spacial permissions.
-4. After initial loading screen and agreements the first world to load would be the "Intro" World, which is the first world PatchWorlds "story mode". This world will teach you how to swim (move in space) and inser bubbles into bloopers. At the end of the world you will be presented with 2 portals, one to EP1 and the other to 'What is PatchWorld'. Following the path of the story is a great introduction to patch. 
+**Your first steps into VR creation**
 
-# Swimming 
-Grab space around you and pull it!
-Learn swimming from the intro world or read more here [locomotion](/general/locomotion)
+<p align="center">
+  <a href="/Downloads"><img src="https://img.shields.io/badge/Download-PatchWorld-success?style=for-the-badge&logo=meta&logoColor=white" alt="Download"></a>
+  <a href="/patching/patch-web-portal"><img src="https://img.shields.io/badge/Web-Portal-1E90FF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Web Portal"></a>
+</p>
 
-# Navigating the app
-Main menu , discovery, create , buttons used mostly 
-[navigation](/general/navigation)
+</div>
 
-# Starting a new world 
-Open main menu and navigate to your profile. 
-Then click "Start new world"
-[worlds](/patching/worlds)
+---
 
-# Spawning 
-[library](/patching/library)
+## 📥 Getting the App
 
-# Saving and publishing 
-You can save your world by opening the hub and clicking save on the current world widget (at the bottom).
-Your saved worlds are private until published. 
-New versions of published worlds also remain private until "updating changes".
-Latest saved is not published automatically to allow "draft" version.
-Read more here:
-[worlds](/patching/worlds)
+PatchWorld is available for **VR headsets** and **desktop**.
 
+> 💡 **Quick links:** [Downloads](/Downloads) · [Patch Web Portal](/patching/patch-web-portal)
 
+The web companion lets you manage worlds and assets from your browser — handy for when you're not in headset.
 
+---
+
+## 🥽 VR First Steps
+
+Follow these steps the first time you open PatchWorld:
+
+| Step | What to do |
+|:-:|---|
+| **1️⃣** | Install **PatchWorld** from the Meta Quest store (or use the [download link](/Downloads)) |
+| **2️⃣** | Open the PatchWorld app |
+| **3️⃣** | Accept the **license agreement**, **mic**, and **spatial permissions** |
+| **4️⃣** | You'll land in the **Intro World** — PatchWorld's story mode |
+
+> 🌊 **About the Intro World:** It teaches you how to *swim* (move through space) and how to insert bubbles into bloopers. At the end, two portals appear: one to **EP1**, the other to **"What is PatchWorld"**. Following the story is the best way to learn the basics.
+
+---
+
+## 🏊 Swimming
+
+> ✋ **Grab the space around you and pull it!**
+
+That's literally how you move in PatchWorld. It feels strange for about ten seconds, then it feels great.
+
+📖 Learn the rest from the Intro World, or read more here → [**Locomotion**](/general/locomotion)
+
+---
+
+## 🧭 Navigating the App
+
+The three buttons you'll use most:
+
+- 🏠 **Main Menu** — your home base
+- 🔍 **Discovery** — browse worlds made by others
+- 🛠️ **Create** — start patching
+
+📖 Full guide → [**Navigation**](/general/navigation)
+
+---
+
+## 🌍 Starting a New World
+
+1. Open the **Main Menu**
+2. Navigate to your **Profile**
+3. Click **"Start New World"**
+
+📖 More on worlds → [**Worlds**](/patching/worlds)
+
+---
+
+## 📦 Spawning
+
+Pull blocks, assets, and tools out of thin air.
+
+📖 Learn the library → [**Library**](/patching/library)
+
+---
+
+## 💾 Saving & Publishing
+
+Open the **hub** and click **save** on the current world widget at the bottom.
+
+> 🔒 **How privacy works:**
+> - Saved worlds are **private by default**
+> - Publishing makes a world **public**
+> - New versions of published worlds stay **private** until you hit **"Update Changes"**
+> - The latest save isn't auto-published — this lets you keep a **draft version** while the public one stays stable
+
+📖 Full guide → [**Worlds**](/patching/worlds)
+
+---
+
+<div align="center">
+
+### 🎉 You're Ready to Patch!
+
+Jump into VR and start creating. If you get stuck, the community is here to help.
+
+<p align="center">
+  <a href="https://discord.gg/gwMVhKWxbr"><img src="https://img.shields.io/badge/Ask%20on-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="/faq"><img src="https://img.shields.io/badge/Read-FAQ-blueviolet?style=for-the-badge" alt="FAQ"></a>
+</p>
+
+</div>
