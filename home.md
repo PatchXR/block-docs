@@ -2,7 +2,7 @@
 title: 🌍✨Welcome to the PatchWorld Wiki
 description: 
 published: true
-date: 2026-04-26T18:26:35.538Z
+date: 2026-04-26T18:27:57.554Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-29T20:58:14.444Z
@@ -10,16 +10,15 @@ dateCreated: 2025-07-29T20:58:14.444Z
 
 <div align="center">
 
+
 # 🌌 PatchWorld Documentation
 
 **Create, view, and remix immersive VR experiences**
 
-[![Download PatchWorld](https://img.shields.io/badge/Download-PatchWorld-success?style=for-the-badge&logo=meta&logoColor=white)](/Downloads)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/gwMVhKWxbr)
-[![YouTube](https://img.shields.io/badge/YouTube-Tutorials-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@patchxr)
-[![Website](https://img.shields.io/badge/Visit-PatchXR.com-1E90FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.patchxr.com)
-
 </div>
+
+| [![Download](https://img.shields.io/badge/Download-PatchWorld-success?style=for-the-badge&logo=meta&logoColor=white)](/Downloads) | [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/gwMVhKWxbr) | [![YouTube](https://img.shields.io/badge/YouTube-Tutorials-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@patchxr) | [![Website](https://img.shields.io/badge/Visit-PatchXR-1E90FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.patchxr.com) |
+|:-:|:-:|:-:|:-:|
 
 ---
 
