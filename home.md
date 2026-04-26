@@ -2,7 +2,7 @@
 title: 🌍✨Welcome to the PatchWorld Wiki
 description: 
 published: true
-date: 2026-04-26T18:19:18.007Z
+date: 2026-04-26T18:20:10.458Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-29T20:58:14.444Z
@@ -61,6 +61,6 @@ PatchWorld is a virtual reality platform that allows users to create, view, and 
 
 ---
 
-![[PatchXR.com](https://www.patchxr.com)](https://img.shields.io/badge/Visit-PatchXR.com-blue?style=for-the-badge)
+[![Visit PatchXR.com](https://img.shields.io/badge/Visit-PatchXR.com-blue?style=for-the-badge)](https://www.patchxr.com)
 
 *Need help? Check our* [*FAQ*](/faq) *or join our* [*Discord community*](https://discord.gg/gwMVhKWxbr)
