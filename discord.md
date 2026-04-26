@@ -1,8 +1,8 @@
 ---
-title: Discord server
+title: Community and support
 description: 
 published: true
-date: 2026-04-26T18:30:53.554Z
+date: 2026-04-26T18:31:29.442Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-13T22:14:30.880Z
