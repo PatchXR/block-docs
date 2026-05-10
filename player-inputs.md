@@ -2,7 +2,7 @@
 title: Player Inputs
 description: Collect Player Inputs & Movements with Multiplayer example
 published: true
-date: 2026-05-10T20:00:58.110Z
+date: 2026-05-10T20:10:32.765Z
 tags: player
 editor: markdown
 dateCreated: 2026-05-10T19:55:25.795Z
