@@ -2,7 +2,7 @@
 title: Basics of patching
 description: 
 published: true
-date: 2026-05-11T16:28:27.399Z
+date: 2026-05-11T16:31:01.699Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-15T18:45:58.411Z
@@ -38,7 +38,7 @@ Manage state and create dynamic behaviors.
 - **[Preset Manager](/patching/preset-manager)**: Save and recall the state of your blocks.
 - **[Dynamic Patching](/patching/dynamic-patching)**: Modify your patch logic programmatically at runtime.
 
-## 🎮 Interaction & Input
+## 🎮 Real World Inputs
 Connect the user and the outside world to your patch.
 
 - **[Player Inputs](/patching/player-inputs)**: Map controller buttons, triggers, and gestures to actions.
