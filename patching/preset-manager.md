@@ -2,13 +2,16 @@
 title: Preset Manager
 description: 
 published: true
-date: 2026-05-11T16:06:13.751Z
+date: 2026-05-11T16:06:47.767Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-11T16:06:13.751Z
 ---
 
 # Preset Manager
+
+
+![preset_manager thumbnail](https://portal.patchxr.io/block-thumbnails/preset_manager.png)
 
 The [Preset Manager](/blocks/system/preset_manager) block saves and recalls snapshots of connected blocks' states. It works like a scene-state recorder: you register blocks as subjects, capture their current configuration into named presets, and restore them later — with smooth transitions for position changes.
 
