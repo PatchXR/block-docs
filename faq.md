@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2025-08-13T15:34:54.206Z
 ---
 
-## **Howw do I access the advanced building tools "Blocks"?**
+## **How do I access the advanced building tools "Blocks"?**
 
 Open the main menu (aka hub), choose "create tab", select "Blocks", a prompt will show up, select to open the beta features. 
 The blocks will be now availabe. [Beta mode is not the same as beta builds](/patching/beta). 
