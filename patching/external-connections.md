@@ -2,7 +2,7 @@
 title: External Connections
 description: Midi and OSC
 published: true
-date: 2025-08-15T19:06:40.197Z
+date: 2026-05-11T15:51:51.118Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-15T15:55:49.593Z
@@ -55,10 +55,14 @@ This method uses the official **Patchworld Companion App** to create a stable br
 3.  Enable **Track** and **Remote** for both the input and output ports.
 
 #### 4. Setup in Patchworld
-Use the dedicated MIDI blocks found in the library:
-*   `Midi Keys`: For sending/receiving polyphonic note messages.
-*   `Midi CC`: For sending/receiving Control Change messages. You must set the specific CC number in the Inspector.
-*   `Midi Key`: For sending/receiving a specific, single MIDI note.
+
+Use the dedicated MIDI blocks found in the **Connectors** category of the Library:
+
+| Block | Thumbnail | Description |
+|---|---|---|
+| [Midi Keys](/blocks/connectors/midi_keys) | ![Midi Keys thumbnail](https://portal.patchxr.io/block-thumbnails/midi_keys.png =60x60) | Send/receive polyphonic note messages. |
+| [Midi CC](/blocks/connectors/midi_control_change) | ![Midi CC thumbnail](https://portal.patchxr.io/block-thumbnails/midi_control_change.png =60x60) | Send/receive Control Change messages. Set the CC number in the Inspector. |
+| [Midi Key](/blocks/connectors/midi_key) | ![Midi Key thumbnail](https://portal.patchxr.io/block-thumbnails/midi_key.png =60x60) | Send/receive a single, specific MIDI note. |
 
 You can now send MIDI from your DAW to Patchworld instruments or send signals from Patchworld to control your DAW.
 
@@ -77,17 +81,20 @@ OSC communication relies on three things being correctly configured on both ends
 
 ### Patchworld OSC Setup
 
-#### 1. Initial Configuration (using the `execute` block)
+#### 1. Initial Configuration (using the [Execute](/blocks/system/execute) block)
 The OSC connection must be configured within your patch.
-1.  Spawn an `execute` block.
+1.  Spawn an [Execute](/blocks/system/execute) block.
 2.  To set the destination IP address, type `remote_ip [IP_ADDRESS]` (e.g., `remote_ip 192.168.1.10`).
 3.  To set the incoming port, type `port_in [PORT_NUMBER]` (e.g., `port_in 3330`).
 4.  To set the outgoing port, type `port_out [PORT_NUMBER]` (e.g., `port_out 5550`).
-5.  Trigger these `execute` blocks once with a `button` or `onload` event to set the configuration for the session. The `OSC Bridge` device in the library does this for you.
+5.  Trigger these [Execute](/blocks/system/execute) blocks once with a [Button](/blocks/interfaces/button) or `onload` event to set the configuration for the session. The `OSC Bridge` device in the library does this for you.
 
 #### 2. Sending & Receiving Data
-*   **`msg_out` block:** To send an OSC message. Name the block with the desired OSC address (e.g., `/ch1cc1`). The jolt input sends the value.
-*   **`msg_in` block:** To receive an OSC message. Name the block with the OSC address you expect to receive (e.g., `/note1`). It will output a jolt with the received value.
+
+| Block | Thumbnail | Description |
+|---|---|---|
+| [OSC Send](/blocks/connectors/msg_out) | ![OSC Send thumbnail](https://portal.patchxr.io/block-thumbnails/msg_out.png =60x60) | Sends an OSC message. Set the OSC address in the text field (e.g. `/ch1cc1 :0`). The jolt input sends the trigger and its value is available as `:0`. |
+| [OSC Receive](/blocks/connectors/msg_in) | ![OSC Receive thumbnail](https://portal.patchxr.io/block-thumbnails/msg_in.png =60x60) | Receives an OSC message matching the configured address (e.g. `/note1`) and emits a jolt with the received value. |
 
 ### Example Use Case: Community OSC/MIDI Bridge
 The community has developed solutions using a Python script and TouchOSC to create a powerful OSC-to-MIDI bridge.
@@ -103,10 +110,23 @@ The community has developed solutions using a Python script and TouchOSC to crea
 
 ---
 
+## Wireless Jolt (Internal Wireless)
+
+For routing jolts wirelessly **within** your patch — without any external software — use the wireless jolt blocks:
+
+| Block | Thumbnail | Description |
+|---|---|---|
+| [Send Jolt](/blocks/connectors/wireless_out_jolt) | ![Send Jolt thumbnail](https://portal.patchxr.io/block-thumbnails/wireless_out_jolt.png =60x60) | Broadcasts a jolt to all Receive Jolt blocks sharing the same channel name. |
+| [Receive Jolt](/blocks/connectors/wireless_in_jolt) | ![Receive Jolt thumbnail](https://portal.patchxr.io/block-thumbnails/wireless_in_jolt.png =60x60) | Receives a jolt from the matching Send Jolt block. |
+
+These are ideal for connecting blocks across different groups or devices without drawing cables, and support multiplayer synchronization via the "Broadcast Multiplayer" inspector option on [Send Jolt](/blocks/connectors/wireless_out_jolt).
+
+---
+
 ## Troubleshooting & Common Issues
 
 *   **Connection Fails:** Ensure your headset and computer are on the **same Wi-Fi network**. Disable any firewalls on your computer that might be blocking the connection. In the Ableton OSC Bridge, you may need to click "Scan" multiple times.
 *   **Order of Operations:** For the MIDI Companion App, **always start Patchworld on the headset first**, then launch the companion app on your computer.
 *   **Latency:** There is inherent latency, especially sending signals *from* an external source *to* Patchworld. Sending signals *out* of Patchworld is generally faster. The headset's internal audio has latency; consider adjusting the **Buffer Size** in Patchworld's settings for a trade-off between performance and latency.
-*   **Note Hanging / Retriggering:** When sending MIDI notes out of Patchworld, you must handle `note off` events. A common community solution is to send a jolt with a velocity of `0` to signify `note off`. Inside a receiving patch, you can use an `if else` block to filter out these `0` value jolts so they don't retrigger a sound.
+*   **Note Hanging / Retriggering:** When sending MIDI notes out of Patchworld, you must handle `note off` events. A common community solution is to send a jolt with a velocity of `0` to signify `note off`. Inside a receiving patch, you can use an [If Else](/blocks/logic/if_else) block to filter out these `0` value jolts so they don't retrigger a sound.
 *   **Can't Find IP Address:** On your headset, go to `Wi-Fi Settings`, click on your connected network, and scroll down to find the IP address. On Windows, open Command Prompt and type `ipconfig`. On Mac, check `System Settings > Network`.
