@@ -2,10 +2,10 @@
 title: Blocks
 description: Comprehensive guide to all fundamental building blocks in PatchWorld
 published: true
-date: 2026-05-11T22:07:05.000Z
+date: 2026-05-11T22:08:52.000Z
 tags: blocks, index, documentation
 editor: markdown
-dateCreated: 2026-05-11T22:07:05.000Z
+dateCreated: 2026-05-11T22:08:52.000Z
 ---
 
 These are the fundamental building blocks available in PatchWorld. You can use these blocks to create patches, instruments, and interactive experiences.
@@ -32,6 +32,5 @@ These are the fundamental building blocks available in PatchWorld. You can use t
 | **[Connectors](/blocks/connectors)** 🔗 | 16 | Linking and routing signals |
 | **[Players](/blocks/players)** 👨‍👩‍👧‍👦 | 9 | Multiplayer and user management |
 | **[System](/blocks/system)** ⚙️ | 13 | System-level controls and utilities |
-| **[Extensions](/blocks/extensions)** 🧩 | 0 |  |
 
 ---
