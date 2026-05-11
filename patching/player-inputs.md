@@ -2,7 +2,7 @@
 title: Player Inputs
 description: Collect Player Inputs & Movements with Multiplayer example
 published: true
-date: 2026-05-10T20:10:32.765Z
+date: 2026-05-11T16:05:24.636Z
 tags: player
 editor: markdown
 dateCreated: 2026-05-10T19:55:25.795Z
@@ -16,7 +16,7 @@ This guide explains how to capture player button presses, joystick axes, control
 
 ## The Core Block: Controller Output
 
-![Controller Output thumbnail](https://portal.patchxr.io/block-thumbnails/controloutput.png =120x120)
+![Controller Output thumbnail](https://portal.patchxr.io/block-thumbnails/controloutput.png =50x50)
 
 [Controller Output](/blocks/controllers/controloutput) is the main block for reading raw controller state. It exposes jolt outputs for every physical input on the headset controllers:
 
@@ -65,8 +65,8 @@ When **checked**, the corresponding input is **captured by this block** and the 
 
 ## Accessing Body Parts (Head, Hands, Feet)
 
-![Players thumbnail](https://portal.patchxr.io/block-thumbnails/players.png =80x80)
-![Get SubPart thumbnail](https://portal.patchxr.io/block-thumbnails/get_sub_part.png =80x80)
+![Players thumbnail](https://portal.patchxr.io/block-thumbnails/players.png =50x50)
+![Get SubPart thumbnail](https://portal.patchxr.io/block-thumbnails/get_sub_part.png =50x50)
 
 The [Players](/blocks/players/players) block outputs player references as Tags. To work with individual body parts, pipe one of these Tag outputs into [Get SubPart](/blocks/system/get_sub_part):
 
@@ -121,7 +121,7 @@ The Speedometer also exposes per-axis speed and acceleration (X, Y, Z), which is
 
 ## Detecting If a Player Is Looking at Something
 
-![Block Get Look thumbnail](https://portal.patchxr.io/block-thumbnails/block_get_look.png =80x80)
+![Block Get Look thumbnail](https://portal.patchxr.io/block-thumbnails/block_get_look.png =50x50)
 
 [Block Get Look](/blocks/motion/block_get_look) outputs the angle between a block's forward axis and the direction to a target. This is ideal for gaze detection:
 
