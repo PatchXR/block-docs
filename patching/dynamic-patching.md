@@ -2,7 +2,7 @@
 title: Dynamic Patching
 description: Batch processing, dynamic spawning, list filtering, foreach superpowers!
 published: true
-date: 2026-05-11T15:51:04.745Z
+date: 2026-05-11T19:09:28.272Z
 tags: patching
 editor: markdown
 dateCreated: 2026-05-09T02:38:38.114Z
@@ -20,7 +20,7 @@ Most patches in Patchworld are made of static, hand-wired connections: you grab 
 - ![Block Remove small](https://portal.patchxr.io/block-thumbnails/block_remove.png =80x80) [Block Remove](/blocks/system/block_remove) - destroy blocks (often the ones spawned earlier).
 - The Variable family ([Set Variable](/blocks/system/set_variable), [Get Variable](/blocks/system/get_variable), [All With Variable](/blocks/system/all_with_variable), [Remove Variable](/blocks/system/remove_variable)) - tag blocks at runtime and look them back up.
 
-If you have not read it yet, the [Variable System](/wiki/variable-system) wiki page is the perfect companion to this one: variables are the most common way to "remember" what you spawned and re-find it later.
+If you have not read it yet, the [Variable System](/patching/variable-system) wiki page is the perfect companion to this one: variables are the most common way to "remember" what you spawned and re-find it later.
 
 ---
 
