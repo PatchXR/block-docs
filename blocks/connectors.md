@@ -2,15 +2,15 @@
 title: Connectors
 description: Connectors blocks documentation
 published: true
-date: 2026-05-11T22:17:54.000Z
+date: 2026-05-11T22:57:46.000Z
 tags: blocks, category
 editor: markdown
-dateCreated: 2026-05-11T22:17:54.000Z
+dateCreated: 2026-05-11T22:57:46.000Z
 ---
 
 # 🔗 Connectors Blocks
 
-This category contains **16** blocks.
+This category contains **17** blocks.
 
 ## Available Blocks
 
@@ -29,6 +29,7 @@ This category contains **16** blocks.
 - **[Send Stream](./connectors/wireless_in)** - Sends an audio stream wirelessly to every 'Receive Stream' (wireless_out) block sharing the same ...
 - **[Stoe](./connectors/stoe)** - Converts a stream signal into jolt events. Emits the current stream value as a jolt each time the...
 - **[Stream Fork](./connectors/fork)** - Extension splitter cable: transmits one input stream to many outputs over a distance. Click and d...
+- **[Tag Fork](./connectors/selectionpass)** - 
 - **[Tag Gate](./connectors/selector_gate)** - Allows you to toggle a Tag connection on or off using a physical button or Jolt input.
 
 ---

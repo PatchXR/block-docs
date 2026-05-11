@@ -1,4 +1,4 @@
-# Rangedfor
+# Ranged For
 
 **Category**: 🧠 Logic
 

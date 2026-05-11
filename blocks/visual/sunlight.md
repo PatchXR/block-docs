@@ -1,4 +1,4 @@
-# Sunlight
+# Sun Light
 
 **Category**: 🎨 Visual
 

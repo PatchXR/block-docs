@@ -1,4 +1,4 @@
-# E String
+# Violin String
 
 **Category**: 🎮 Controllers
 

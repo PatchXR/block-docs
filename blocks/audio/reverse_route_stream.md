@@ -1,4 +1,4 @@
-# Funnle Stream
+# Funnel Stream
 
 **Category**: 🔊 Audio
 
