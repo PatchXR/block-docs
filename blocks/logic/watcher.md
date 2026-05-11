@@ -6,22 +6,34 @@
 
 ## Description
 
-Compares two stream values. Every time the condition is met, signal output will send the value of 1.
+Compares two stream values. Outputs a continuous 0/1 signal while the condition holds, and fires a jolt whenever the result transitions from false to true.
 
 ## Inputs, Outputs and Parts
 
-**Signal input** *(stream input)*: Stream input value to compare with value from second inlet.
+### Inputs
 
-**Compare with** *(stream input)*: Sets the value that will be compared with the incoming value from the signal input.
+| Name | Type | Description |
+|------|------|-------------|
+| Signal input | Stream Input | Stream input value to compare with value from second inlet. |
+| Compare with | Stream Input | Sets the value that will be compared with the incoming value from the signal input. |
+| Set Operation | Jolt Input | Sets the comparison operator by index. 0: =, 1: !=, 2: >, 3: <, 4: >=, 5: <=, 6: &, 7: |, 8: ^ |
 
-**Output** *(jolt output)*: Sends jolt value every time the condition begins to be true
+### Outputs
 
-**SetTypeReciever**: 
+| Name | Type | Description |
+|------|------|-------------|
+| Output | Jolt Output | Fires a jolt each time the comparison result becomes true. |
+| Output 0-1 | Stream Output | Outputs 1 continuously while the condition is true, 0 while false. |
 
-**Comparison operation** *(interactive)*: Sets the type of the comparison operation.
+### Others
+
+| Name | Type | Description |
+|------|------|-------------|
+| Operation | Selector | Choose compare operation. |
 
 ## Related Blocks
 
 - [compare](/blocks/logic/compare)
+- [stoe](/blocks/connectors/stoe)
 
 ---

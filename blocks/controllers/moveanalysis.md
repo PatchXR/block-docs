@@ -12,17 +12,16 @@ Efforts calculations are based on the movement of the controllers and HMD. Featu
 
 ## Inputs, Outputs and Parts
 
-**Weight effort** *(jolt output)*: Can be interpreted as weight of the movement. Strong movement corresponds to higher values.
+### Outputs
 
-**Time effort** *(jolt output)*: Can be interpreted as timing of the movement. Quick, sudden movement corresponds to higher values.
-
-**Space effort** *(jolt output)*: Can be interpreted as directness of the movement. Indirect movement corresponds to higher values.
-
-**Flow effort** *(jolt output)*: Can be interpreted as smoothness of the movement. Chaotic movement corresponds to higher values.
-
-**Left hand movement radius** *(jolt output)*: Bigger radius of the left controller movement corresponds to higher values.
-
-**Right hand movement radius** *(jolt output)*: Bigger radius of the right controller movement corresponds to higher values.
+| Name | Type | Description |
+|------|------|-------------|
+| Weight effort | Jolt Output | Can be interpreted as weight of the movement. Strong movement corresponds to higher values. |
+| Time effort | Jolt Output | Can be interpreted as timing of the movement. Quick, sudden movement corresponds to higher values. |
+| Space effort | Jolt Output | Can be interpreted as directness of the movement. Indirect movement corresponds to higher values. |
+| Flow effort | Jolt Output | Can be interpreted as smoothness of the movement. Chaotic movement corresponds to higher values. |
+| Left hand movement radius | Jolt Output | Bigger radius of the left controller movement corresponds to higher values. |
+| Right hand movement radius | Jolt Output | Bigger radius of the right controller movement corresponds to higher values. |
 
 ## Related Blocks
 

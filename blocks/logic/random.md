@@ -6,22 +6,37 @@
 
 ## Description
 
-Outputs a random decimal number between 0 and <b>Max</b>.
+Outputs a random decimal number between 0 and <b>Max</b> each time it is triggered.
+
+Trigger by clicking the button or sending a jolt to the Trigger Random input. The Max value (set via the dial or the stream input) defines the upper bound of the random range. Useful for randomized melodies, dice rolls, scattered spawn positions, or any time you need variation.
 
 ## Inputs, Outputs and Parts
 
-**Button** *(interactive)*: Triggers the output to emit a new random value.
+### Inputs
 
-**Max random value** *(interactive)*: Sets random max value.
+| Name | Type | Description |
+|------|------|-------------|
+| Trigger Random | Jolt Input | Send a jolt to generate a new random value. The current Max input determines the range. |
+| Max Value | Stream Input | Upper bound of the random range. The output will be between 0 and this value. |
 
-**Calculate** *(jolt input)*: Send a jolt value to this input to trigger this block to emit a new random value. The value of the jolt will determine the maximum value of the random number.
+### Outputs
 
-**Output** *(jolt output)*: Emits random value.
+| Name | Type | Description |
+|------|------|-------------|
+| Output | Jolt Output | Emits the newly generated random value as a jolt. |
+
+### Others
+
+| Name | Type | Description |
+|------|------|-------------|
+| Trigger | Interactible | Displays the current Max value. Click to roll a new random number. |
 
 ## Related Blocks
 
-- [noise](/blocks/audio/noise)
-- pink_noise (link not available)
 - [bernoulli](/blocks/logic/bernoulli)
+- [noise](/blocks/audio/noise)
+- [rangedfor](/blocks/logic/rangedfor)
+- [operation](/blocks/logic/operation)
+- [metronome](/blocks/logic/metronome)
 
 ---

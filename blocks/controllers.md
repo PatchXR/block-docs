@@ -2,40 +2,29 @@
 title: Controllers
 description: Controllers blocks documentation
 published: true
-date: 2026-01-02T08:52:38.000Z
+date: 2026-05-11T22:07:05.000Z
 tags: blocks, category
 editor: markdown
-dateCreated: 2026-01-02T08:52:38.000Z
+dateCreated: 2026-05-11T22:07:05.000Z
 ---
 
 # 🎮 Controllers Blocks
 
-This category contains **23** blocks.
+This category contains **12** blocks.
 
 ## Available Blocks
 
-- **[Blobscreen](./controllers/blobscreen)** - 
-- **[Blooper](./controllers/blooper3)** - 
-- **[Booper](./controllers/booper)** - 
-- **[Bow](./controllers/bow)** - Intended to be used with e_string block.
-- **[Bubble Maker](./controllers/fluidmicrophone2)** - 
-- **[Bubble Popper](./controllers/bubble_popper)** - An underwater creature you can use to pop bubbles to remove them. Grab and move bubbles close to ...
-- **[Controller Output](./controllers/controloutput)** - Outputs various data from the controllers (grip/trigger/buttons/joystick...)
+- **[Bubble Popper](./controllers/bubble_popper)** - An underwater creature used to delete sample bubbles. Grab and bring a bubble close to its spikes...
+- **[Controller Output](./controllers/controloutput)** - Outputs various data from both controllers: grip, trigger, buttons, joystick axes, head distance,...
 - **[Controller Position](./controllers/controllerposition)** - Outputs position of each controller in relation to the block's position
-- **[Controller Rotation](./controllers/controllerrotation)** - Outputs rotation angles of each controller
-- **[Device Handle](./controllers/device_handle)** - Allows you to build devices that will replace your controllers when grabbed. Must be put inside a...
-- **[E String](./controllers/e_string)** - String intended to be used with bow block.
-- **[Glooper](./controllers/blooper2)** - 
+- **[Controller Rotation](./controllers/controllerrotation)** - Outputs the Euler rotation angles (0-359 degrees) of both controllers along their X, Y, and Z axes.
+- **[Device Handle](./controllers/device_handle)** - Place inside a group/device to turn it into a handheld tool. When a player grabs the device, thei...
 - **[Interaction Box](./controllers/interaction_box)** - A highly flexible interface for building different kinds of interactions.
-- **[Interaction Cylinder](./controllers/interaction_cylinder)** - Like the interaction_box, but cylinder shaped.
-- **[Laser Canvas](./controllers/laser_canvas)** - A canvas that lets you control stuff with the laser pointer.
-- **[Midi Mic](./controllers/mic)** - Outputs microphone pitch (MIDI note number) and amplitude (0-1).
+- **[Laser Canvas](./controllers/laser_canvas)** - A canvas that lets you control things with the laser pointer.
+- **[Midi Mic](./controllers/mic)** - Analyzes the microphone input and emits the detected fundamental pitch as a MIDI note number and ...
 - **[Move Analysis](./controllers/moveanalysis)** - Outputs values of selected movement efforts according to Laban movement analysis
-- **[Pull Blob](./controllers/pull_blob)** - 
-- **[Ray Cast](./controllers/raycast)** - Detects blocks in front. Can also measure the distance. It has a second movable part which can be...
-- **[Saber](./controllers/saber)** - 
-- **[Slider 3d](./controllers/slider_3d)** - A three-dimensional slider with x, y, and z outputs.
-- **[Slider 3d Jolt](./controllers/slider_3d_jolt)** - A slider with three axes that lets you control three values at onces.
-- **[Vooper](./controllers/vooper)** - 
+- **[Ray Cast](./controllers/raycast)** - Casts a ray forward and detects the first block(s) it hits. Outputs the hit block(s) and distance...
+- **[Slider 3d](./controllers/slider_3d)** - A three-dimensional controller with a draggable ball. Drag the ball in 3D space to output its nor...
+- **[Slider 3d Jolt](./controllers/slider_3d_jolt)** - A three-axis 3D slider with Jolt inputs and outputs for all three axes. Drag the ball or send a J...
 
 ---

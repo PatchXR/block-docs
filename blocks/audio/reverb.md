@@ -6,27 +6,44 @@
 
 ## Description
 
-Adds spaciousness and depth to your sound with two distinct reverb types: a clean digital hall and a vintage spring tank
+Adds spaciousness and depth to a stream with three selectable reverb algorithms: FDN (clean digital hall), Tank (vintage spring), and Freeverb.
+
+Use Decay Time to control how long the reverb tail lasts and Absorption to roll off the highs over time (higher values = darker tail). Mix balances dry signal vs. wet reverb. Switch algorithms with the dial on top - the swap happens on the audio thread without crackles.
+
+## Related Wiki Pages
+
+[audio-filters](/patching/audio-filters)
 
 ## Inputs, Outputs and Parts
 
-**input** *(stream input)*: The stream to apply reverb to.
+### Inputs
 
-**Decay time** *(stream input)*: Controls how long it takes for the sound to die out (in seconds)
+| Name | Type | Description |
+|------|------|-------------|
+| Input | Stream Input | The audio stream to apply reverb to. |
+| Decay time | Stream Input | Controls how long it takes for the sound to die out (in seconds) |
+| Absorption | Stream Input | How quickly high frequencies are damped in the tail (0-1). Higher = darker reverb. |
+| Mix | Stream Input | Balance between dry signal (0) and wet reverb (1). |
+| Knob | Jolt Input with Dial |  |
 
-**Absorption** *(stream input)*: Controls the decay time of the reverbs high frequencies. (0-1)
+### Outputs
 
-**Mix** *(stream input)*: Controls the balance between the original dry signal and the wet reverb effect
+| Name | Type | Description |
+|------|------|-------------|
+| Output | Stream Output | Wet/dry mixed reverb output. |
 
-**Knob**: 
+### Others
 
-**Type Dial**: Switches between two reverb algorithms: FDN (clean digital) and Tank (vintage spring)
-
-**Output**: 
+| Name | Type | Description |
+|------|------|-------------|
+| Type Dial | Selector | Switches between three reverb algorithms: FDN (clean digital hall), Tank (vintage spring), Freeverb (classic Schroeder-style). |
 
 ## Related Blocks
 
-- reverb_tank (link not available)
 - [delay](/blocks/audio/delay)
+- [filter](/blocks/audio/filter)
+- [statevariable](/blocks/audio/statevariable)
+- [allpass2](/blocks/audio/allpass2)
+- [output](/blocks/audio/output)
 
 ---

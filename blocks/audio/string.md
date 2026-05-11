@@ -6,22 +6,45 @@
 
 ## Description
 
-A string (like a guitar string) you can strike with your controller or hit with marbles to make sound.
+A physically-modeled string (like a guitar or violin string) you can strike with your controller or hit with marbles to make sound.
 
-A simulation or e.g. a guitar string with a natural sound. Can interact with other kinetic object such as your controller or marbles. Changes its sound subtly depending on where you hit it.
+A digital-waveguide simulation of a vibrating string with natural, dynamic timbre. It reacts to controller hits and marbles colliding with it, and changes its sound subtly depending on where it is struck along its length. Use the Length drag handle to set the pitch (or send a MIDI note to the Pitch input), the Sustain knob to control how long it rings, and the brightness dial to color the tone. When the audio output is plugged in, the string's built-in speaker is muted.
 
 ## Inputs, Outputs and Parts
 
-**Sustain** *(knob)*: Controls for how long the string will ring out when struck (in seconds).
+### Inputs
 
-**Sustain** *(jolt input)*: Send a jolt to set the sustain of the string (in seconds).
+| Name | Type | Description |
+|------|------|-------------|
+| Sustain | Jolt Input with Dial | Controls how long the string rings out after being struck. |
+| Brightness | Jolt Input with Dial | Controls the brightness/timbre of the string. Lower values are warmer and duller; higher values are brighter. |
+| Pitch | Jolt Input | Send a MIDI note number (e.g. from a keyboard block) to set the pitch of the string. |
 
-**String** *(interactive)*: Strike or hit with a marble to make sound
+### Outputs
 
-**Length** *(interactive)*: Use the trigger button and push/pull to change the length/pitch of the string.
+| Name | Type | Description |
+|------|------|-------------|
+| Output | Stream Output | Audio signal from the string. When connected, the string's built-in speaker is muted so you can route the sound through your own signal chain. |
 
-**Pitch** *(jolt input)*: Send a MIDI note (e.g. from a keyboard) to set the pitch of the string.
+### Others
 
-**Output** *(stream output)*: Sends out the sound of the string. Will mute the string when plugged in.
+| Name | Type | Description |
+|------|------|-------------|
+| String | Interactible | Strike the string with your controller or hit it with marbles to make sound. |
+| Length | Draggable part | Press the trigger button and push/pull to change the length (and therefore pitch) of the string. |
+
+## Inspector Controls
+
+| Name | Type | Description |
+|------|------|-------------|
+| Quantize | checkbox | When enabled, marble hits on the string are quantized to the world tempo grid so they always strike on the beat. Serialization keyword: quantize |
+
+## Related Blocks
+
+- [bow](/blocks/controllers/bow)
+- [e_string](/blocks/controllers/e_string)
+- [oscillator](/blocks/audio/oscillator)
+- [envelope](/blocks/audio/envelope)
+- [reverb](/blocks/audio/reverb)
 
 ---

@@ -2,10 +2,10 @@
 title: Blocks
 description: Comprehensive guide to all fundamental building blocks in PatchWorld
 published: true
-date: 2026-01-02T08:52:38.000Z
+date: 2026-05-11T22:07:05.000Z
 tags: blocks, index, documentation
 editor: markdown
-dateCreated: 2026-01-02T08:52:38.000Z
+dateCreated: 2026-05-11T22:07:05.000Z
 ---
 
 These are the fundamental building blocks available in PatchWorld. You can use these blocks to create patches, instruments, and interactive experiences.
@@ -15,7 +15,7 @@ These are the fundamental building blocks available in PatchWorld. You can use t
 - **Imported Assets** - Custom 3D models, sounds, and creations from the community
 - **Your Own Creations** - Save and share your patches as reusable devices
 
-**220 blocks** available across **9** categories
+**133 blocks** available across **10** categories
 
 ---
 
@@ -23,14 +23,15 @@ These are the fundamental building blocks available in PatchWorld. You can use t
 
 | Category | Blocks | Description |
 |----------|--------|-------------|
-| **[Interfaces](/blocks/interfaces)** 🎚️ | 31 | User interaction and control elements |
-| **[Controllers](/blocks/controllers)** 🎮 | 23 | 3D controllers and input devices |
-| **[Audio](/blocks/audio)** 🔊 | 29 | Sound generation and processing |
-| **[Visual](/blocks/visual)** 🎨 | 29 | Graphics, effects, and visual elements |
-| **[Motion](/blocks/motion)** 🚀 | 26 | Physics and movement control |
-| **[Logic](/blocks/logic)** 🧠 | 23 | Data flow and decision making |
-| **[Connectors](/blocks/connectors)** 🔗 | 17 | Linking and routing signals |
-| **[Players](/blocks/players)** 👨‍👩‍👧‍👦 | 14 | Multiplayer and user management |
-| **[System](/blocks/system)** ⚙️ | 28 | System-level controls and utilities |
+| **[Interfaces](/blocks/interfaces)** 🎚️ | 15 | User interaction and control elements |
+| **[Controllers](/blocks/controllers)** 🎮 | 12 | 3D controllers and input devices |
+| **[Audio](/blocks/audio)** 🔊 | 20 | Sound generation and processing |
+| **[Visual](/blocks/visual)** 🎨 | 18 | Graphics, effects, and visual elements |
+| **[Motion](/blocks/motion)** 🚀 | 11 | Physics and movement control |
+| **[Logic](/blocks/logic)** 🧠 | 19 | Data flow and decision making |
+| **[Connectors](/blocks/connectors)** 🔗 | 16 | Linking and routing signals |
+| **[Players](/blocks/players)** 👨‍👩‍👧‍👦 | 9 | Multiplayer and user management |
+| **[System](/blocks/system)** ⚙️ | 13 | System-level controls and utilities |
+| **[Extensions](/blocks/extensions)** 🧩 | 0 |  |
 
 ---

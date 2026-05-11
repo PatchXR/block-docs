@@ -2,43 +2,28 @@
 title: Motion
 description: Motion blocks documentation
 published: true
-date: 2026-01-02T08:52:38.000Z
+date: 2026-05-11T22:07:05.000Z
 tags: blocks, category
 editor: markdown
-dateCreated: 2026-01-02T08:52:38.000Z
+dateCreated: 2026-05-11T22:07:05.000Z
 ---
 
 # 🚀 Motion Blocks
 
-This category contains **26** blocks.
+This category contains **11** blocks.
 
 ## Available Blocks
 
-- **[Block Get Look](./motion/block_get_look)** - Output angle between front/right or up direction of the origin, and the target position.
-- **[Block Get Rotation](./motion/block_get_rotation)** - 
-- **[Center Of Mass](./motion/center_of_mass)** - Set the physical center of mass of a group. (to be used in combination with Make Physical)
-- **[Fan](./motion/fan)** - Propels marbles when they pass in front of the fan.
-- **[Field](./motion/field)** - Add Force or Gravity to all blocks inside.
-- **[Follow](./motion/block_follow)** - Attach blocks or the player to a moving block.
-- **[Get Distance](./motion/block_distance)** - 
-- **[Get Position](./motion/block_relative_position)** - Get X,Y,Z position of the connected block ("target" input). Can also get position relative to ano...
-- **[Gravity](./motion/gravity)** - 
-- **[Joint](./motion/joint)** - Let you connect two physical parts together and control / constrain rotation. (let you make robot...
-- **[Make Hittable](./motion/set_hittable)** - Add the ability to be hit to any block. Outputs hit velocity, and the two colliding blocks.
-- **[Make Physical](./motion/make_physical)** - Make blocks able to collide, be thrown or subject to gravity.
-- **[Marble Random Gate](./motion/marblerandomgate)** - 
+- **[Block Get Look](./motion/block_get_look)** - Outputs the angle (in degrees) between the origin block's right, up and forward axes and the dire...
+- **[Get Distance](./motion/block_distance)** - Outputs the distance (in meters) between two blocks. Connect blocks to both Tag inputs; if either...
+- **[Get Position](./motion/block_relative_position)** - Outputs the X, Y and Z position of the connected "Target" block. By default the position is local...
+- **[Make Physical Extra](./motion/make_physical_extra)** - Extra runtime controls for physical blocks: kill velocity/rotation, freeze, reset to edit positio...
 - **[Marble Slide](./motion/marbleslide)** - A slide that will guide marbles with realistic physics.
-- **[Marble Spawner](./motion/m_spawner)** - 
+- **[Marble Spawner](./motion/m_spawner)** - Spawns physical marbles when triggered. Initial velocity is controllable and the spawner's colour...
 - **[Marble Tube](./motion/marbletube)** - A tube with a funnel that will catch and guide marbles.
-- **[Meter](./motion/position)** - Outputs the position of itself (or group it's inside). Works either relative to the world origin ...
-- **[Piston](./motion/piston)** - Used to attach two blocks together and let you set the distance between the two (to make suspensi...
-- **[Rail](./motion/rail)** - Attach other blocks to it use click and drag. Then changing its input value will translate them.
-- **[Rotor](./motion/rotor)** - Attach other blocks to it use click and drag. Then changing its input value will rotate them.
-- **[Set Look At](./motion/block_lookat)** - 
-- **[Set Position](./motion/block_set_position)** - Change position of the "target" block. You can give an optional "origin" block, it will then posi...
-- **[Set Rotation](./motion/block_set_rotation)** - 
-- **[Speedometer](./motion/speed)** - Outputs the speed and acceleration. Use inside groups to make e.g. shakers, and other instruments...
-- **[Thruster](./motion/thruster)** - Will propel the device it's attached to. Activated using a jolt input.
-- **[Wing](./motion/wing)** - Gives basic aerodynamics to your physical group. The more the wing is tilted compared to the dire...
+- **[Rail](./motion/rail)** - Attach other blocks to it using click and drag. Changing its input value translates them along a ...
+- **[Rotor](./motion/rotor)** - Attach other blocks to it using click and drag. Changing its input value rotates them.
+- **[Set Look At](./motion/block_lookat)** - Rotates the connected "Subjects" blocks to face the "Targets" blocks. Speed sets how fast they tu...
+- **[Set Position](./motion/block_set_position)** - Sets the position of the "Target" block(s) using X, Y and Z values. Connect an optional "Origin" ...
 
 ---

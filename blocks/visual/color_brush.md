@@ -6,18 +6,23 @@
 
 ## Description
 
-Interactive color painting tool. Touch blocks to preview colors, trigger to apply permanently.
+Hand-held color brush. Hover over blocks to preview the picker's color, pull the trigger to apply permanently.
 
-Hand-held color brush with 3D color picker. Hover over blocks to preview color changes, pull trigger to apply permanently. Features real-time color preview and restoration of original colors when moving away. Use the integrated color picker to select any color from the spectrum.
+Grab the brush and sweep its tip over blocks: hovered parts preview the color from the 3D color picker and revert when the tip moves away. Pull the trigger to commit the color permanently. While held, the joystick left/right cycles through the world's color palette (defined in the background settings).
 
 ## Inputs, Outputs and Parts
 
-**Color Picker**: 3D color picker interface for selecting paint color
+### Others
+
+| Name | Type | Description |
+|------|------|-------------|
+| Color Picker | Interactible | 3D color picker used to select the paint color. |
 
 ## Related Blocks
 
 - [block_set_color](/blocks/visual/block_set_color)
 - [set_material](/blocks/visual/set_material)
 - [material_brush](/blocks/visual/material_brush)
+- [hsvtorgb](/blocks/visual/hsvtorgb)
 
 ---

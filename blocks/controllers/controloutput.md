@@ -6,34 +6,52 @@
 
 ## Description
 
-Outputs various data from the controllers (grip/trigger/buttons/joystick...)
+Outputs various data from both controllers: grip, trigger, buttons, joystick axes, head distance, and distance between controllers.
+
+## Related Wiki Pages
+
+[player-inputs](/patching/player-inputs)
 
 ## Inputs, Outputs and Parts
 
-**Trigger Right** *(jolt output)*: Emits values between 0-1 when right controller's trigger is squeezed
+### Inputs
 
-**Grip Right** *(jolt output)*: Emits values between 0-1 when right controller's grip is squeezed
+| Name | Type | Description |
+|------|------|-------------|
+| Input Player | Tag Input | Restrict to a specific player. - No connection: use local player - Connection to player: restrict to player - Connection to controller: both sides output the same controller state |
 
-**Button A Right** *(jolt output)*: Emits 1 when A button on the right controller is pressed
+### Outputs
 
-**Button B Right** *(jolt output)*: Emits 1 when B button on the right controller is pressed
+| Name | Type | Description |
+|------|------|-------------|
+| Trigger Right | Jolt Output | Emits values between 0-1 when right controller's trigger is squeezed |
+| Grip Right | Jolt Output | Emits values between 0-1 when right controller's grip is squeezed |
+| Button A Right | Jolt Output | Emits 1 when A button on the right controller is pressed |
+| Button B Right | Jolt Output | Emits 1 when B button on the right controller is pressed |
+| Trigger Left | Jolt Output | Emits values between 0-1 when left controller's trigger is squeezed |
+| Grip Left | Jolt Output | Emits values between 0-1 when left controller's grip is squeezed |
+| Button A Left | Jolt Output | Emits 1 when A button on the left controller is pressed |
+| Button B Left | Jolt Output | Emits 1 when B button on the left controller is pressed |
+| Distance Between Controllers | Jolt Output | Emits distance between the controllers |
+| Right Joy X axis | Jolt Output |  |
+| Right Joy Y axis | Jolt Output |  |
+| Right Joy Pressed | Jolt Output |  |
+| Head Distance Right | Jolt Output | Distance from the right controller to your head. |
+| Head Distance Left | Jolt Output | Distance from the left controller to your head. |
+| Left Joy X axis | Jolt Output |  |
+| Left Joy Y axis | Jolt Output |  |
+| Left Joy Pressed | Jolt Output |  |
 
-**Head Distance** *(jolt output)*: Emits distance between the head and the controller
+## Inspector Controls
 
-**Trigger Left** *(jolt output)*: Emits values between 0-1 when left controller's trigger is squeezed
-
-**Grip Left** *(jolt output)*: Emits values between 0-1 when left controller's grip is squeezed
-
-**Button A Left** *(jolt output)*: Emits 1 when A button on the left controller is pressed
-
-**Button B Left** *(jolt output)*: Emits 1 when B button on the left controller is pressed
-
-**Distance Between Controllers** *(jolt output)*: Emits distance between the controllers
-
-**Input Player**: Restrict to a specific player.
-- No connection: use local player
-- Connection to player: restrict to player
-- Connection to controller: both sides output the same controller state
+| Name | Type | Description |
+|------|------|-------------|
+| Uses Right Button A | checkbox | When enabled, this block claims priority use of the A button, preventing the radial menu or other blocks from consuming it. |
+| Uses Right Button B | checkbox | When enabled, this block claims priority use of the B button, preventing the main menu or other blocks from consuming it. |
+| Uses Right Trigger | checkbox | When enabled, this block claims priority use of the trigger, preventing other interaction systems from consuming it. |
+| Uses Right Joystick X | checkbox | When enabled, this block claims priority use of the joystick horizontal axis, preventing locomotion or other blocks from consuming it. |
+| Uses Right Joystick Y | checkbox | When enabled, this block claims priority use of the joystick vertical axis, preventing locomotion or other blocks from consuming it. |
+| Uses Right Joystick Click | checkbox | When enabled, this block claims priority use of the joystick click, preventing other blocks from consuming it. |
 
 ## Related Blocks
 

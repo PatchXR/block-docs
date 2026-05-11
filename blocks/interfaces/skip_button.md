@@ -6,16 +6,37 @@
 
 ## Description
 
-Push the button to emit a value of 1 out of the Jolt output.
+A momentary 'skip' button. Pressing it emits a 1 from the Jolt output.
 
-Useful for musical playback control UI.
+Useful for musical playback control UI, e.g. wired to a Counter to advance through a sequence.
 
 ## Inputs, Outputs and Parts
 
-**State out**: Emits 1 when button is pushed.
+### Inputs
 
-**Set State**: Triggers the push of the button and emits 1 from the Jolt output.
+| Name | Type | Description |
+|------|------|-------------|
+| Trigger | Jolt Input | Triggers the push of the button and emits 1 from the Jolt output. |
+| Highlight | Jolt Input | Controls the brightness of the button graphics from -1 (black) to 4 (white). |
 
-**Highlight**: Controls the brightness of the button graphics from -1 (black) to 4 (white).
+### Outputs
+
+| Name | Type | Description |
+|------|------|-------------|
+| Jolt Out | Jolt Output | Emits 1 when button is pushed. |
+
+### Others
+
+| Name | Type | Description |
+|------|------|-------------|
+| Button | Button | Press to emit a 1 from the Jolt output. |
+
+## Related Blocks
+
+- [back_button](/blocks/interfaces/back_button)
+- [play_button](/blocks/interfaces/play_button)
+- [reset_button](/blocks/interfaces/reset_button)
+- [help_button](/blocks/interfaces/help_button)
+- [button](/blocks/interfaces/button)
 
 ---

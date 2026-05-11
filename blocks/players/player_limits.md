@@ -6,15 +6,23 @@
 
 ## Description
 
-Creates an invisible bounding box that restricts player movement to a defined area.
+Defines a resizable cubic boundary that players cannot move outside of. Useful for keeping people in a play area, a room, or a stage.
 
-Displays a resizable cube that acts as a movement boundary for players in the scene. When active, prevents players from moving outside the defined area. The box can be resized using drag handles and can be enabled/disabled as needed. Useful for keeping players within specific zones or preventing them from accessing certain areas.
+Drag the corner handle to resize the boundary. The Enable jolt input lets you turn the restriction on/off at runtime (e.g. open a 'door' once a puzzle is solved). The boundary is invisible to players once the world is published.
 
 ## Inputs, Outputs and Parts
 
-**Enable** *(jolt input)*: Jolt input to enable/disable player movement restrictions
+### Inputs
 
-**Resize Handle** *(interactive)*: Drag handle to adjust the size of the boundary box
+| Name | Type | Description |
+|------|------|-------------|
+| Enable | Jolt Input | Turn the boundary on (non-zero) or off (0). When off, players can move freely through it. |
+
+### Others
+
+| Name | Type | Description |
+|------|------|-------------|
+| Resize Handle | Draggable part | Grab and drag to resize the boundary on all three axes. |
 
 ## Related Blocks
 

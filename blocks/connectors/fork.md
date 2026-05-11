@@ -6,14 +6,21 @@
 
 ## Description
 
-Extension splitter cable, transmits one input stream to many outputs over a distance.
-Click & drag from base to create new cabels
+Extension splitter cable: transmits one input stream to many outputs over a distance. Click and drag from the base to create new cables.
 
 ## Inputs, Outputs and Parts
 
-**Input** *(stream input)*: Stream input to be passed to one or more outputs with no modifications.
+### Inputs
 
-**Make new cable** *(interactive)*: Pull while holding trigger to create a new connection.
+| Name | Type | Description |
+|------|------|-------------|
+| Input | Stream Input | Stream input to be passed to one or more outputs with no modifications. |
+
+### Others
+
+| Name | Type | Description |
+|------|------|-------------|
+| Make new cable | Sub Part | Pull while holding trigger to create a new connection. |
 
 ## Related Blocks
 

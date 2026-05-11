@@ -6,12 +6,18 @@
 
 ## Inputs, Outputs and Parts
 
-**Grab sphere VR**: 
+### Inputs
 
-**eR_set**: 
+| Name | Type | Description |
+|------|------|-------------|
+| eR_set | Jolt Input |  |
 
-**PULL_extend**: 
+### Others
 
-**PULL_fader**: 
+| Name | Type | Description |
+|------|------|-------------|
+| Grab sphere VR | Sub Part |  |
+| PULL_extend | Draggable part |  |
+| PULL_fader | Draggable part |  |
 
 ---

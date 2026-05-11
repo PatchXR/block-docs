@@ -6,24 +6,30 @@
 
 ## Description
 
-A three-dimensional slider with x, y, and z outputs.
+A three-dimensional controller with a draggable ball. Drag the ball in 3D space to output its normalized X, Y, Z positions (0-1). Pull the sticks to extend each axis range.
 
 ## Inputs, Outputs and Parts
 
-**hide_show** *(jolt input)*: Send a value of one to show the ball or zero to hide it.
+### Inputs
 
-**extend_x** *(interactive)*: Pull to extend the x-axis.
+| Name | Type | Description |
+|------|------|-------------|
+| Show/Hide Ball | Jolt Input | Shows the ball when the value is above 0.5, hides it when 0. |
 
-**extend_y** *(interactive)*: Pull to extend the x-axis.
+### Others
 
-**extend_z** *(interactive)*: Pull to extend the z-axis.
+| Name | Type | Description |
+|------|------|-------------|
+| Extend X | Draggable part | Drag to resize the X axis range. |
+| Extend Y | Draggable part | Drag to resize the Y axis range. |
+| Extend Z | Draggable part | Drag to resize the Z axis range. |
+| Ball | Draggable part | Drag to set the output values. The ball position is normalized 0-1 per axis. |
+| Output X | Sub Part | Outputs the normalized X position of the ball (0-1). |
+| Output Y | Sub Part | Outputs the normalized Y position of the ball (0-1). |
+| Output Z | Sub Part | Outputs the normalized Z position of the ball (0-1). |
 
-**ball** *(interactive)*: The ball whose position determines the output values.
+## Related Blocks
 
-**output_x** *(stream output)*: Outputs the x position of the ball.
-
-**output_y** *(stream output)*: Outputs the y position of the ball.
-
-**output_z** *(stream output)*: Outputs the z position of the ball.
+- [slider_3d_jolt](/blocks/controllers/slider_3d_jolt)
 
 ---

@@ -6,24 +6,38 @@
 
 ## Description
 
-Compares a jolt value with a stream value and outputs a jolt value through one of the two outputs, depending on whether the condition is met or not
+Compares the incoming jolt value with a stream value and routes the jolt to one of two outputs depending on whether the condition is met.
+
+Supports equality, inequality, greater/less than (inclusive variants), and bitwise AND/OR/XOR operations. The operation can be changed via the dial or set remotely via the Set Operation jolt input.
 
 ## Inputs, Outputs and Parts
 
-**SetTypeReciever**: 
+### Inputs
 
-**Input** *(jolt input)*: Receives value which will be compared with value set in the stream input, triggers the comparison.
+| Name | Type | Description |
+|------|------|-------------|
+| Set Operation | Jolt Input | 0: =, 1: !=, 2: >, 4: >=, 3: <, 5: <=, 6: &, 7: |, 8: ^ |
+| Input | Jolt Input | Receives value which will be compared with value set in the stream input, triggers the comparison. |
+| Compare with | Stream Input | Sets the value that will be compared with the incoming value from the jolt input (without triggering the output). |
 
-**Comparison operation** *(interactive)*: Sets the type of the comparison operation.
+### Outputs
 
-**Compare with** *(stream input)*: Sets the value that will be compared with the incoming value from the jolt input (without triggering the output).
+| Name | Type | Description |
+|------|------|-------------|
+| Output if | Jolt Output | Emits received jolt value if the condition is met. |
+| Output else | Jolt Output | Emits received jolt value if the condition is not met. |
 
-** Output if** *(jolt output)*: Emits received jolt value if the condition is met.
+### Others
 
-** Output else** *(jolt output)*: Emits received jolt value if the condition is not met.
+| Name | Type | Description |
+|------|------|-------------|
+| Comparison operation | Selector | Sets the type of the comparison operation. |
 
 ## Related Blocks
 
 - [compare](/blocks/logic/compare)
+- [gate](/blocks/logic/gate)
+- [route](/blocks/logic/route)
+- [bernoulli](/blocks/logic/bernoulli)
 
 ---

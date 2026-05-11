@@ -6,26 +6,45 @@
 
 ## Description
 
-A slider with three axes that lets you control three values at onces.
+A three-axis 3D slider with Jolt inputs and outputs for all three axes. Drag the ball or send a Jolt to set each axis value (0-1 range).
 
 Has three resizable axes. Sends out a jolt per axis and has jolt inputs to set the value along each axis individually.
 
 ## Inputs, Outputs and Parts
 
-**Resize** *(Interactive)*: Drag to resize
+### Inputs
 
-**Value** *(Interactive)*: Drag to change the output value
+| Name | Type | Description |
+|------|------|-------------|
+| Input X | Jolt Input | Send a jolt between zero and one to set the value along the X axis. |
+| Input Y | Jolt Input | Send a jolt between zero and one to set the value along the Y axis. |
+| Input Z | Jolt Input | Send a jolt between zero and one to set the value along the Z axis. |
 
-**Output X** *(jolt output)*: Sends out the value of the X axis.
+### Outputs
 
-**Output Y** *(jolt output)*: Sends out the value of the Y axis.
+| Name | Type | Description |
+|------|------|-------------|
+| Output X | Jolt Output | Sends out the value of the X axis. |
+| Output Y | Jolt Output | Sends out the value of the Y axis. |
+| Output Z | Jolt Output | Sends out the value of the Z axis. |
 
-**Output Z** *(jolt output)*: Sends out the value of the Z axis.
+### Others
 
-**Input X** *(Jolt input)*: Send a jolt between zero and one to set the value along the X axis.
+| Name | Type | Description |
+|------|------|-------------|
+| Resize | Draggable part | Drag to resize |
+| Value | Draggable part | Drag to change the output value |
 
-**Input Y** *(Jolt input)*: Send a jolt between zero and one to set the value along the Y axis.
+## Inspector Controls
 
-**Input Z** *(Jolt input)*: Send a jolt between zero and one to set the value along the Z axis.
+| Name | Type | Description |
+|------|------|-------------|
+| Lock size | checkbox | When enabled, prevents all three axes from being resized by dragging. |
+
+## Related Blocks
+
+- [slider_3d](/blocks/controllers/slider_3d)
+- [slider_jolt](/blocks/interfaces/slider_jolt)
+- [slider_new](/blocks/interfaces/slider_new)
 
 ---

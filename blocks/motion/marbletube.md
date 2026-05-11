@@ -10,8 +10,11 @@ A tube with a funnel that will catch and guide marbles.
 
 ## Inputs, Outputs and Parts
 
-**marbleTube**: 
+### Others
 
-**Handle**: 
+| Name | Type | Description |
+|------|------|-------------|
+| marbleTube | Sub Part |  |
+| Handle | Interactible |  |
 
 ---

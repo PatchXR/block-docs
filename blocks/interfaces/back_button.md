@@ -6,24 +6,37 @@
 
 ## Description
 
-Push the button to emit a value of 1 out of the Jolt output.
+A momentary 'back' button. Pressing it emits a 1 from the Jolt output.
 
-Useful for musical playback control UI.
+Useful for musical playback control UI, e.g. wired to a Counter to step backwards through a sequence.
 
 ## Inputs, Outputs and Parts
 
-**Highlight**: Controls the brightness of the button graphics from -1 (black) to 4 (white).
+### Inputs
 
-**Trigger**: Triggers the push of the button and emits 1 from the Jolt output.
+| Name | Type | Description |
+|------|------|-------------|
+| Highlight | Jolt Input | Controls the brightness of the button graphics from -1 (black) to 4 (white). |
+| Trigger | Jolt Input | Triggers the push of the button and emits 1 from the Jolt output. |
 
-**Jolt Out**: Emits 1 when button is pushed.
+### Outputs
+
+| Name | Type | Description |
+|------|------|-------------|
+| Jolt Out | Jolt Output | Emits 1 when button is pushed. |
+
+### Others
+
+| Name | Type | Description |
+|------|------|-------------|
+| Button | Button | Press to emit a 1 from the Jolt output. |
 
 ## Related Blocks
 
 - [help_button](/blocks/interfaces/help_button)
-- next_button (link not available)
 - [play_button](/blocks/interfaces/play_button)
 - [reset_button](/blocks/interfaces/reset_button)
 - [skip_button](/blocks/interfaces/skip_button)
+- [button](/blocks/interfaces/button)
 
 ---

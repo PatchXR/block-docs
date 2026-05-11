@@ -12,11 +12,13 @@ Useful block for creating interactions that responds to user proximity
 
 ## Inputs, Outputs and Parts
 
-**X position** *(jolt output)*: Emits distance of the controller along the X axis in relation to the block's position
+### Outputs
 
-**Y position** *(jolt output)*: Emits distance of the controller along the Y axis in relation to the block's position
-
-**Z position** *(jolt output)*: Emits distance of the controller along the Z axis in relation to the block's position
+| Name | Type | Description |
+|------|------|-------------|
+| X position | Jolt Output | Emits distance of the controller along the X axis in relation to the block's position |
+| Y position | Jolt Output | Emits distance of the controller along the Y axis in relation to the block's position |
+| Z position | Jolt Output | Emits distance of the controller along the Z axis in relation to the block's position |
 
 ## Related Blocks
 

@@ -6,12 +6,25 @@
 
 ## Description
 
-Transpose sound in real time.
+Shifts the pitch of an audio signal up or down by a set number of semitones.
+
+## Related Wiki Pages
+
+[audio-filters](/patching/audio-filters)
 
 ## Inputs, Outputs and Parts
 
-**s_IN_0**: 
+### Inputs
 
-**s_IN_1**: 
+| Name | Type | Description |
+|------|------|-------------|
+| Signal Input | Stream Input | The audio signal to pitch-shift. |
+| Transpose | Stream Input | Pitch shift amount in semitones. Positive values shift up, negative values shift down. |
+
+## Related Blocks
+
+- [delay](/blocks/audio/delay)
+- [filter](/blocks/audio/filter)
+- [statevariable](/blocks/audio/statevariable)
 
 ---

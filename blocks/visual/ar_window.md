@@ -1,4 +1,4 @@
-# Ar Window
+# AR Window
 
 **Category**: 🎨 Visual
 
@@ -6,19 +6,24 @@
 
 ## Description
 
-Creates a resizable window that shows real-world passthrough view in VR/AR environments.
+Resizable window that reveals the real world via passthrough inside a virtual scene. Drag the corner handle to resize.
 
-Augmented reality window that displays the real world through the headset's passthrough cameras. The window can be resized and positioned anywhere in the virtual space, allowing users to see their physical surroundings while remaining in VR. Features corner handles for easy resizing and positioning.
+Acts as the inverse of the vr_window: instead of revealing VR through passthrough, it cuts a hole of real-world passthrough into the virtual scene. Position and resize it freely to let the player peek at their physical surroundings without leaving VR.
 
 ## Inputs, Outputs and Parts
 
-**Display Plane**: The main passthrough display surface
+### Others
 
-**Resize Handle**: Corner handle for resizing the window
+| Name | Type | Description |
+|------|------|-------------|
+| Display Plane | Interactible | The main passthrough display surface that reveals the real world. |
+| Resize Handle | Draggable part | Drag this corner with the trigger to resize the window. |
 
 ## Related Blocks
 
-- webcam (link not available)
-- [image](/blocks/visual/image)
+- [vr_window](/blocks/visual/vr_window)
+- [magic_window](/blocks/visual/magic_window)
+- [passthrough](/blocks/visual/passthrough)
+- [mixed_reality](/blocks/visual/mixed_reality)
 
 ---

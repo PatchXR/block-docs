@@ -10,8 +10,11 @@ A slide that will guide marbles with realistic physics.
 
 ## Inputs, Outputs and Parts
 
-**marbleSlide**: 
+### Others
 
-**Handle**: 
+| Name | Type | Description |
+|------|------|-------------|
+| marbleSlide | Sub Part |  |
+| Handle | Interactible |  |
 
 ---

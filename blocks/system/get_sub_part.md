@@ -6,16 +6,41 @@
 
 ## Description
 
-Given a block made of different moving parts, this block will output the choosen specific part using the given index number.
+Given a block made of multiple moving parts, outputs a specific sub-part selected by index.
 
-For example, given a "player" as input, it can output one of the body part like the "head", "right hand" or feets.
+For example, given a player as input, this block can output a specific body part such as the head, the right hand, or a foot. Once a block is connected, the names of its parts are displayed to help pick the right index.
+
+## Related Wiki Pages
+
+[player-inputs](/patching/player-inputs)
 
 ## Inputs, Outputs and Parts
 
-**Input Block**: Block or blocks, we would like to select a sub part from.
+### Inputs
 
-**Selected Part**: Outputs one of the sub part of the block given as input.
+| Name | Type | Description |
+|------|------|-------------|
+| Input Block | Tag Input | The block (or blocks) from which to select a sub-part. |
+| Part Index | Jolt Input with Dial | Sets the index of the part to output. Once a block is connected, the names of its parts are displayed to help you set the right index. |
+| Part Name | Text Input | Displays the name and index of the currently selected sub-part. Shows 'Out Of Range' if the index does not match any part on the input block. |
 
-**Part Index**: Once a block is connected, you should see the name of the different parts showing on the block to help you set the right id.
+### Outputs
+
+| Name | Type | Description |
+|------|------|-------------|
+| Selected Part | Tag Output | Outputs the chosen sub-part of the block given as input. |
+
+## Inspector Controls
+
+| Name | Type | Description |
+|------|------|-------------|
+| Edit text from outside | checkbox | When enabled, allows interacting with the text display from outside the group containing this block. |
+
+## Related Blocks
+
+- [players](/blocks/players/players)
+- [block_foreach](/blocks/system/block_foreach)
+- [all_with_variable](/blocks/system/all_with_variable)
+- [get_name](/blocks/system/get_name)
 
 ---

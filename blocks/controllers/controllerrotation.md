@@ -6,15 +6,24 @@
 
 ## Description
 
-Outputs rotation angles of each controller
+Outputs the Euler rotation angles (0-359 degrees) of both controllers along their X, Y, and Z axes.
+
+## Related Wiki Pages
+
+[player-inputs](/patching/player-inputs)
 
 ## Inputs, Outputs and Parts
 
-**X rotation** *(jolt output)*: Emits value of the rotation around the X Axis in degrees (0-359 range)
+### Outputs
 
-**Y rotation** *(jolt output)*: Emits value of the rotation around the Y Axis in degrees (0-359 range)
-
-**Z rotation** *(jolt output)*: Emits value of the rotation around the Z Axis in degrees (0-359 range)
+| Name | Type | Description |
+|------|------|-------------|
+| X Rotation Right | Jolt Output | Emits the rotation of the right controller around the X axis, in degrees (0-359 range). |
+| Y Rotation Right | Jolt Output | Emits the rotation of the right controller around the Y axis, in degrees (0-359 range). |
+| Z Rotation Right | Jolt Output | Emits the rotation of the right controller around the Z axis, in degrees (0-359 range). |
+| X Rotation Left | Jolt Output | Emits the rotation of the left controller around the X axis, in degrees (0-359 range). |
+| Y Rotation Left | Jolt Output | Emits the rotation of the left controller around the Y axis, in degrees (0-359 range). |
+| Z Rotation Left | Jolt Output | Emits the rotation of the left controller around the Z axis, in degrees (0-359 range). |
 
 ## Related Blocks
 

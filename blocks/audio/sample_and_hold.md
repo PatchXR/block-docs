@@ -6,14 +6,24 @@
 
 ## Description
 
-Stores the value of a signal when a clock or event is received.
+Captures and holds the value of a signal when triggered by a clock signal or jolt.
+
+## Related Wiki Pages
+
+[audio-filters](/patching/audio-filters)
 
 ## Inputs, Outputs and Parts
 
-**Clock input** *(stream input)*: Each time when this values goes high the input signal value will be held.
+### Inputs
 
-**Signal input** *(stream input)*: Signal to be sampled.
+| Name | Type | Description |
+|------|------|-------------|
+| Clock input | Stream Input | Each time this value goes high, the current signal input value is captured and held. |
+| Signal input | Stream Input | Signal to be sampled. |
+| Sample | Jolt Input | Send a jolt to immediately capture and hold the current signal input value. |
 
-**sample**: Sample
+## Related Blocks
+
+- [watcher](/blocks/logic/watcher)
 
 ---

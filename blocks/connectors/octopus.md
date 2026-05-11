@@ -6,12 +6,14 @@
 
 ## Description
 
-Lets you attach object together. Click and drag from octopus to the object.
+Lets you attach objects together. Click and drag from the octopus to another block to parent it.
 
 ## Inputs, Outputs and Parts
 
-**octopus**: 
+### Inputs
 
-**Attach**: Attach blocks to the octopus. (click and drag)
+| Name | Type | Description |
+|------|------|-------------|
+| Attach | Tag Input | Attach blocks to the octopus. (click and drag) |
 
 ---

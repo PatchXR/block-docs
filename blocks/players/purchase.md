@@ -6,16 +6,29 @@
 
 ## Description
 
-Allows to other users to send coins for you as tips or as pay for the content.
+Allows to other users to send coins for you as tips or pay for one of your connected device.
 
 ## Inputs, Outputs and Parts
 
-**On purchasing** *(jolt output)*: Signals when the purchasing is in process.
+### Inputs
 
-**On purchasing is finished** *(jolt output)*: Signals when the purchasing process is ended. -1 means cancelled purchase, while value 1 means successful operation.
+| Name | Type | Description |
+|------|------|-------------|
+| Make purchase | Jolt Input | Starts the transaction. |
+| Set Coins Tips | Jolt Input |  |
+| Target Device | Tag Input | Device to purchase. |
 
-**Set cost** *(jolt input)*: Sets the price in coins.
+### Outputs
 
-**Make purchase** *(jolt input)*: Starts the transaction.
+| Name | Type | Description |
+|------|------|-------------|
+| On purchasing | Jolt Output | Signals when the purchasing is in process. |
+| On purchasing is finished | Jolt Output | Signals when the purchasing process is ended. -1 means cancelled purchase, while value 1 means successful operation. |
+
+## Inspector Controls
+
+| Name | Type | Description |
+|------|------|-------------|
+| Set receiver ID on next spawn | checkbox |  |
 
 ---

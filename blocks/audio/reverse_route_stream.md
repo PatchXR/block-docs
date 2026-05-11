@@ -12,11 +12,24 @@ A dynamic routing block that funnels multiple audio streams into one output. Tak
 
 ## Inputs, Outputs and Parts
 
-**Index** *(stream input)*: Selects which input stream to route to the output (0 = first input, 1 = second input, etc.)
+### Inputs
 
-**Stream 1** *(stream input)*: First audio stream input
+| Name | Type | Description |
+|------|------|-------------|
+| Select Index | Stream Input | Select which input to pass to the output. Starting from 0 being the first one. Index values with decimal will mix both inputs together. |
+| First Input | Stream Input | First audio stream input. Connect an audio signal here. Routed to the output when index is 0. |
 
-**Output** *(stream output)*: The selected audio stream output
+### Others
+
+| Name | Type | Description |
+|------|------|-------------|
+| Add more Inputs | Draggable part | Click and drag to change the number of inputs. |
+
+## Inspector Controls
+
+| Name | Type | Description |
+|------|------|-------------|
+| Lock Size | checkbox | When enabled, prevents the number of inputs from being changed by dragging the resize handle. |
 
 ## Related Blocks
 

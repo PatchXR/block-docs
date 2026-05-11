@@ -6,12 +6,24 @@
 
 ## Description
 
-Send a jolt value each time the input stream changes. (max 90Hz by default)
+Converts a stream signal into jolt events. Emits the current stream value as a jolt each time the stream changes (at most 90 times per second).
 
 ## Inputs, Outputs and Parts
 
-**input** *(stream input)*: The stream to convert.
+### Inputs
 
-**output** *(event output)*: Emits the value of the incoming stream as a jolt.
+| Name | Type | Description |
+|------|------|-------------|
+| input | Stream Input | The stream to convert. |
+
+### Outputs
+
+| Name | Type | Description |
+|------|------|-------------|
+| output | Jolt Output | Emits the value of the incoming stream as a jolt. |
+
+## Related Blocks
+
+- [watcher](/blocks/logic/watcher)
 
 ---
