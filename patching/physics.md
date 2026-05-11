@@ -2,7 +2,7 @@
 title: Physics
 description: 
 published: true
-date: 2026-05-11T15:58:13.678Z
+date: 2026-05-11T16:00:10.923Z
 tags: physics, joints
 editor: markdown
 dateCreated: 2026-05-11T15:58:13.678Z
@@ -57,7 +57,7 @@ For rotational or linear links between two parts, use the joint family. Both blo
 - ![Joint small](https://portal.patchxr.io/block-thumbnails/joint.png =80x80) [Joint](/blocks/motion/joint): rotational link between two parts. Foundation for hinges, ball joints, robotic arms, joysticks, wheels.
 - ![Piston small](https://portal.patchxr.io/block-thumbnails/piston.png =80x80) [Piston](/blocks/motion/piston): linear (sliding) link between two parts. Foundation for pistons, suspensions, sliders, springs, telescopic arms.
 
-See [Joint & Piston System](/wiki/joint-system) for a full breakdown of drives, limits and outputs.
+See [Joint & Piston System](/patching/joint-system) for a full breakdown of drives, limits and outputs.
 
 ---
 
