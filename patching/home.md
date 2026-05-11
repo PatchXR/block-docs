@@ -2,7 +2,7 @@
 title: Basics of patching
 description: 
 published: true
-date: 2026-05-11T16:31:01.699Z
+date: 2026-05-11T16:33:21.239Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-15T18:45:58.411Z
@@ -30,14 +30,6 @@ Create complex synthesizers and soundscapes.
 - **[Audio Filters](/patching/audio-filters)**: Shape your sound with EQs, filters, and effects.
 - **[Samples](/patching/samples)**: Record, play, and manipulate audio samples.
 
-## 🧠 Logic & Data
-Manage state and create dynamic behaviors.
-
-- **[Variable System](/patching/variable-system)**: Use global and local variables to store information.
-- **[Online Variables](/patching/online-variables)**: Sync data between players in multiplayer sessions.
-- **[Preset Manager](/patching/preset-manager)**: Save and recall the state of your blocks.
-- **[Dynamic Patching](/patching/dynamic-patching)**: Modify your patch logic programmatically at runtime.
-
 ## 🎮 Real World Inputs
 Connect the user and the outside world to your patch.
 
@@ -50,3 +42,11 @@ Build moving parts and physical simulations.
 
 - **[Physics](/patching/physics)**: Gravity, collisions, and physical forces.
 - **[Joint System](/patching/joint-system)**: Link blocks with hinges, springs, and fixed joints.
+
+## 🧠 Advanced Concepts
+Manage state and create dynamic behaviors. Useful for making games.
+
+- **[Variable System](/patching/variable-system)**: Use global and local variables to store information.
+- **[Online Variables](/patching/online-variables)**: Sync data between players in multiplayer sessions.
+- **[Preset Manager](/patching/preset-manager)**: Save and recall the state of your blocks.
+- **[Dynamic Patching](/patching/dynamic-patching)**: Modify your patch logic programmatically at runtime.
