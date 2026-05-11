@@ -6,8 +6,16 @@
 
 ## Inputs, Outputs and Parts
 
-**visuals**: Gate redirecting marbles based on the propability
+### Inputs
 
-**knob**: Propability
+| Name | Type | Description |
+|------|------|-------------|
+| knob | Jolt Input with Dial | Propability |
+
+### Others
+
+| Name | Type | Description |
+|------|------|-------------|
+| visuals | Sub Part | Gate redirecting marbles based on the propability |
 
 ---

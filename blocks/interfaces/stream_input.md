@@ -16,14 +16,23 @@ NOTE: These blocks are heavier on the audio engine then other types of blocks li
 
 ## Inputs, Outputs and Parts
 
-**Stream Out**: Continiously outputs the number from the input/dial, at sample rate.
+### Inputs
 
-Grab attach to any other Steam input to connect. 
-Click & pull with trigger to create Stream cables.
+| Name | Type | Description |
+|------|------|-------------|
+| Stream Input | Stream Input | Set the number value to be continiously output from the Stream output.  Primarily used to pass audio signals. Can receive both Stream cables and Jolt wires. To connect a Stream block here, bring the output of the other block close to this input to snap them together. |
 
-**Stream Input**: Set the number value to be continiously output from the Stream output.
+### Outputs
 
-Primarily used to pass audio signals. Can receive both Stream cables and Jolt wires.
-To connect a Stream block here, bring the output of the other block close to this input to snap them together.
+| Name | Type | Description |
+|------|------|-------------|
+| Stream Out | Stream Output | Continiously outputs the number from the input/dial, at sample rate.  Grab attach to any other Steam input to connect.  Click & pull with trigger to create Stream cables. |
+
+## Inspector Controls
+
+| Name | Type | Description |
+|------|------|-------------|
+| Set Minimum | checkbox | When enabled, restricts the dial to a minimum value. Turn the knob to the desired minimum after enabling. |
+| Set Maximum | checkbox | When enabled, restricts the dial to a maximum value. Turn the knob to the desired maximum after enabling. |
 
 ---

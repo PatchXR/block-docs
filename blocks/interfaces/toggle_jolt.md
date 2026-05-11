@@ -6,16 +6,37 @@
 
 ## Description
 
-A switch that can be toggled on and off.
+A latching on/off switch. Click it or send a jolt to flip the state; emits 1 when on, 0 when off.
+
+Useful for any binary state in a patch: mute/unmute, arm/disarm, enable a behavior, etc. The output fires every time the state changes (whether by click, by 'Toggle' input, or by 'Set state' input), and also reflects the current state when read.
 
 ## Inputs, Outputs and Parts
 
-**Output** *(jolt output)*: Emits a jolt when toggled or an event is received. Sends a value of 1 is the toggle is on and 0 if it's off.
+### Inputs
 
-**Toggle** *(jolt input)*: Send a jolt of any value to switch the toggle from on to off and vice versa.
+| Name | Type | Description |
+|------|------|-------------|
+| Toggle | Jolt Input | Flips the state on every jolt received (any value). Use it for momentary buttons that should latch. |
+| Set state | Jolt Input | Sets the state explicitly: any non-zero value turns it on, 0 turns it off. |
 
-**Set state** *(jolt input)*: Send a jolt with value 1 to turn the toggle on and 0 to turn it off.
+### Outputs
 
-**Toggle switch** *(interactive)*: Press the trigger button on your controller to toggle the on/off state.
+| Name | Type | Description |
+|------|------|-------------|
+| Output | Jolt Output | Emits the current state every time it changes: 1 when on, 0 when off. |
+
+### Others
+
+| Name | Type | Description |
+|------|------|-------------|
+| Toggle switch | interactive | Press the trigger button on your controller to toggle the on/off state. |
+
+## Related Blocks
+
+- [toggle_new](/blocks/interfaces/toggle_new)
+- [toggle](/blocks/interfaces/toggle)
+- [button](/blocks/interfaces/button)
+- [value](/blocks/interfaces/value)
+- [trigger](/blocks/interfaces/trigger)
 
 ---

@@ -6,20 +6,39 @@
 
 ## Description
 
-A filter EQ for boosting or cutting bass, treble, and mid-range frequencies
+A filter EQ for boosting or cutting bass, treble, and mid-range frequencies.
+
+## Related Wiki Pages
+
+[audio-filters](/patching/audio-filters)
 
 ## Inputs, Outputs and Parts
 
-**Input**: 
+### Inputs
 
-**Cutoff Freq**: It sets the frequency where the filter starts working
+| Name | Type | Description |
+|------|------|-------------|
+| Input | Stream Input | The audio signal to process. |
+| Cutoff Freq | Stream Input | Sets the center frequency where the EQ effect is applied, in Hz. |
+| Gain | Stream Input | Controls the amount of boost (values > 1.0) or cut (values < 1.0). The middle position (1.0) has no effect. |
+| Steepness | Jolt Input with Dial | Adjusts the sharpness of the EQ curve. Higher values create a more focused, resonant effect. |
 
-**Gain**: Controls the amount of boost (values > 1.0) or cut (values < 1.0). The middle position (1.0) has no effect
+### Outputs
 
-**Type Dial**: Selects the EQ shape: Low Shelf (bass), High Shelf (treble), or Bell
+| Name | Type | Description |
+|------|------|-------------|
+| Output | Stream Output | The filtered audio signal. |
 
-**Steepness**: Adjusts the sharpness of the EQ curve. Higher values create a more focused, resonant effect
+### Others
 
-**Output**: 
+| Name | Type | Description |
+|------|------|-------------|
+| Type Dial | Selector | Selects the EQ shape: Low Shelf (bass), High Shelf (treble), or Bell. |
+
+## Related Blocks
+
+- [filter](/blocks/audio/filter)
+- [statevariable](/blocks/audio/statevariable)
+- [delay](/blocks/audio/delay)
 
 ---

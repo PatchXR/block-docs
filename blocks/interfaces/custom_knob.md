@@ -6,20 +6,40 @@
 
 ## Description
 
-Click and drag up/down, or twist you hand while clicking to change the knob position from 0 to 1.
+Numeric knob that emits a jolt whenever its value changes. Click and drag up/down, or twist your hand while clicking, to change the value (default range 0 to 1).
 
-Used for controlling parameters of other blocks and devices (i.e. volume).
-Behavior and min/max values can be adjusted from the inspector.
+Used to control parameters of other blocks and devices (volume, frequency, scale, etc.). The output range and curve are configurable in the inspector (Minimum, Maximum, Exponential), letting you map the knob's full sweep to any numeric range.
 
 ## Inputs, Outputs and Parts
 
-**Output**: Outputs the current position of the dial when it is changed (default 0 to 1).
+### Inputs
 
-Click & pull to generate a new Jolt wire.
+| Name | Type | Description |
+|------|------|-------------|
+| Set & Trigger | Jolt Input | Receives a value (in the 0-1 range), sets the knob to that position, and re-emits the mapped value on the Output. Useful for remapping a 0-1 signal to the configured min/max range. |
 
-**Set & Trigger**: Receives 0 to 1 to set the position of the slider and output that positions value.
-Can be used to map 0-1 to other value ranges.
+### Outputs
 
-To connect another block here, click & pull on any Jolt output to create a wire and drag it here.
+| Name | Type | Description |
+|------|------|-------------|
+| Output | Jolt Output | Emits the knob's current value as a jolt whenever it changes. Click & pull to create a wire to another block. |
+
+## Inspector Controls
+
+| Name | Type | Description |
+|------|------|-------------|
+| Minimum | text_input | Value emitted when the knob is at its lowest position. |
+| Maximum | text_input | Value emitted when the knob is at its highest position. |
+| Exponential | checkbox | When on, the knob applies an exponential curve so the Midpoint value is reached when the knob is at 50%. When off, the mapping is linear and the midpoint is automatically (min+max)/2. |
+
+## Related Blocks
+
+- [custom_knob2](/blocks/interfaces/custom_knob2)
+- [knob_new](/blocks/interfaces/knob_new)
+- [knob_block](/blocks/interfaces/knob_block)
+- [peppermill](/blocks/interfaces/peppermill)
+- [slider_jolt](/blocks/interfaces/slider_jolt)
+- [selector_dial](/blocks/interfaces/selector_dial)
+- [stepped_dial](/blocks/interfaces/stepped_dial)
 
 ---

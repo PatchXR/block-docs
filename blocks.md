@@ -2,10 +2,10 @@
 title: Blocks
 description: Comprehensive guide to all fundamental building blocks in PatchWorld
 published: true
-date: 2026-05-11T22:08:52.000Z
+date: 2026-05-11T22:17:54.000Z
 tags: blocks, index, documentation
 editor: markdown
-dateCreated: 2026-05-11T22:08:52.000Z
+dateCreated: 2026-05-11T22:17:54.000Z
 ---
 
 These are the fundamental building blocks available in PatchWorld. You can use these blocks to create patches, instruments, and interactive experiences.

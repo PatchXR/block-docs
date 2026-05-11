@@ -6,24 +6,40 @@
 
 ## Description
 
-Play animation from a 3D model. You can control playback time, weight, layer.
+Play a 3D model's built-in animations with control over weight, layer and playback time. Targets any tagged 3D model or a group of models.
 
-When a group of different 3D models is selected, it can control them all at once.
-Animations can be set to Additive mode in inspector, to play over other animations.
+Tag the 3D model (or a group containing several), then use Previous/Next to pick which animation clip to drive. Weight blends the animation in (0 = off, 1 = full); Layer sets priority when several Set Animation blocks affect the same target; Playback Time scrubs the clip (0-1 normalised by default, or in seconds via the inspector toggle). Enable Additive animation to layer on top of other clips instead of replacing them.
 
 ## Inputs, Outputs and Parts
 
-**Previous**: Browse through all animations.
+### Inputs
 
-**Next**: Browse through all animations.
+| Name | Type | Description |
+|------|------|-------------|
+| Weight 0-1 | Jolt Input with Dial | How strongly the animation is blended in (0 = invisible, 1 = full effect). |
+| Layer | Jolt Input with Dial | Animation layer (positive whole number). Higher layers override lower ones when two animations affect the same bones. |
+| Playback Time | Jolt Input with Dial | Scrubs the animation. Default range is 0-1 (normalised). Disable 'Use 0-1 play time' in the inspector to drive it in seconds, which preserves the clip's original speed. |
+| Select 3D Model | Tag Input | Tag a 3D model with animations, or a group containing multiple 3D models. |
 
-**Weight 0-1**: How much the animation is visible.
+### Others
 
-**Layer**: When two animation are playing, layer determines which has the priority. (positive whole number)
+| Name | Type | Description |
+|------|------|-------------|
+| Previous | Interactible | Step to the previous animation clip available on the tagged model(s). |
+| Next | Interactible | Step to the next animation clip available on the tagged model(s). |
 
-**Playback Time**: Use to control animation progress. Expected value is from 0 to 1.
-In Inspector you can change it use progress time in seconds to instead, to ensure playing at original speed.
+## Inspector Controls
 
-**Select 3D Model**: Select a 3D Model with animations, or a group containing multiple 3D Models.
+| Name | Type | Description |
+|------|------|-------------|
+| Use 0-1 play time | checkbox | When on, Playback Time is treated as a normalised 0-1 progress through the clip. When off, the value is read as seconds, preserving the clip's original speed. |
+| Additive animation | checkbox | Plays the animation additively on top of any other clips already running on the target instead of replacing them. |
+
+## Related Blocks
+
+- [set_blendshape](/blocks/visual/set_blendshape)
+- [set_material](/blocks/visual/set_material)
+- [set_material_pbr](/blocks/extensions/set_material_pbr)
+- [block_set_color](/blocks/visual/block_set_color)
 
 ---

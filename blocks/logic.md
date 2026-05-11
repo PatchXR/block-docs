@@ -2,10 +2,10 @@
 title: Logic
 description: Logic blocks documentation
 published: true
-date: 2026-05-11T22:08:52.000Z
+date: 2026-05-11T22:17:54.000Z
 tags: blocks, category
 editor: markdown
-dateCreated: 2026-05-11T22:08:52.000Z
+dateCreated: 2026-05-11T22:17:54.000Z
 ---
 
 # 🧠 Logic Blocks

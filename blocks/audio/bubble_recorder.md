@@ -6,31 +6,47 @@
 
 ## Description
 
-Tool for recording new audio into a sample bubble.
+Records audio from a stream input into a Bubble sample. Automatically creates a new Bubble if the receptacle is empty.
+
+## Related Wiki Pages
+
+[samples](/patching/samples)
 
 ## Inputs, Outputs and Parts
 
-**Receptacle** *(interactive)*: Place a bubble here to connect it to the player.
+### Inputs
 
-**Record** *(jolt input)*: Send a jolt to start recording (from the begin point).
+| Name | Type | Description |
+|------|------|-------------|
+| Record | Jolt Input | Send a jolt to start recording (from the begin point). |
+| Stop | Jolt Input | Send a jolt to stop recording. |
+| Set begin time | Jolt Input | Sets the point to start recording from (in seconds). |
+| Set end time | Jolt Input | Sets the point that will trigger 'Recording end' to fire (in seconds). Recording will always continue until a jolt is received through 'Stop'. To stop at this point make a connection from 'Recording end' to 'Stop'. |
+| Audio input | Stream Input | Input for the audio to record. |
+| Load Bubble | Tag Input | Drag a bubble here to select it as the recording target (requires Show Bubble Selector to be enabled in inspector). |
 
-**Stop**: Send a jolt to stop recording.
+### Outputs
 
-**Set begin time** *(jolt input)*: Sets the point to start recording from (in seconds).
+| Name | Type | Description |
+|------|------|-------------|
+| Recording end | Jolt Output | Emits a jolt when the recording passes the end point. |
+| Bubble placed | Jolt Output | Emits a jolt with value 1 when a bubble is placed and value 0 when a bubble is removed. |
 
-**Set end time** *(jolt input)*: Sets the point that will trigger 'Recording end' to fire (in seconds). Recording will always continue until a jolt is received through 'Stop'. To stop at this point make a connection from 'Recording end' to 'Stop'.
+### Others
 
-**Recording end** *(jolt output)*: Emits a jolt when the recording passes the end point.
+| Name | Type | Description |
+|------|------|-------------|
+| Receptacle | Sub Part | Place a bubble here to record into it. |
+| Record cursor | Interactible | Shows what part of the sample is being recorded to. |
+| Begin time | Interactible | Shows where recording will begin. Grab to move. |
+| End time | Interactible | Shows where a jolt will be emitted through 'Recording end'. Grab to move. |
 
-**Audio input** *(stream input)*: Input for the audio to record.
+## Inspector Controls
 
-**Record cursor** *(interactive)*: Shows what part of the sample is being recorded to.
-
-**Begin time** *(interactive)*: Shows where recording will begin. Grab to move.
-
-**End time** *(interactive)*: Shows where a jolt will be emitted through 'Recording end'. Grab to move.
-
-**Bubble placed** *(jolt output)*: Emits a jolt with value 1 when a bubble is placed and value 0 when a bubble is removed.
+| Name | Type | Description |
+|------|------|-------------|
+| Synced By | dropdown | Controls which player owns and syncs this recorder in multiplayer sessions. |
+| Show Bubble Selector | checkbox | Shows a bubble selector panel for choosing which sample to record into. |
 
 ## Related Blocks
 

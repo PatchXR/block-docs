@@ -10,6 +10,10 @@ Panel to load a Ready Player Me avatar as your character.
 
 ## Inputs, Outputs and Parts
 
-**Ready Player Me panel**: 
+### Others
+
+| Name | Type | Description |
+|------|------|-------------|
+| Ready Player Me panel |  |  |
 
 ---

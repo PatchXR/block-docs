@@ -6,22 +6,32 @@
 
 ## Description
 
-Scales values from one range to another.
+Linearly remaps a jolt value from an input range to an output range. Emits the result as a jolt.
 
-For example can be used to scale slider 0-1 range to 1-1000 range.
+Each incoming jolt is rescaled from [Input range min, Input range max] to [Output range min, Output range max] and emitted on the output. For example, can be used to scale a 0-1 input to a 1-1000 range. Values outside the input range are mapped proportionally (not clamped).
 
 ## Inputs, Outputs and Parts
 
-**Input range min** *(stream input)*: Input range lower value.
+### Inputs
 
-**Input range max** *(stream input)*: Input range upper value.
+| Name | Type | Description |
+|------|------|-------------|
+| Input range min | Stream Input | Lower bound of the input range. |
+| Input range max | Stream Input | Upper bound of the input range. |
+| Output range min | Stream Input | Lower bound of the output range. |
+| Output range max | Stream Input | Upper bound of the output range. |
+| Input | Jolt Input | Jolt value to remap. |
 
-**Output range min** *(stream input)*: Output range lower value.
+### Outputs
 
-**Output range max** *(stream input)*: Output range upper value.
+| Name | Type | Description |
+|------|------|-------------|
+| Output | Jolt Output | Emits the remapped jolt value. |
 
-**Output**: Result of the mapped value.
+## Related Blocks
 
-**Input**: Value to map.
+- [map](/blocks/audio/map)
+- [clamp](/blocks/audio/clamp)
+- [operation](/blocks/logic/operation)
 
 ---

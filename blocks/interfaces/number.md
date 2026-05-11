@@ -18,14 +18,32 @@ Check inspector for more settings.
 
 ## Inputs, Outputs and Parts
 
-**Trigger**: By default, triggers the currently shown number no matter what number is sent in.
-Behavior of the input can be changed in this block's inspector
+### Inputs
 
-To connect another block here, click & pull on any Jolt output to create a wire and drag it here.
+| Name | Type | Description |
+|------|------|-------------|
+| Trigger | Jolt Input | By default, triggers the currently shown number no matter what number is sent in. Behavior of the input can be changed in this block's inspector  To connect another block here, click & pull on any Jolt output to create a wire and drag it here. |
 
-**Number Out**: Emits the newly changed number when number is changed.
+### Outputs
 
-Click & pull to generate a new Jolt wire.
+| Name | Type | Description |
+|------|------|-------------|
+| Number Out | Jolt Output | Emits the current number when triggered or when the number is changed.  Click & pull to generate a new Jolt wire. |
 
+## Inspector Controls
+
+| Name | Type | Description |
+|------|------|-------------|
+| Input Behaviour | dropdown | How the Trigger input behaves: 'Trigger' fires the current shown number regardless of input value, 'Set & Trigger' first sets the number to the incoming value and then fires. |
+| Allow Decimals | checkbox | When disabled, the value is rounded to an integer. |
+| Set Minimum | checkbox | When enabled, the value is clamped to never go below the configured minimum. |
+| Set Maximum | checkbox | When enabled, the value is clamped to never go above the configured maximum. |
+
+## Related Blocks
+
+- [readout](/blocks/interfaces/readout)
+- [knob_new](/blocks/interfaces/knob_new)
+- [trigger](/blocks/interfaces/trigger)
+- [constant](/blocks/logic/constant)
 
 ---

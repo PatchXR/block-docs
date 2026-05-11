@@ -19,12 +19,24 @@ Check inspector for more settings.
 
 ## Inputs, Outputs and Parts
 
-**Knob**: Changing and emitting the number can be done by click & drag up/down to input any number, joystick up/dow/left/right, or, connecting and sending any number from the jolt input in the front.
+### Inputs
 
-To connect another block here, click & pull on any Jolt output to create a wire and drag it here.
+| Name | Type | Description |
+|------|------|-------------|
+| Knob | Jolt Input with Dial | Changing and emitting the number can be done by click & drag up/down to input any number, joystick up/dow/left/right, or, connecting and sending any number from the jolt input in the front.  To connect another block here, click & pull on any Jolt output to create a wire and drag it here. |
 
-**Jolt Out**: Emits the newly changed number when number is changed.
+### Outputs
 
-Click & pull to generate a new Jolt wire.
+| Name | Type | Description |
+|------|------|-------------|
+| Jolt Out | Jolt Output | Emits the newly changed number when number is changed.  Click & pull to generate a new Jolt wire. |
+
+## Inspector Controls
+
+| Name | Type | Description |
+|------|------|-------------|
+| Allow Decimals | checkbox | When enabled, allows the dial to be set to decimal (non-integer) values. |
+| Set Minimum | checkbox | When enabled, restricts the dial to a minimum value. Turn the knob to the desired minimum after enabling. |
+| Set Maximum | checkbox | When enabled, restricts the dial to a maximum value. Turn the knob to the desired maximum after enabling. |
 
 ---

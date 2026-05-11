@@ -6,14 +6,31 @@
 
 ## Description
 
-Does fft (spectrum) analysis of the incoming signal and let's you read it out via a cursor input.
+Performs FFT (frequency spectrum) analysis on an incoming audio stream. Use a 0-1 cursor on the Read input to scan through the frequency bins.
+
+Drive the Read cursor with a clock from 0 to 1 (e.g. via Stream Capture's progress, or any ramp) - the Output emits the magnitude of each frequency bin in order, from low to high. Wire the Output into a Procedural Line's thickness or Y position to draw a live spectrum analyzer.
 
 ## Inputs, Outputs and Parts
 
-**Output** *(Outputs the spectrum magnitude value at the given read cursor input.)*: stream output
+### Inputs
 
-**Input** *(stream input)*: The signal you wish to analyze.
+| Name | Type | Description |
+|------|------|-------------|
+| Input | Stream Input | The signal you wish to analyze. |
+| Read cursor | Stream Input | Expects a clock going 0→1. Maps to frequency bins from low (0) to high (1) on the Output. |
 
-**Read cursor** *(stream input)*: Expects a clock going from zero to one, used for reading out the spectrum.
+### Outputs
+
+| Name | Type | Description |
+|------|------|-------------|
+| Output | Stream Output | Magnitude of the frequency bin at the current Read cursor position. |
+
+## Related Blocks
+
+- [stream_capture](/blocks/audio/stream_capture)
+- [procedural_line](/blocks/visual/procedural_line)
+- [filter_eq](/blocks/audio/filter_eq)
+- [filter](/blocks/audio/filter)
+- [oscillator](/blocks/audio/oscillator)
 
 ---

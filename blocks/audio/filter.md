@@ -22,18 +22,37 @@ This filter lets you remove parts of a sound to change its character. The live g
 
 *   **Band-Pass (BP):** Only lets a narrow "band" of sound through. Great for creating a telephone or radio-like effect.
 
+## Related Wiki Pages
+
+[audio-filters](/patching/audio-filters)
+
 ## Inputs, Outputs and Parts
 
-**Cutoff Freq**: Sets the frequency where the filter starts working
+### Inputs
 
-**Type Dial**: Select between 3 types of filtering: BP, HP, LP
-(Bandpass, Highpass, Lowpass)
+| Name | Type | Description |
+|------|------|-------------|
+| Input | Stream Input | The audio signal to filter. |
+| Cutoff Freq | Stream Input | Sets the frequency where the filter starts working. |
+| Resonance | Jolt Input with Dial | This adds a sharp, whistle-like boost at the cutoff frequency, making the effect more intense and aggressive |
 
+### Outputs
 
-**Output**: 
+| Name | Type | Description |
+|------|------|-------------|
+| Output | Stream Output | The filtered audio signal. |
 
-**Input**: 
+### Others
 
-**Resonance**: This adds a sharp, whistle-like boost at the cutoff frequency, making the effect more intense and aggressive
+| Name | Type | Description |
+|------|------|-------------|
+| Type Dial | Selector | Select between 3 types of filtering: BP, HP, LP (Bandpass, Highpass, Lowpass)  |
+
+## Related Blocks
+
+- [filter_eq](/blocks/audio/filter_eq)
+- [statevariable](/blocks/audio/statevariable)
+- [delay](/blocks/audio/delay)
+- [pitchshifter](/blocks/audio/pitchshifter)
 
 ---
