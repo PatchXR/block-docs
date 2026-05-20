@@ -2,7 +2,7 @@
 title: Releases
 description: Updated via script
 published: true
-date: 2026-03-30T21:17:04.958Z
+date: 2026-05-20T21:40:44.618Z
 tags: 
 editor: markdown
 dateCreated: 2025-12-03T13:08:04.491Z
@@ -17,6 +17,8 @@ dateCreated: 2025-12-03T13:08:04.491Z
 
 
 Whats new ?
+
+[77.2.2 (913)](/whatsnew/913) Released to live : TBA
 
 [77.1.12 (901)](/whatsnew/901) Released to live : Mar 30, 2026
 
