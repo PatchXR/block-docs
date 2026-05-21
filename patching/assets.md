@@ -2,7 +2,7 @@
 title: Assets
 description: What are assets ?
 published: true
-date: 2026-01-02T23:07:27.556Z
+date: 2026-05-21T20:48:43.969Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-13T18:47:17.473Z
@@ -34,7 +34,7 @@ Patchworld supports five main asset types, each with its own unique properties a
 - **Supported formats:** `.mp4`, `.avi`, `.mov`
 
 ## 🎨 3D Models
-- 3D models appear as **model blocks** .
+- 3D models appear as **model blocks** . see [Importing 3D Models](/patching/importing_3D_model) 
 - **Supported format:** `.glb`
 
 ## ⚙️ Devices
