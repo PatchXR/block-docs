@@ -2,15 +2,15 @@
 title: Visual
 description: Visual blocks documentation
 published: true
-date: 2026-05-11T22:57:46.000Z
+date: 2026-05-21T22:52:00.000Z
 tags: blocks, category
 editor: markdown
-dateCreated: 2026-05-11T22:57:46.000Z
+dateCreated: 2026-05-21T22:52:00.000Z
 ---
 
 # 🎨 Visual Blocks
 
-This category contains **29** blocks.
+This category contains **30** blocks.
 
 ## Available Blocks
 
@@ -21,6 +21,7 @@ This category contains **29** blocks.
 - **[Device Box](./visual/device_box)** - A resizable, stylizable box used as the chassis or surface of a device. Drop one inside a group/d...
 - **[HSV to RGB](./visual/hsvtorgb)** - Converts HSV color values to RGB. Input hue, saturation, value as streams and get red, green, blu...
 - **[Image](./visual/image)** - Displays a .png/.jpg/.gif file with transparency support. Includes a spritesheet feature (set up ...
+- **[Image Downloader](./visual/image_downloader)** - Downloads an image from a URL, an Asset ID, or a Player ID and applies it to a connected Image bl...
 - **[Lightbulb](./visual/lightbulb)** - Adds a colored light source to the scene, with HSV (Hue/Saturation/Value) inputs. Use the radial ...
 - **[Magic Spotlight](./visual/magic_spotlight)** - A spotlight that reveals the real world through passthrough wherever its beam shines. Toggle on/o...
 - **[Magic Window](./visual/magic_window)** - Used with the Mixed Reality block, Magic Windows snap to walls when the world loads and reveal th...

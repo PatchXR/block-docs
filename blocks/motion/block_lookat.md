@@ -16,10 +16,18 @@ Useful for cameras, NPCs, props or weapons that need to track a moving target sm
 
 | Name | Type | Description |
 |------|------|-------------|
-| Subjects | Tag Input | Blocks that will rotate to face the targets. |
-| Targets | Tag Input | Blocks that the subjects will face. If multiple are connected, their average position is used. |
-| Up (optional) | Tag Input | Optional reference used to define the up axis of the subjects when looking at the targets. |
+| Observers | Tag Input | Blocks that will rotate to face the targets. |
+| Targets | Tag Input | Blocks that the Observers will face. If multiple are connected, their average position is used. |
+| Up (optional) | Tag Input | Optional reference used to define the up axis of the Observers when looking at the targets. |
 | Speed | Jolt Input with Dial | Rotation speed in degrees per second. 0 freezes the rotation. |
+
+## Inspector Controls
+
+| Name | Type | Description |
+|------|------|-------------|
+| Linear Rot Speed | checkbox | When enabled, the Subjects rotate at a constant linear speed. When disabled, they smoothly decelerate as they align with the Targets. |
+| Target Axis | dropdown | Selects which local axis of the Subject (+Z for front, -Z for back, etc.) will point directly towards the Targets. |
+| Secondary Axis | dropdown | Selects a secondary perpendicular axis to align with the 'Up' reference, preventing the Subject from rolling uncontrollably. |
 
 ## Related Blocks
 

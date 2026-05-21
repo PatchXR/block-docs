@@ -29,7 +29,7 @@ Click and drag the puck along the track to set a value between 0 and 1, which is
 | Name | Type | Description |
 |------|------|-------------|
 | Puck | Draggable part | Click and drag the puck to change the slider's value from 0 to 1. |
-| PULL Extend | Draggable part | Click and drag to change the length of the slider track. |
+| Extend | Draggable part | Click and drag to change the length of the slider track. |
 
 ## Related Blocks
 

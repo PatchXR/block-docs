@@ -41,6 +41,9 @@ Set the resolution and ratio in the inspector, or pick Custom and enter exact pi
 | Pixellated | toggle | Use point filtering for a sharp, pixelated look (good for low-resolution retro renders). |
 | Transparent | toggle | Renders with a transparent background instead of the world color (PNG alpha is preserved when saving). |
 | Framerate | slider | How many times per second the camera re-renders into the texture. Set to 0 to disable automatic rendering and only render on demand via the 'Render' input. |
+| Depth Mode | toggle | Enables Depth rendering. The camera renders object distances from the lens in grayscale instead of color. Transparent objects are ignored. |
+| Black Distance (m) | text_input | The distance from the camera (in meters) where the depth map will be perfectly black. |
+| White Distance (m) | text_input | The distance from the camera (in meters) where the depth map will be perfectly white. |
 
 ## Related Blocks
 

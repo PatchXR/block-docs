@@ -33,8 +33,9 @@ See the [Variable System](/wiki/variable-system) wiki page for more details and 
 | Value is additive | checkbox | When ticked, the new value is added to the variable's current value (like a += operation) instead of overwriting it. Useful for accumulating scores, hit counts, or progress. |
 | Add restriction input | checkbox | Reveals the "Restrict" tag input. When connected to a Group or Device, the variable becomes local to that scope and is only readable by Get Variable / All With Variable blocks that share the same restriction. |
 | Use Device on Input | checkbox | When ticked and a block inside a Device is connected to the Input, the variable is attached to the parent Device instead of the inner block. |
-| Broadcast Multiplayer | checkbox | Synchronizes the variable change to all other players in the multiplayer session via RPC. Leave off for purely local logic. |
+| Broadcast Multiplayer | checkbox | Synchronizes the variable to all other players in the multiplayer session via RPC. Important: Ensure this block is triggered by only one player, otherwise everyone will broadcast the variable to everyone else! |
 | Edit text from outside | checkbox | When this block is placed inside a Group/Device, its text input is normally only editable from inside the group. Tick this option to let players still click and type into it from outside the group. |
+| Remove on disconnect | checkbox | When enabled, automatically removes the variable from the block when it is disconnected from the Input. Essential for making the variable behave like a physical wireless wire. |
 
 ## Related Blocks
 

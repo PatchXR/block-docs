@@ -52,6 +52,7 @@ Useful for vehicles, ragdolls, dominoes, balls, cannons, breakable structures, e
 | Friction Behavior | dropdown | How the friction of two colliding blocks is combined into one effective value. |
 | Bounciness Behavior | dropdown | How the bounciness of two colliding blocks is combined into one effective value. |
 | Affects Player | checkbox | When ON, the local player is automatically added to the connected blocks and is affected by the same physics settings (gravity, drag, magnet, etc.). |
+| MP Sync Interval | slider | In multiplayer, this defines the base time interval (in seconds) between network physics updates. Lower values provide smoother sync for fast-moving objects but use more bandwidth, while higher values save bandwidth. |
 
 ## Related Blocks
 

@@ -2,10 +2,10 @@
 title: Audio
 description: Audio blocks documentation
 published: true
-date: 2026-05-11T22:57:46.000Z
+date: 2026-05-21T22:52:00.000Z
 tags: blocks, category
 editor: markdown
-dateCreated: 2026-05-11T22:57:46.000Z
+dateCreated: 2026-05-21T22:52:00.000Z
 ---
 
 # 🔊 Audio Blocks

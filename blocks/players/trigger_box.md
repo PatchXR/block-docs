@@ -12,11 +12,18 @@ Creates a resizable detection zone that tracks player presence. Outputs the numb
 
 ## Inputs, Outputs and Parts
 
+### Inputs
+
+| Name | Type | Description |
+|------|------|-------------|
+| Player Filter | Tag Input | If connected, will only take into account the player in the input. |
+
 ### Outputs
 
 | Name | Type | Description |
 |------|------|-------------|
 | Player inside | Jolt Output | Emits the number of players inside the box. |
+| Players Inside | Tag Output | Output all players inside the trigger box. |
 
 ### Others
 

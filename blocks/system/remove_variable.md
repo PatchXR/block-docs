@@ -32,6 +32,7 @@ See the [Variable System](/wiki/variable-system) wiki page for more details.
 | Remove on all blocks | checkbox | When ticked, the Input is hidden and triggering the block removes this variable from every block that currently has it. |
 | Also remove all Local | checkbox | Only visible when "Remove on all blocks" is enabled. Also wipes every locally-scoped (restricted) version of this variable across all Groups and Devices. |
 | Edit text from outside | checkbox | When this block is placed inside a Group/Device, its text input is normally only editable from inside the group. Tick this option to let players still click and type into it from outside the group. |
+| Broadcast Multiplayer | checkbox | Synchronizes the variable removal to all other players in the multiplayer session via RPC. Important: Ensure this block is triggered by only one player, otherwise everyone will broadcast the removal to everyone else! |
 
 ## Related Blocks
 

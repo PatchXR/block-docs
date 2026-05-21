@@ -2,15 +2,15 @@
 title: Extensions
 description: Extensions blocks documentation
 published: true
-date: 2026-05-11T22:57:46.000Z
+date: 2026-05-21T22:52:00.000Z
 tags: blocks, category
 editor: markdown
-dateCreated: 2026-05-11T22:57:46.000Z
+dateCreated: 2026-05-21T22:52:00.000Z
 ---
 
 # 🧩 Extensions Blocks
 
-This category contains **11** blocks.
+This category contains **12** blocks.
 
 ## Available Blocks
 
@@ -23,6 +23,7 @@ This category contains **11** blocks.
 - **[Joint Roll Control](./extensions/joint_roll)** - Sub-block of "joint". Drives the roll rotation (Z axis) with a spring/damper toward a target angl...
 - **[Joint Roll Limit](./extensions/joint_roll_limit)** - Sub-block of "joint". Limits the roll angle (Z axis / blue) between a low and a high boundary. Au...
 - **[Joint Roll Output](./extensions/joint_roll_output)** - Sub-block of "joint". Emits the current angle and angular speed of the roll rotation (Z axis / bl...
+- **[Mesh](./extensions/mesh)** - Imports and displays custom 3D models (GLB, GLTF, OBJ) with options for animations, physics colli...
 - **[Preset Manager Line](./extensions/preset_manager_line)** - A single preset slot inside a Preset Manager. Contains a name text field, an apply button, a save...
 - **[Set Material Pbr](./extensions/set_material_pbr)** - Sub-block of the Set Material block. Holds the PBR shader editor panel with all material paramete...
 

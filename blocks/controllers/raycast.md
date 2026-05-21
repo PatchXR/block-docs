@@ -12,7 +12,7 @@ Trigger a ray (or a thicker sphere cast) from the front of the block. When somet
 - the **Hit Results** tag output references the block(s) that were hit,
 - the **Distance** jolt fires with the distance to the hit point,
 - the **Hits Count** jolt fires first with the number of blocks detected (always 1 if Only Output Closest is on),
-- the **DestinationMuxPart** movable part snaps to the contact point oriented along the surface normal, so it can be chained with Block Get Position / Set Position / Lookat for visuals or other reactions.
+- the **Destination** movable part snaps to the contact point oriented along the surface normal, so it can be chained with Block Get Position / Set Position / Lookat for visuals or other reactions.
 
 Use **Continuous** to cast every frame, or wire the **Trigger** jolt input to fire on demand. **Min/Max distance** clip results outside the range. Increase **Ray thickness** to perform a sphere cast and grab multiple blocks at once. The optional Tag input can restrict detection to specific blocks (enable *Restrict to blocks* in the Inspector).
 
