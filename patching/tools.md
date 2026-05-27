@@ -1,8 +1,8 @@
 ---
 title: Patchworld MCP Tools Reference
-description: Auto-generated list of available Patchworld MCP tools.
+description: Auto-updated Patchworld MCP Tools Reference
 published: true
-date: 2026-05-27T23:51:20.699Z
+date: 2026-05-27T23:51:38.701Z
 tags: patching, mcp, patchworld, tools
 editor: markdown
 dateCreated: 2026-05-27T23:51:20.699Z
@@ -28,8 +28,8 @@ This document lists all the MCP tools exposed by the Patchworld app. These tools
 | [`create_text`](#create_text) | Create a text display object (txt block) in the 3D world that shows text visually. |
 | [`set_property`](#set_property) | Set an inspector property on an object. |
 | [`transform_object`](#transform_object) | Move and/or rotate an object. |
-| [`get_patch_serialization`](#get_patch_serialization) | Return the full current scene as PatchWorld's canonical . |
-| [`apply_patch_serialization`](#apply_patch_serialization) | Replace the current scene by loading a full . |
+| [`get_patch_serialization`](#get_patch_serialization) | Return the full current scene as PatchWorld's canonical. |
+| [`apply_patch_serialization`](#apply_patch_serialization) | Replace the current scene by loading a full. |
 | [`edit_patch_serialization`](#edit_patch_serialization) | Surgical text edit on the current scene serialization. |
 | [`restore_snapshot`](#restore_snapshot) | Restore the most recent auto-snapshot taken by apply_patch_serialization or edit_patch_serialization. |
 | [`clear_ai_labels`](#clear_ai_labels) | Clear every AI label the current session has assigned (the friendly names set via spawn_object name: or surfaced as label:\"…\" in list_objects). |
@@ -52,7 +52,13 @@ This document lists all the MCP tools exposed by the Patchworld app. These tools
 
 Get minimal scene overview: object IDs, names, types, positions, and connection counts. Use get_object_info for detailed information about specific objects. Pass verbose:true for the full .patch serialization (or call get_patch_serialization directly).
 
-*No parameters required.*
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `filter` | `string` | Optional filter to search for specific objects |
+| `recursive` | `boolean` | Whether to include objects in subpatches |
+| `verbose` | `boolean` | If true, also append the full .patch serialization. Default false (much cheaper at scale). |
 
 ---
 
@@ -60,7 +66,14 @@ Get minimal scene overview: object IDs, names, types, positions, and connection 
 
 Create a new object in the world
 
-*No parameters required.*
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `type` | `string` | Block name to spawn. Use list_block_types for the full catalog of spawnable types (categories match the in-app library). Some short aliases also work (e.g. 'osc' → oscillator), but the canonical name from list_block_types is always safe. |
+| `parameters` | `string` | Optional parameters for the object (e.g., 'freq:440' for oscillator) |
+| `position` | `array` | Optional 3D position [x, y, z] |
+| `name` | `string` | Optional label that replaces the default block name (e.g., 'kick_drum', 'M1'). Surfaces in list_objects so you can refer to the object later without juggling 10-digit IDs. |
 
 ---
 
@@ -68,7 +81,15 @@ Create a new object in the world
 
 Set a value on a stream input. Returns the updated object state after modification. input_index accepts either a numeric index or the stream input's doc name (e.g. 'Frequency (Hz)', 'Phase offset').
 
-*No parameters required.*
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `object_name` | `string` | Name or ID of the target object |
+| `input_index` | `string` | Stream input to set — either a 0-based numeric index or the port's doc name (e.g. 'Frequency (Hz)'). Names are matched case-insensitive; substring matches are accepted. |
+| `value` | `number` | The value to set |
+| `exp` | `integer` | Exponent for precision (default -2 for fine control) |
+| `is_float` | `boolean` | Whether value should be treated as continuous float (default false for stepped) |
 
 ---
 
@@ -76,7 +97,15 @@ Set a value on a stream input. Returns the updated object state after modificati
 
 Disconnect/remove connections between objects (stream, jolt, or selector connections). IMPORTANT CONNECTION RULES: Jolts CAN connect to stream inputs (jolt outputs → stream inputs), but streams CANNOT directly connect to jolt inputs (use 'stoe' block to convert stream to jolt). For streams, this handles both direct connections and connections that go through internal fork systems.\n\nPORT ADDRESSING: output_index and input_index accept either a numeric index OR the port's doc name (e.g. 'Signal output', 'Frequency (Hz)'). Names are matched case-insensitive against the labels get_object_info prints; substring matches are accepted. Name resolution applies to stream / jolt / jolt_to_stream only — selector/tag/stick still require numeric indices.
 
-*No parameters required.*
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `source` | `string` | Source object name or ID |
+| `target` | `string` | Target object name or ID |
+| `output_index` | `string` | Output port on source (default 0). Numeric index or port name from the block doc (e.g. 'Signal output'). |
+| `input_index` | `string` | Input port on target (default 0). Numeric index or port name from the block doc (e.g. 'Frequency (Hz)'). |
+| `connection_type` | `string` | Connection type: 'stream' (default), 'jolt', 'jolt_to_stream', or 'selector' |
 
 ---
 
@@ -103,7 +132,15 @@ ERROR FORMAT: failures return 'ERROR: <line>\n<JSON block>' with error_code in {
 
 Stream output -> jolt input is NOT supported directly; the structured error includes the 'stoe' bridge steps to take.
 
-*No parameters required.*
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `source` | `string` | Source object name or ID |
+| `target` | `string` | Target object name or ID |
+| `output_index` | `string` | Output port on source (default 0). Numeric index (e.g. 0, 1) or port name from the block doc (e.g. 'Signal output', 'Emitter'). See get_object_info or get_block_doc for available names. |
+| `input_index` | `string` | Input port on target (default 0). Numeric index (e.g. 0, 1) or port name from the block doc (e.g. 'Frequency (Hz)', 'Increment'). See get_object_info or get_block_doc for available names. |
+| `connection_type` | `string` | Optional. When omitted, inferred from the source/target port types (Stream Output -> Stream Input = stream; Jolt Output -> Jolt Input = jolt; Jolt Output -> Stream Input = jolt_to_stream). Specify explicitly only when overriding the inferred type or when using selector/tag/stick (those can't be inferred from ports). When provided, it is validated against the inferred type and mismatches return PORT_KIND_MISMATCH. |
 
 ---
 
@@ -121,7 +158,12 @@ Read-only, side-effect-free, synchronous. Cheap; use freely during debugging.
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| `targets` | `array` |  |
+| `targets` | `array` | List of { object, port } pairs to read. Each item: { object: name-or-id, port: name-or-index-or-'*' }. Omit when using the shortcut form (object + port). |
+| `object` | `string` | Object name or ID |
+| `port` | `string` | Port name, numeric index, or '*' for all stream inputs |
+| `object` | `string` | Shortcut: single target object name or ID (used when 'targets' is omitted) |
+| `port` | `string` | Shortcut: single target port name, numeric index, or '*' for all stream inputs |
+| `max` | `integer` | Optional cap on number of targets read (default 16). Pass 0 for unbounded; >64 logs a fan-out warning. |
 
 ---
 
@@ -129,7 +171,11 @@ Read-only, side-effect-free, synchronous. Cheap; use freely during debugging.
 
 Delete one or more objects from the world
 
-*No parameters required.*
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `targets` | `array` | List of object names or IDs to delete |
 
 ---
 
@@ -137,7 +183,11 @@ Delete one or more objects from the world
 
 Select objects for further operations
 
-*No parameters required.*
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `targets` | `array` | List of object names or IDs to select |
 
 ---
 
@@ -145,7 +195,13 @@ Select objects for further operations
 
 Get detailed information about a specific object including its inputs, outputs, documentation, and properties. Returns a human-readable prose response. Pass include_schema:true to append a machine-readable JSON schema block fenced by '=== Schema ===' (useful for tool-chaining; off by default to save tokens). For subpatches/devices, only user-facing controls (children not marked 'Hide from Play') and externally-wired boundary ports are listed by default; pass show_all:true for the full unfiltered dump.
 
-*No parameters required.*
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `identifier` | `string` | Object name or ID to get info about |
+| `include_schema` | `boolean` | Append a machine-readable JSON schema block to the response (default false — prose only). Set true to get the JSON block too. |
+| `show_all` | `boolean` | Subpatches only: include hidden inner blocks and unwired boundary ports (default false). When false, only children with 'Hide from Play' unchecked and externally-wired boundary ports are listed. Ignored for non-subpatch blocks. |
 
 ---
 
@@ -153,7 +209,12 @@ Get detailed information about a specific object including its inputs, outputs, 
 
 Create a text display object (txt block) in the 3D world that shows text visually. Use this to add labels, titles, or any visible text in the scene.
 
-*No parameters required.*
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `text` | `string` | The text content to display in the scene |
+| `position` | `array` | Optional 3D position [x, y, z] for the text object |
 
 ---
 
@@ -161,7 +222,13 @@ Create a text display object (txt block) in the 3D world that shows text visuall
 
 Set an inspector property on an object. Use get_object_info first to see available properties. Can set TypeDial options (waveform, filter type), input values, colors, visibility, scale, etc.
 
-*No parameters required.*
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `object_name` | `string` | Object name or ID to modify |
+| `property_name` | `string` | Property name (e.g., 'Generators', 'Scale', 'Color', 'Hidden'). Use index like 'Input[0]' for stream inputs. |
+| `value` | `string` | Value to set. For dropdowns: option name (e.g., 'sin', 'sqr') or index. For bool: 'true'/'false'. For color: 'R,G,B' or 'R,G,B,A'. For vector3: 'X,Y,Z'. For numbers: numeric value. |
 
 ---
 
@@ -169,7 +236,14 @@ Set an inspector property on an object. Use get_object_info first to see availab
 
 Move and/or rotate an object. At least one of 'position' or 'rotation' must be provided. Both are optional so this can be used for pure translation, pure rotation, or both at once.
 
-*No parameters required.*
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `object_name` | `string` | Object name or ID to transform |
+| `position` | `array` | Optional target position as [x, y, z] in meters |
+| `rotation` | `array` | Optional rotation as Euler angles [x, y, z] in degrees |
+| `relative` | `boolean` | If true, position/rotation are offsets from current values. Default: false (absolute) |
 
 ---
 
@@ -197,7 +271,12 @@ The load runs as a Unity coroutine that completes across several frames. This to
 
 The 'text' must be the FULL .patch document (header + scene_settings + spawn + connections), not a fragment.
 
-*No parameters required.*
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `text` | `string` | Full .patch serialization to load. Get a working template from get_patch_serialization. |
+| `snapshot` | `boolean` | If true (default), snapshot the current scene to the in-app backup slot before loading so it can be recovered. |
 
 ---
 
@@ -212,7 +291,12 @@ Pre-edit state is auto-snapshotted (use restore_snapshot to roll back).
 EXAMPLE: change an oscillator's frequency from 220 to 80 (assuming '~:[220|0|s 0|0|s]' appears only once in the scene):
   { find: '~:[220|0|s 0|0|s]', replace: '~:[80|0|s 0|0|s]' }
 
-*No parameters required.*
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `find` | `string` | Exact substring to find in the current serialization. Must match exactly once. |
+| `replace` | `string` | Substring to put in its place. |
 
 ---
 
@@ -238,7 +322,13 @@ Set a TypeDial (dropdown) on a block. Use this when set_property fails on a prop
 
 The 'value' can be either the integer index or the option label (case-insensitive). The 'dial_name' may be omitted if the target has exactly one TypeDial.
 
-*No parameters required.*
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `object_name` | `string` | Object name or numeric ID. |
+| `dial_name` | `string` | TypeDial identifier — accepts the block doc's parts[].name (the same label get_block_doc / get_object_info print, e.g. 'Operation', 'Wave Type'), or the DialType enum name (e.g. 'Generators', 'StreamOperation'). Matched case-insensitive, exact first then substring. Omit if the block has only one dial. |
+| `value` | `string` | Integer index (e.g. '2') or option label (e.g. 'tri'). |
 
 ---
 
@@ -246,7 +336,12 @@ The 'value' can be either the integer index or the option label (case-insensitiv
 
 Discover spawnable block types — same catalog and same categories used by PatchWorld's in-app block library. With no args, returns the full catalog grouped by category and lists every valid category in a 'Categories: …' header you can pivot off. Use 'category' to browse one category (Audio, Visual, Controllers, Motion, Interfaces, …), 'search' for substring match against name + display name + description (same semantics as the library's search box), or both. Each row reports: name | displayName | port counts | one-line description. Names returned here are valid as the 'type' arg of spawn_object — pair with get_block_doc(name) for full per-block detail before spawning.
 
-*No parameters required.*
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `category` | `string` | Optional category filter (case-insensitive). Use the same names shown in the in-app library. Call with no args first if you don't know the valid set — the response always lists them in a 'Categories: …' header. |
+| `search` | `string` | Optional substring match against name + displayName + description. Same semantics as the library's search box. |
 
 ---
 
@@ -254,7 +349,11 @@ Discover spawnable block types — same catalog and same categories used by Patc
 
 Get the full documentation for one block type — description, longDescription, and the parts list (stream/jolt I/O, selectors, type dials). Same content surfaced in get_object_info's 'Block Documentation' section, but addressable by block name without needing an existing instance. Use after list_block_types to inspect a candidate before spawning.
 
-*No parameters required.*
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `name` | `string` | Block name as returned by list_block_types (e.g. 'oscillator', 'noise', 'filter'). |
 
 ---
 
@@ -273,7 +372,16 @@ COST AWARENESS: each camera produces an independent image; vision tokens scale w
 LIMITATIONS:
 - MuXCam has no "look at scene object" property. To aim a camera at a block, use transform_object with a manually-computed rotation. There is no set_property("look_at"
 
-*No parameters required.*
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `cameras` | `array` | Optional list of camera names or IDs. Omit (or empty) for cold-start auto-frame using a temporary internal camera. |
+| `annotate` | `boolean` | If true (default), include a JSON sidecar mapping visible object IDs to screen coords. Set false to skip the sidecar for a cheaper response. |
+| `width` | `integer` | Image width in pixels. Default 768. Vision tokens scale with area — 512 is enough for spatial reasoning. |
+| `height` | `integer` | Image height in pixels. Default 768. |
+| `format` | `string` | Image format: 'jpeg' (default, ~5-10× smaller payload) or 'png' (pixel-perfect, use only when fine detail matters). |
+| `max_objects` | `integer` | Cap on sidecar entries per camera (default 30, ordered by screen-bbox area descending). Pass 0 for everything; use sparingly on dense scenes. |
 
 ---
 
@@ -290,7 +398,13 @@ EXAMPLE: spawn an osc and a speaker, then connect them:
   "commands": [
     {"tool": "spawn_object"
 
-*No parameters required.*
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `commands` | `array` | Ordered list of tool calls to execute. |
+| `tool` | `string` | Tool name (e.g. 'spawn_object', 'transform_object', 'connect_objects') |
+| `args` | `object` | Arguments object for that tool, same shape as if calling it directly. |
 
 ---
 
@@ -300,7 +414,11 @@ Step INTO a subpatch (device, instrument, group) so subsequent tools operate on 
 
 Side effects: the local user's view enters the subpatch (Edit mode forced). MP peers receive the scope change so collaborative view stays consistent.
 
-*No parameters required.*
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `identifier` | `string` | Subpatch object id, AI label, or name (anything FindObject resolves). Must be a subpatch. |
 
 ---
 
@@ -326,7 +444,13 @@ Wrap the listed blocks into a new subpatch (group) in the current scope. All tar
 
 IMPORTANT: any wire that crossed the new group boundary is SEVERED (not auto-promoted to a boundary port). To preserve a wire that connected a grouped block to an outside block, re-issue connect_objects via the subpatch's boundary after grouping.
 
-*No parameters required.*
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `targets` | `array` | List of object ids, AI labels, or names to group. All must be in the current scope. |
+| `name` | `string` | Optional display name for the new subpatch (sets ForcedName). |
+| `description` | `string` | Optional description text (sets ForcedDescription). |
 
 ---
 
@@ -336,6 +460,10 @@ Dissolve a subpatch: its children move up into the parent scope, the wrapper is 
 
 IMPORTANT: wires crossing the (former) subpatch boundary are SEVERED on ungroup, matching the human VR flow. Use disconnect_objects + connect_objects manually if you need wires to survive a round-trip.
 
-*No parameters required.*
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `identifier` | `string` | Subpatch object id, AI label, or name in the current scope. |
 
 ---
