@@ -2,7 +2,7 @@
 title: Connecting Patchworld MCP to AI Agents
 description: Updated Patchworld MCP Guide via script
 published: true
-date: 2026-05-28T00:07:30.513Z
+date: 2026-05-28T00:09:37.321Z
 tags: patching, mcp, patchworld
 editor: markdown
 dateCreated: 2026-05-27T23:49:20.480Z
@@ -30,8 +30,8 @@ To see the full capabilities and available tools, refer to the [Tools Reference]
 ## 2. Obtaining an API Key
 To connect an AI client to the Patchworld MCP server, you will need a Patchworld API key (Bearer token). 
 
-You can easily generate and manage your API keys directly from the developer portal:
-* 🌐 **[Patchworld Developer Portal — Account Settings](https://portal.patchxr.io/account)**
+You can easily generate and manage your API keys directly from the Patchworld portal:
+* 🌐 **[Patchworld Portal — Account Settings](https://portal.patchxr.io/account)**
 
 Once generated, save your token securely. You will use it in place of `<YOUR_BEARER_TOKEN>` in the configurations below.
 
