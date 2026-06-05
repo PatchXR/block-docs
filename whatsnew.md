@@ -2,7 +2,7 @@
 title: Releases
 description: Updated via script
 published: true
-date: 2026-06-05T15:13:07.379Z
+date: 2026-06-05T15:13:33.134Z
 tags: 
 editor: markdown
 dateCreated: 2025-12-03T13:08:04.491Z
@@ -18,7 +18,7 @@ dateCreated: 2025-12-03T13:08:04.491Z
 
 Whats new ?
 
-[77.2.2 (913)](/whatsnew/923) Released to live : May 29, 2026
+[77.2.2 (923)](/whatsnew/913) Released to live : May 29, 2026
 
 [77.1.12 (901)](/whatsnew/901) Released to live : Mar 30, 2026
 
