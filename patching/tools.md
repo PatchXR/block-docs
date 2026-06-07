@@ -2,7 +2,7 @@
 title: Patchworld MCP Tools Reference
 description: Auto-updated Patchworld MCP Tools Reference
 published: true
-date: 2026-05-27T23:51:38.701Z
+date: 2026-06-07T12:41:06.095Z
 tags: patching, mcp, patchworld, tools
 editor: markdown
 dateCreated: 2026-05-27T23:51:20.699Z
@@ -16,7 +16,7 @@ This document lists all the MCP tools exposed by the Patchworld app. These tools
 
 | Tool Name | Description Summary |
 | --- | --- |
-| [`list_objects`](#list_objects) | Get minimal scene overview: object IDs, names, types, positions, and connection counts. |
+| [`list_objects`](#list_objects) | Get a scene overview as JSON: {scope, total, offset, count, objects:[{id,name,type,position,visible,ports?{stream_in,stream_out,jolt_in,jolt_out,selector_in},src?,attach?,label?}], connection_count, connections:[{kind:'stream'|'jolt'|'stick', from:{id,port?}, to:[{id,port?},…]}]}. |
 | [`spawn_object`](#spawn_object) | Create a new object in the world. |
 | [`set_input_value`](#set_input_value) | Set a value on a stream input. |
 | [`disconnect_objects`](#disconnect_objects) | Disconnect/remove connections between objects (stream, jolt, or selector connections). |
@@ -24,23 +24,24 @@ This document lists all the MCP tools exposed by the Patchworld app. These tools
 | [`inspect_runtime_value`](#inspect_runtime_value) | Read the current live engine value at one or more stream ports. |
 | [`delete_objects`](#delete_objects) | Delete one or more objects from the world. |
 | [`select_objects`](#select_objects) | Select objects for further operations. |
-| [`get_object_info`](#get_object_info) | Get detailed information about a specific object including its inputs, outputs, documentation, and properties. |
+| [`get_selection`](#get_selection) | Read the objects the USER has currently selected in VR (via the controller grip / sphere-select tool). |
+| [`get_object_info`](#get_object_info) | Get detailed information about a specific object — inputs, outputs, dials, (optionally) documentation and properties. |
 | [`create_text`](#create_text) | Create a text display object (txt block) in the 3D world that shows text visually. |
+| [`set_text`](#set_text) | Set the text content of a block that has an editable text field — e. |
 | [`set_property`](#set_property) | Set an inspector property on an object. |
 | [`transform_object`](#transform_object) | Move and/or rotate an object. |
 | [`get_patch_serialization`](#get_patch_serialization) | Return the full current scene as PatchWorld's canonical. |
-| [`apply_patch_serialization`](#apply_patch_serialization) | Replace the current scene by loading a full. |
 | [`edit_patch_serialization`](#edit_patch_serialization) | Surgical text edit on the current scene serialization. |
-| [`restore_snapshot`](#restore_snapshot) | Restore the most recent auto-snapshot taken by apply_patch_serialization or edit_patch_serialization. |
-| [`clear_ai_labels`](#clear_ai_labels) | Clear every AI label the current session has assigned (the friendly names set via spawn_object name: or surfaced as label:\"…\" in list_objects). |
+| [`restore_snapshot`](#restore_snapshot) | Restore the most recent auto-snapshot taken before an edit_patch_serialization. |
 | [`set_typedial`](#set_typedial) | Set a TypeDial (dropdown) on a block. |
-| [`list_block_types`](#list_block_types) | Discover spawnable block types — same catalog and same categories used by PatchWorld's in-app block library. |
-| [`get_block_doc`](#get_block_doc) | Get the full documentation for one block type — description, longDescription, and the parts list (stream/jolt I/O, selectors, type dials). |
+| [`list_block_types`](#list_block_types) | Discover spawnable block types — same catalog and categories used by PatchWorld's in-app block library. |
+| [`get_block_doc`](#get_block_doc) | Get the full documentation for one block type as JSON — {name, displayName, description, longDescription, parts:[…], categories, tags}. |
 | [`take_photo`](#take_photo) | Capture a photograph of the current scene and return it as image content. |
 | [`apply_commands`](#apply_commands) | PREFERRED for any operation that requires more than ONE tool call. |
 | [`enter_subpatch`](#enter_subpatch) | Step INTO a subpatch (device, instrument, group) so subsequent tools operate on its inner blocks. |
 | [`exit_subpatch`](#exit_subpatch) | Step OUT of the current subpatch back to its parent scope (one level). |
 | [`get_scope`](#get_scope) | Return the current scope path as a list from root to leaf. |
+| [`diagnose_streams`](#diagnose_streams) | h21 P0 (read-only): derive the logical stream-edge view from the current fork plumbing and report structural inconsistencies. |
 | [`group_objects`](#group_objects) | Wrap the listed blocks into a new subpatch (group) in the current scope. |
 | [`ungroup_subpatch`](#ungroup_subpatch) | Dissolve a subpatch: its children move up into the parent scope, the wrapper is removed. |
 
@@ -50,15 +51,16 @@ This document lists all the MCP tools exposed by the Patchworld app. These tools
 
 ### list_objects
 
-Get minimal scene overview: object IDs, names, types, positions, and connection counts. Use get_object_info for detailed information about specific objects. Pass verbose:true for the full .patch serialization (or call get_patch_serialization directly).
+Get a scene overview as JSON: {scope, total, offset, count, objects:[{id,name,type,position,visible,ports?{stream_in,stream_out,jolt_in,jolt_out,selector_in},src?,attach?,label?}], connection_count, connections:[{kind:'stream'|'jolt'|'stick', from:{id,port?}, to:[{id,port?},…]}]}. Connections are fan-out-grouped: each entry is one source feeding a 'to' array of targets (connection_count is the total wire count). Ports/connections resolve to the current scope (a subpatch's internal wiring collapses unless you enter it). Use get_object_info for per-object detail, get_patch_serialization for canonical .patch text. On large scenes use filter, limit/offset to page the object roster, and include_connections:false to drop the connection array.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| `filter` | `string` | Optional filter to search for specific objects |
-| `recursive` | `boolean` | Whether to include objects in subpatches |
-| `verbose` | `boolean` | If true, also append the full .patch serialization. Default false (much cheaper at scale). |
+| `filter` | `string` | Optional case-insensitive substring filter on object name. |
+| `offset` | `integer` | Roster pagination: skip the first N objects (default 0). Connections are unaffected (always full scope). |
+| `limit` | `integer` | Roster pagination: return at most N objects (default: all). Use with offset to page. 'total' in the response is the full unpaginated count. |
+| `include_connections` | `boolean` | Include the connections array (default true). Set false to omit it entirely on large scenes where you only need the object roster. |
 
 ---
 
@@ -154,6 +156,8 @@ Returns numeric snapshots, not audio buffers. Audio-rate outputs (e.g. 'Signal o
 
 Read-only, side-effect-free, synchronous. Cheap; use freely during debugging.
 
+Always returns a compact JSON object ({"values":[...]}) — agent-facing, no prose.
+
 **Parameters:**
 
 | Parameter | Type | Description |
@@ -191,17 +195,31 @@ Select objects for further operations
 
 ---
 
+### get_selection
+
+Read the objects the USER has currently selected in VR (via the controller grip / sphere-select tool). Read-only; returns JSON {count, objects:[{id,type,name,position,label?,parts?}]} (count:0 when nothing is selected). Use this when the user refers to 'this', 'these', 'the selected ones', or 'what I picked' so you know which objects to operate on without asking them to name IDs. Note: this is the live user selection and is independent of select_objects (which sets the AI's own selection).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `include_parts` | `boolean` | If true, also list the individual sub-parts of each selected object. Default false (objects only). |
+
+---
+
 ### get_object_info
 
-Get detailed information about a specific object including its inputs, outputs, documentation, and properties. Returns a human-readable prose response. Pass include_schema:true to append a machine-readable JSON schema block fenced by '=== Schema ===' (useful for tool-chaining; off by default to save tokens). For subpatches/devices, only user-facing controls (children not marked 'Hide from Play') and externally-wired boundary ports are listed by default; pass show_all:true for the full unfiltered dump.
+Get detailed information about a specific object — inputs, outputs, dials, (optionally) documentation and properties. ALWAYS returns a compact JSON object (agent-facing; no prose). Default sections: base (transform/label), ports, dials. Use include_doc/include_properties to add those sections, or fields to restrict to specific sections. For subpatches/devices, only user-facing controls (children not marked 'Hide from Play') and externally-wired boundary ports are listed by default; pass show_all:true for the full unfiltered dump.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | `identifier` | `string` | Object name or ID to get info about |
-| `include_schema` | `boolean` | Append a machine-readable JSON schema block to the response (default false — prose only). Set true to get the JSON block too. |
 | `show_all` | `boolean` | Subpatches only: include hidden inner blocks and unwired boundary ports (default false). When false, only children with 'Hide from Play' unchecked and externally-wired boundary ports are listed. Ignored for non-subpatch blocks. |
+| `include_doc` | `boolean` | If true, adds a 'doc' section (the static Block Documentation) to the JSON. Default false (use get_block_doc instead) to save context window tokens. |
+| `include_properties` | `boolean` | If true, adds a 'properties' array (inspector properties) to the JSON. Default false to save context window tokens. |
+| `fields` | `array` | Optional section filter. E.g. [\ |
 
 ---
 
@@ -215,6 +233,20 @@ Create a text display object (txt block) in the 3D world that shows text visuall
 | --- | --- | --- |
 | `text` | `string` | The text content to display in the scene |
 | `position` | `array` | Optional 3D position [x, y, z] for the text object |
+
+---
+
+### set_text
+
+Set the text content of a block that has an editable text field — e.g. a txt label block, a wireless stream/jolt send or receive block (its channel name), or an execute block (its command string). Call get_object_info first and read the 'text_inputs' array ({index, value}) to see which fields a block exposes; a block with no text_inputs has no text to set. This fires the block's commit logic so the change actually takes effect: renaming a wireless block re-routes it to the new channel, and an execute block re-parses its command. For wireless blocks the result reports how many senders/receivers now share the channel. Multi-line text is supported — embed newlines (\n) directly in 'text' (e.g. multi-statement execute commands).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `object_name` | `string` | Name or ID of the block whose text field to set |
+| `text` | `string` | New text content. May contain newlines (\\n) for multi-line fields like execute commands. Pass an empty string to clear the field. |
+| `input_index` | `integer` | Which text field to set when a block exposes more than one (default 0). See get_object_info -> text_inputs for the indices. |
 
 ---
 
@@ -251,38 +283,17 @@ Move and/or rotate an object. At least one of 'position' or 'rotation' must be p
 
 Return the full current scene as PatchWorld's canonical .patch text — the same format used to save/load patches. Use this for bulk context (whole-scene overview) instead of repeatedly calling list_objects + get_object_info. Read-only.
 
+BLOB HANDLES: opaque engine data (the data:/hash:/version: fields — compressed subpatch internals and identity bytes) is shown as a short handle like 'data:<<BLOB|data|1105327234|4486|3f9ac1d2e0b47a55>>' instead of raw base64. These are NOT editable text — they round-trip automatically: copy a handle verbatim into edit_patch_serialization and the real bytes are restored server-side. Never split, alter, or invent one. To read or change a subpatch's INTERNAL contents, enter_subpatch into it and call get_patch_serialization there.
+
+STREAM FORK PLUMBING: grey-painted blocks literally named 'fork'/'fork_output', and the signature triple 'src <:[[fork 0]]' then 'fork SEL:[0 [visibles:[1] parts:[[fork_output 0]]]]' then 'fork_output <:[[dst 0]]', are the engine's internal routing for ONE logical stream wire (src -> dst). They are plumbing, not user blocks — do NOT hand-edit or hand-author them; create and destroy stream wires via connect_objects / disconnect_objects, which manage the fork chain for you. A cross-scope wire references the inner endpoint as 'subpatchId/innerId'.
+
 *No parameters required.*
-
----
-
-### apply_patch_serialization
-
-Replace the current scene by loading a full .patch text. Use this for FULL-SCENE rewrites or composing whole new patches from scratch.
-
-DO NOT USE THIS FOR SINGLE-FIELD CHANGES. To tweak one value:
-  - stream input value -> set_input_value
-  - position / rotation -> transform_object
-  - block property -> set_property
-  - a few targeted edits inside the serialization -> edit_patch_serialization (find/replace, way cheaper than emitting the whole text)
-
-The pre-load scene is auto-snapshotted via BackupPatch.CurrentStateToTemp; if the load wedges the scene, call restore_snapshot to roll back.
-
-The load runs as a Unity coroutine that completes across several frames. This tool returns 'Load started' immediately; verify with list_objects or get_patch_serialization a moment later.
-
-The 'text' must be the FULL .patch document (header + scene_settings + spawn + connections), not a fragment.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| `text` | `string` | Full .patch serialization to load. Get a working template from get_patch_serialization. |
-| `snapshot` | `boolean` | If true (default), snapshot the current scene to the in-app backup slot before loading so it can be recovered. |
 
 ---
 
 ### edit_patch_serialization
 
-Surgical text edit on the current scene serialization. Reads the current .patch text, replaces 'find' with 'replace' exactly once, then applies the result. Far cheaper than apply_patch_serialization when only a few characters change.
+Surgical text edit on the current scene serialization. Reads the current .patch text, replaces 'find' with 'replace' exactly once, then applies the result. The right tool for small, targeted changes — far cheaper and safer than re-emitting the whole scene.
 
 STRICT MATCH: 'find' must appear EXACTLY ONCE in the current serialization. If it appears zero times the edit is wrong; if it appears more than once the edit is ambiguous — in both cases this tool errors without touching the scene. To disambiguate, include enough surrounding context in 'find' to make it unique.
 
@@ -290,6 +301,10 @@ Pre-edit state is auto-snapshotted (use restore_snapshot to roll back).
 
 EXAMPLE: change an oscillator's frequency from 220 to 80 (assuming '~:[220|0|s 0|0|s]' appears only once in the scene):
   { find: '~:[220|0|s 0|0|s]', replace: '~:[80|0|s 0|0|s]' }
+
+BLOB HANDLES: opaque fields appear as 'data:<<BLOB|...>>' etc. Edit the readable text around them; never put a handle inside 'find' partially or alter one in 'replace'. Handles left intact are restored to real bytes automatically; a broken handle is rejected without touching the scene. To edit a subpatch's internals, enter_subpatch first.
+
+DON'T hand-edit stream fork plumbing: the 'fork'/'fork_output' blocks and their 'src <:[[fork]]' / 'fork SEL:[...parts:[[fork_output]]]' / 'fork_output <:[[dst]]' triple are engine-managed routing for one logical stream wire. Re-route streams with connect_objects / disconnect_objects, not by editing these tokens — a half-edited fork chain produces orphan plumbing or silent unfed targets.
 
 **Parameters:**
 
@@ -302,15 +317,7 @@ EXAMPLE: change an oscillator's frequency from 220 to 80 (assuming '~:[220|0|s 0
 
 ### restore_snapshot
 
-Restore the most recent auto-snapshot taken by apply_patch_serialization or edit_patch_serialization. Use this if a load wedges the scene or produces unexpected state. The snapshot is overwritten on the next apply/edit, so only the last operation can be undone. NOTE: restoring is a full reload — every object gets a fresh numeric ID. AI labels are re-mapped to the new IDs by type+position. Any raw numeric IDs you captured before the snapshot will be stale; re-read with list_objects to get current IDs.
-
-*No parameters required.*
-
----
-
-### clear_ai_labels
-
-Clear every AI label the current session has assigned (the friendly names set via spawn_object name: or surfaced as label:\"…\" in list_objects). Call this BEFORE apply_patch_serialization when you intend to load a completely unrelated patch — otherwise the label remap may carry old names onto new blocks at matching type+position. Also useful when starting fresh on the same scene. After clearing, list_objects shows blocks without labels; you can re-label by spawning or via future label_object verbs. Returns the number of labels cleared.
+Restore the most recent auto-snapshot taken before an edit_patch_serialization. Use this if an edit wedges the scene or produces unexpected state. The snapshot is overwritten on the next edit, so only the last operation can be undone. NOTE: restoring is a full reload — every object gets a fresh numeric ID. AI labels are preserved (they ride the snapshot's ai_meta and re-map to the new IDs automatically). Any raw numeric IDs you captured before the snapshot will be stale; re-read with list_objects to get current IDs.
 
 *No parameters required.*
 
@@ -334,7 +341,7 @@ The 'value' can be either the integer index or the option label (case-insensitiv
 
 ### list_block_types
 
-Discover spawnable block types — same catalog and same categories used by PatchWorld's in-app block library. With no args, returns the full catalog grouped by category and lists every valid category in a 'Categories: …' header you can pivot off. Use 'category' to browse one category (Audio, Visual, Controllers, Motion, Interfaces, …), 'search' for substring match against name + display name + description (same semantics as the library's search box), or both. Each row reports: name | displayName | port counts | one-line description. Names returned here are valid as the 'type' arg of spawn_object — pair with get_block_doc(name) for full per-block detail before spawning.
+Discover spawnable block types — same catalog and categories used by PatchWorld's in-app block library. Returns JSON {categories:[…], count, blocks:[{name, display_name, categories, ports, description}]}; the top-level 'categories' lists every valid category to pivot off. Use 'category' to browse one category (Audio, Visual, Controllers, Motion, Interfaces, …), 'search' for substring match against name + display name + description, or both. 'name' is valid as the 'type' arg of spawn_object — pair with get_block_doc(name) for full per-block detail before spawning.
 
 **Parameters:**
 
@@ -347,7 +354,7 @@ Discover spawnable block types — same catalog and same categories used by Patc
 
 ### get_block_doc
 
-Get the full documentation for one block type — description, longDescription, and the parts list (stream/jolt I/O, selectors, type dials). Same content surfaced in get_object_info's 'Block Documentation' section, but addressable by block name without needing an existing instance. Use after list_block_types to inspect a candidate before spawning.
+Get the full documentation for one block type as JSON — {name, displayName, description, longDescription, parts:[…], categories, tags}. parts covers stream/jolt I/O, selectors, type dials. Same data as get_object_info's include_doc 'doc' section, but addressable by block name without needing an existing instance. Use after list_block_types to inspect a candidate before spawning.
 
 **Parameters:**
 
@@ -438,11 +445,19 @@ Return the current scope path as a list from root to leaf. Each entry is {id, na
 
 ---
 
+### diagnose_streams
+
+h21 P0 (read-only): derive the logical stream-edge view from the current fork plumbing and report structural inconsistencies. Returns JSON {blocks, forks, fork_outputs, logical_issues, view_issues, ok, issues:[…]} — each issue string is prefixed [LOGICAL] (audio actually broken: orphan forks, dangling fork_outputs, fork_outputs feeding nothing/a dead consumer) or [VIEW] (cable looks broken but audio OK: a fork stranded from its block). Use to verify stream-wiring health after group/ungroup/move/delete. Side-effect-free.
+
+*No parameters required.*
+
+---
+
 ### group_objects
 
 Wrap the listed blocks into a new subpatch (group) in the current scope. All targets must already be in the current scope; cross-scope grouping is rejected.
 
-IMPORTANT: any wire that crossed the new group boundary is SEVERED (not auto-promoted to a boundary port). To preserve a wire that connected a grouped block to an outside block, re-issue connect_objects via the subpatch's boundary after grouping.
+Connections are preserved across grouping: a wire fully inside the group stays internal, and a wire crossing the new boundary (to a block left outside) is kept as a boundary-port connection on the new subpatch — inspect it via get_object_info on the subpatch. You do NOT need to re-issue crossing wires after grouping. (Only a wire whose far end is in a genuinely disjoint scope — neither inside the group nor an ancestor of it — is dropped.)
 
 **Parameters:**
 
