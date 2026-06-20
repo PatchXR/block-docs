@@ -21,6 +21,14 @@ agent_control on
 
 To see the full capabilities and available tools, refer to the [Tools Reference](tools.md) page.
 
+> [!TIP]
+> **Fastest setup:** copy this page and send it to the AI agent you want to use. Ask the agent to set up Patchworld MCP for its own client, then give it your Patchworld API key through a local environment variable or a temporary local text file path.
+>
+> Smooth copy-paste prompt:
+> ```text
+> Please set up Patchworld MCP for your client using this guide. My MCP server URL is https://api.patchxr.io/mcp. I have saved my Patchworld API key in a local temporary text file at <PATH_TO_KEY_FILE>. Read that file only to configure the MCP Authorization bearer token or environment variable, then tell me when the Patchworld tools are available. Do not paste or print the API key in chat.
+> ```
+
 ---
 
 ## 1. Obtaining an API Key
