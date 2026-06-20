@@ -1,8 +1,8 @@
 ---
 title: Connecting Patchworld MCP to AI Agents
-description: Updated Patchworld MCP Guide via script
+description: Connect Patchworld MCP to Codex, ChatGPT, Claude Code, and other AI agents
 published: true
-date: 2026-05-28T00:11:48.428Z
+date: 2026-06-20T00:00:00.000Z
 tags: patching, mcp, patchworld
 editor: markdown
 dateCreated: 2026-05-27T23:49:20.480Z
@@ -38,6 +38,7 @@ Configure the Patchworld MCP server under the appropriate configuration file for
 
 ### Claude Code
 Claude Code manages global MCP servers in the user-level configuration file:
+* **Link:** [Claude Code MCP documentation](https://docs.anthropic.com/en/docs/claude-code/mcp)
 * **File Location:** `~/.claude.json`
 * **Configuration:**
   ```json
@@ -54,6 +55,7 @@ Claude Code manages global MCP servers in the user-level configuration file:
 
 ### Google Antigravity
 Google Antigravity CLI manages global MCP servers in its global configuration file:
+* **Link:** [Google Antigravity MCP integration](https://antigravity.google/docs/mcp)
 * **File Location:** `~/.gemini/antigravity-cli/mcp_config.json`
 * **Configuration:**
   ```json
@@ -69,6 +71,80 @@ Google Antigravity CLI manages global MCP servers in its global configuration fi
   }
   ```
 
+### OpenAI Codex
+Codex stores MCP server settings in `config.toml`. The Codex app, Codex CLI, and Codex IDE extension share this configuration.
+
+* **Link:** [OpenAI Codex MCP documentation](https://developers.openai.com/codex/mcp)
+
+You can configure Patchworld globally:
+* **File Location:** `~/.codex/config.toml`
+
+Or per project, if the project is trusted:
+* **File Location:** `<your-project>/.codex/config.toml`
+
+Add this configuration:
+```toml
+[mcp_servers.patchworld]
+url = "https://api.patchxr.io/mcp"
+bearer_token_env_var = "PATCHWORLD_API_KEY"
+```
+
+Then set the environment variable before starting Codex:
+
+**macOS / Linux**
+```bash
+export PATCHWORLD_API_KEY="<YOUR_BEARER_TOKEN>"
+```
+
+**Windows PowerShell**
+```powershell
+$env:PATCHWORLD_API_KEY="<YOUR_BEARER_TOKEN>"
+```
+
+Restart Codex after editing the config. In the Codex CLI or TUI, run:
+```bash
+/mcp
+```
+
+You should see `patchworld` listed as an available MCP server. In the Codex app or IDE extension, open the MCP settings panel to confirm the server is enabled.
+
+Once connected, ask Codex to inspect or edit your running Patchworld scene, for example:
+```text
+Use Patchworld to list the objects in my current scene.
+```
+
+### ChatGPT web temporary workaround
+The official PatchWorld ChatGPT app has been submitted and is currently pending review. Until it is approved and available in ChatGPT, you can use ChatGPT developer mode to create your own temporary development connector.
+
+This workaround is intended for testing and personal use from ChatGPT web.
+
+* **Links:** [ChatGPT Apps quickstart](https://developers.openai.com/apps-sdk/quickstart), [Connect an MCP server from ChatGPT](https://developers.openai.com/apps-sdk/deploy/connect-chatgpt)
+
+1. Open ChatGPT web.
+2. Go to **Settings -> Apps & Connectors -> Advanced settings**.
+3. Enable **Developer mode**.
+4. Go to **Settings -> Connectors**.
+5. Click **Create**.
+6. Name the connector `PatchWorld Dev`.
+7. Use this MCP server URL:
+   ```text
+   https://api.patchxr.io/mcp
+   ```
+8. If ChatGPT asks for authentication, complete the Patchworld authorization flow. If the developer connector offers a bearer-token or API-key field, paste your Patchworld API key there. Do not paste API keys into normal chat messages.
+9. Create the connector.
+10. Start a new chat, click the **+** / tools menu, enable `PatchWorld Dev`, and ask ChatGPT to use Patchworld.
+
+Example prompt:
+```text
+Use PatchWorld to inspect my current scene and tell me what objects are connected.
+```
+
+Keep Patchworld open and run `agent_control on` in the in-app console before using the connector. If tools do not appear or calls time out, run:
+```text
+agent_control publish
+```
+
+Then refresh the connector metadata in ChatGPT developer settings.
+
 ### Other Clients
 The Patchworld MCP server is compatible with any development tool or client that supports the Model Context Protocol (MCP). If you are using a different tool, you can simply ask your AI agent to help you connect it using the parameters provided in the configurations above.
-
