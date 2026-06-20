@@ -10,7 +10,7 @@ dateCreated: 2026-01-03T19:22:33.037Z
 
 # Privacy Policy for PatchWorld
 
-**Last Updated:** January 4, 2026
+**Last Updated:** June 19, 2026
 
 PatchXR AG (“PatchXR”, “we”, “us”, or “our”) respects your privacy. This Privacy Policy explains how we collect, use, store, and share information when you use the PatchWorld virtual reality application and related backend services (the **“Service”**) on supported platforms, including the Meta Horizon platform.
 
@@ -110,7 +110,27 @@ To provide AI-generated results, user-submitted content (such as text prompts or
 
 ---
 
-### F. Transactional Data (IAP)
+### F. AI Agent, MCP & Plugin Integrations
+
+PatchWorld offers optional integrations that allow third-party AI assistants, AI agents, and AI tools to connect to your PatchWorld account and help you create, inspect, and modify your patches through natural-language requests. These connections may be made through standard interfaces such as the **Model Context Protocol (MCP)**, our agent APIs, or plugin/connector mechanisms. Examples include OpenAI’s ChatGPT as well as other MCP-compatible clients and autonomous AI agents (together, the **“Agent Integrations”**).
+
+The Agent Integrations are **optional** and are active only when you explicitly connect a third-party assistant, agent, or MCP client to your PatchWorld account and issue requests through it.
+
+**When you use an Agent Integration:**
+
+- You authorize the assistant, agent, or MCP client to access your PatchWorld account through a secure authorization (OAuth) flow. We store the authorization and session tokens needed to maintain that connection, and you can revoke access at any time.
+- The requests, prompts, tool calls, and instructions you (or an agent acting on your behalf) submit are transmitted to PatchWorld’s backend and MCP services in order to carry out the actions requested (for example, reading block documentation, listing objects, or editing your patches).
+- In response, relevant content — such as patch data, block information, serialization, and the results of the requested actions — is returned to the assistant, agent, or MCP client so that it can act and respond.
+
+**Important: the AI assistant, agent, or client is operated by a separate provider.**
+
+When you use ChatGPT, another AI assistant, an autonomous agent, or any third-party MCP client, that provider (for example, **OpenAI**) processes your conversation and any data it receives as an independent data controller under **its own privacy policy and terms**. We do not control how that provider stores or uses your conversations or the content returned to it, and such content is subject to that provider’s policies. We recommend reviewing the relevant provider’s privacy policy before connecting it.
+
+We use the data exchanged through the Agent Integrations solely to authenticate you, carry out the actions requested, and operate and secure the Service. We do not use it for advertising or profiling.
+
+---
+
+### G. Transactional Data (IAP)
 
 PatchWorld supports in-app purchases through platform providers.
 
@@ -127,7 +147,7 @@ Payment processing is handled entirely by the platform provider. We receive only
 
 ---
 
-### G. Technical & Log Data
+### H. Technical & Log Data
 
 For security, stability, and debugging, we may temporarily store:
 
@@ -259,3 +279,9 @@ PatchWorld is not intended for children under the age of 13 (or the applicable a
 ## 11. Changes to This Policy
 
 We may update this Privacy Policy from time to time. Material changes will be reflected by updating the “Last Updated” date.
+
+---
+
+## 12. Related Documents
+
+Your use of PatchWorld is also governed by our [Terms of Service](/en/terms-of-service).
