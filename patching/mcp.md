@@ -21,13 +21,19 @@ agent_control on
 
 To see the full capabilities and available tools, refer to the [Tools Reference](tools.md) page.
 
-> [!TIP]
-> **Fastest setup:** copy this page and send it to the AI agent you want to use. Ask the agent to set up Patchworld MCP for its own client, then give it your Patchworld API key through a local environment variable or a temporary local text file path.
->
-> Smooth copy-paste prompt:
-> ```text
-> Please set up Patchworld MCP for your client using this guide. My MCP server URL is https://api.patchxr.io/mcp. I have saved my Patchworld API key in a local temporary text file at <PATH_TO_KEY_FILE>. Read that file only to configure the MCP Authorization bearer token or environment variable, then tell me when the Patchworld tools are available. Do not paste or print the API key in chat.
-> ```
+<div style="border: 1px solid #2dd4bf; border-left: 6px solid #2dd4bf; border-radius: 10px; padding: 18px 20px; margin: 24px 0; background: rgba(45, 212, 191, 0.10);">
+  <div style="font-size: 0.82rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #5eead4; margin-bottom: 8px;">Recommended setup</div>
+  <p style="margin: 0 0 12px 0;"><strong>Fastest setup:</strong> copy this page and send it to the AI agent you want to use. Ask the agent to set up Patchworld MCP for its own client, then give it your Patchworld API key through a local environment variable or a temporary local text file path.</p>
+  <p style="margin: 0 0 8px 0;"><strong>Smooth copy-paste prompt:</strong></p>
+  <pre style="white-space: pre-wrap; overflow-x: hidden; margin: 0; padding: 14px 16px; border-radius: 8px; background: rgba(0, 0, 0, 0.32); font-size: 0.92rem;"><code>Please set up Patchworld MCP for your client using this guide.
+My MCP server URL is: https://api.patchxr.io/mcp
+I have saved my Patchworld API key in a local temporary text file at:
+&lt;PATH_TO_KEY_FILE&gt;
+
+Read that file only to configure the MCP Authorization bearer token or environment variable.
+Tell me when the Patchworld tools are available.
+Do not paste or print the API key in chat.</code></pre>
+</div>
 
 ---
 
