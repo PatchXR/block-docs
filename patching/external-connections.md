@@ -10,9 +10,10 @@ dateCreated: 2025-08-15T15:55:49.593Z
 
 Connecting Patchworld to external devices and software like DAWs (Digital Audio Workstations) and MIDI controllers opens up a world of possibilities for live performance, advanced sequencing, and integrating physical hardware into your VR creations. This guide covers the primary methods discussed and developed by the PatchXR team and its community.
 
-There are two main protocols for external connection:
+There are three main ways to connect Patchworld to external tools:
 1.  **MIDI over Network:** The recommended and more streamlined method for connecting to DAWs like Ableton Live, using a companion app.
 2.  **Open Sound Control (OSC):** A more flexible but manual protocol for custom setups, controlling hardware, or connecting to software that doesn't support the companion app.
+3.  **Patchworld MCP:** Connect AI agents like Codex, Claude Code, Google Antigravity, or ChatGPT developer connectors to inspect and edit your running Patchworld scene. Available in Patchworld version 77.3 and up.
 
 ---
 
@@ -107,6 +108,14 @@ The community has developed solutions using a Python script and TouchOSC to crea
     *   `/ch1noteoff`: Note off message
     *   `/ch1cc1`: CC message for controller #1 on channel 1
     *   `/ch1pitch`: Pitch bend for channel 1
+
+---
+
+## Method 3: Patchworld MCP for AI Agents
+
+Patchworld MCP lets external AI agents inspect and modify your active Patchworld scene through natural language. It is available in Patchworld version 77.3 and up.
+
+See [Connecting Patchworld MCP to AI Agents](/en/patching/mcp) for setup instructions.
 
 ---
 
