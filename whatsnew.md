@@ -2,18 +2,17 @@
 title: Releases
 description: Updated via script
 published: true
-date: 2026-06-13T01:05:43.649Z
+date: 2026-06-27T01:13:06.469Z
 tags: 
 editor: markdown
 dateCreated: 2025-12-03T13:08:04.491Z
 ---
 
-
 | Channel            | Version | Build | Updated      | Status                       |
 | ------------------ | ------- | ----- | ------------ | ---------------------------- |
-| 🟢 Meta Quest Live            | 77.1.12  | 923   | May 29, 2026  | Released                     |
-| 🟡 Meta Quest Beta            | 77.3.1  | 928   | Jun 22, 2026  | testing            |
-| 🔵 Steam  | 77.1.12  |  923  | Mar 30, 2026 | testing |
+| 🟢 Meta Quest Live            | 77.3.1  | 928   | Jun 27, 2026  | Released                     |
+| 🟡 Meta Quest Beta            |   |    |   | stand by          |
+| 🔵 Steam  | 77.3.1  |  928  | Jun 27, 2026 | testing |
 
 
 Whats new ?
