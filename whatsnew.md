@@ -10,12 +10,14 @@ dateCreated: 2025-12-03T13:08:04.491Z
 
 | Channel            | Version | Build | Updated      | Status                       |
 | ------------------ | ------- | ----- | ------------ | ---------------------------- |
-| 🟢 Meta Quest Live            | 77.3.1  | 928   | Jun 27, 2026  | Released                     |
+| 🟢 Meta Quest Live            | 77.3.2  | 929   | Jun 27, 2026  | Released                     |
 | 🟡 Meta Quest Beta            |   |    |   | stand by          |
-| 🔵 Steam  | 77.3.1  |  928  | Jun 27, 2026 | testing |
+| 🔵 Steam  | 77.3.2  |  929  | Jun 27, 2026 | Released |
 
 
 Whats new ?
+
+[77.3.2 (929)](/whatsnew/929) Released to live : Jun 27, 2026
 
 [77.3.1 (928)](/whatsnew/928) Released to beta : Jun 22, 2026
 
