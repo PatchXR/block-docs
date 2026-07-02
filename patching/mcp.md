@@ -2,7 +2,7 @@
 title: Connecting Patchworld MCP to AI Agents
 description: Connect Patchworld MCP to Codex, ChatGPT, Claude Code, and other AI agents
 published: true
-date: 2026-06-20T00:00:00.000Z
+date: 2026-07-02T00:45:12.807Z
 tags: patching, mcp, patchworld
 editor: markdown
 dateCreated: 2026-05-27T23:49:20.480Z
@@ -41,8 +41,6 @@ Replace `<YOUR_API_KEY>` with your key in every snippet below.
 }
 ```
 
-### Claude.ai (web)
-**Settings → Connectors → Add custom connector.** Give it a name (e.g. `patchworld mcp`) and set the URL to `https://api.patchxr.io/mcp`. Leave **OAuth Client ID / Secret** blank — no manual key needed here. The server publishes OAuth Protected Resource Metadata, so Claude auto-discovers the auth server and registers itself via Dynamic Client Registration (RFC 7591). Click **Connect** and you'll be sent to a PatchWorld login page instead of pasting an API key; approve it and the connector activates. This is the same underlying flow ChatGPT's developer-mode connectors use, see below.
 
 ### Google Antigravity
 `~/.gemini/antigravity-cli/mcp_config.json`
@@ -68,10 +66,12 @@ Set the env var, then restart Codex and run `/mcp` to confirm `patchworld` is li
 ```bash
 export PATCHWORLD_API_KEY="<YOUR_API_KEY>"        # Windows: $env:PATCHWORLD_API_KEY="<YOUR_API_KEY>"
 ```
+### Claude.ai (web)
+**Settings → Connectors → Add custom connector.** Give it a name (e.g. `patchworld mcp`) and set the URL to `https://api.patchxr.io/mcp`. Leave **OAuth Client ID / Secret** blank — no manual key needed here. The server publishes OAuth Protected Resource Metadata, so Claude auto-discovers the auth server and registers itself via Dynamic Client Registration (RFC 7591). Click **Connect** and you'll be sent to a PatchWorld login page instead of pasting an API key; approve it and the connector activates. This is the same underlying flow ChatGPT's developer-mode connectors use, see below.
 
-### ChatGPT (developer connector)
-The official ChatGPT app is pending review. Until then, on ChatGPT web: **Settings → Apps & Connectors → Advanced → Developer mode**, then **Connectors → Create**, name it `PatchWorld Dev`, and use `https://api.patchxr.io/mcp`. Leave any token/secret field blank — ChatGPT auto-discovers the server's OAuth support and prompts you to log in with your PatchWorld account (same flow as Claude.ai below). Enable it from the **+** menu in a new chat.
-> Note: on Plus/Pro individual plans, Developer Mode connectors are read-only; write access (spawning/editing blocks) requires a Business/Enterprise/Edu workspace.
+### ChatGPT web 
+on ChatGPT web: **Settings → Apps & Connectors → Advanced → Developer mode**, then **Connectors → Create**, name it `PatchWorld Dev`, and use `https://api.patchxr.io/mcp`. Leave any token/secret field blank — ChatGPT auto-discovers the server's OAuth support and prompts you to log in with your PatchWorld account (same flow as Claude.ai below). Enable it from the **+** menu in a new chat.
+
 
 ### Your own client
 The server is **Streamable HTTP** — use `StreamableHTTPClientTransport`, **not** the legacy `SSEClientTransport`. With SSE the client opens a stream and waits for an `endpoint` event that never comes, so it hangs with no error: **a connect timeout almost always means the wrong transport.** Auth is the `Authorization: Bearer` header only — no query params or `X-API-Key`.
