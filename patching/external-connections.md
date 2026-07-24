@@ -2,7 +2,7 @@
 title: External Connections
 description: MIDI, OSC, and AI agent connections
 published: true
-date: 2026-05-11T15:51:51.118Z
+date: 2026-07-24T22:40:53.232Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-15T15:55:49.593Z
@@ -17,7 +17,7 @@ Connecting Patchworld to external devices and software opens up new ways to perf
 
 ## Method 1: MIDI over Network (Recommended for DAWs)
 
-This method uses the official **Patchworld Companion App** to create a stable bridge between your headset and your computer.
+This method uses the official [**Patchworld Companion App**](/Downloads) to create a stable bridge between your headset and your computer.
 
 ### Prerequisites
 
