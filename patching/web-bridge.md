@@ -1,8 +1,8 @@
 ---
-title: Web Bridge - Make your own Block
+title: Web Bridge - Makes PW to interact with the Web
 description: 
 published: true
-date: 2026-07-31T17:16:11.280Z
+date: 2026-07-31T17:18:25.873Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-25T23:52:05.060Z
