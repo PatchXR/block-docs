@@ -2,7 +2,7 @@
 title: Web Bridge - Make your own Block
 description: 
 published: true
-date: 2026-07-31T17:13:53.720Z
+date: 2026-07-31T17:16:11.280Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-25T23:52:05.060Z
@@ -13,7 +13,7 @@ dateCreated: 2026-06-25T23:52:05.060Z
 The **Web Bridge** allows creators to build custom web user interfaces (HTML/CSS/JavaScript) and embed them directly into their VR worlds. By pairing a [Web Bridge](/blocks/system/web_bridge) block with a [Web Browser](/blocks/system/webview_browser) block, your JavaScript code can communicate bidirectionally with Patchworld's core engine. This unlocks limitless possibilities for designing custom  panels:
 - Make your own Game HUDs (Calendar, Leaderboard, Custom Library/Store for your game)
 - Enhance your gameplay logic (have javascript manage your gameplay, less blocks in your world and load faster)
-- Connect Patchworld with external APIs (Real weather to affect your world, Make AI affect your world...)
+- Connect Patchworld with external APIs (Real weather or even AI to affect your world...)
 - Make your own block with javascript (MIDI file player, custom sequencer...)
 
 ## Video Walkthrough
