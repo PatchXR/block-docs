@@ -2,7 +2,7 @@
 title: Web Bridge - Makes PW to interact with the Web
 description: 
 published: true
-date: 2026-07-31T17:18:25.873Z
+date: 2026-08-02T14:48:03.780Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-25T23:52:05.060Z
@@ -54,6 +54,17 @@ Start by exploring and forking the official template repository:
 2.  Spawn a [Web Bridge](/blocks/system/web_bridge) block.
 3.  Click and drag a Tag connection from the **Web Browser** Tag Input on the bridge block directly to your browser block.
 
+### 4. Keeping Your Web Bridge Updated (Sync Fork)
+Working directly on your `main` branch is the simplest workflow for automatic GitHub Pages deployment and AI assistants (like Bolt.new). To ensure you can easily pull future engine updates or new API features released by PatchXR without overwriting your custom UI:
+*   **Golden Rule:** Feel free to edit `index.html`, `style.css`, or custom scripts, but **do not modify `patchworld-bridge.js`** directly.
+*   **1-Click Web Sync:** On your GitHub repository main page, click the **Sync fork** button right below the green *Code* button, then click **Update branch**. GitHub cleanly merges the latest official `patchworld-bridge.js` updates into your `main` branch automatically!
+*   **Git CLI Sync (Terminal):**
+    ```bash
+    git remote add upstream https://github.com/PatchXR/Patchworld-WebBridge-Template.git
+    git fetch upstream
+    git merge upstream/main
+    git push origin main
+    ```
 ---
 
 ## Communication Capabilities
